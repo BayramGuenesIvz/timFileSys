@@ -1,0 +1,12 @@
+{
+    "DeployEnv": "locl",
+    "UseDBDriver": "mysql",
+    "EnabledInterfaces": {
+      "Keycloak": false
+    },
+    "KeycloakSettings": {
+      "realm": "MDHPresse",
+      "client": "tim_client",
+      "URL": "https://dev01-presse.mdh.cn.ard.de"
+    }
+  }

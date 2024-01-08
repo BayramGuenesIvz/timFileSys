@@ -1,0 +1,82 @@
+<ARTIKEL>
+  <AUSTAUSCH_STEUERUNG>
+    <AUSTAUSCH_ID>00000000000000671354</AUSTAUSCH_ID>
+    <LIEFERUNGSTYP>CSCHANGE-MODIFY</LIEFERUNGSTYP>
+    <LIEFERANT>WDR:ATE:ZAT_PAN_EXPORT_TIM_CS_DELTA</LIEFERANT>
+    <RFA_LISTE>
+      <RFA>DW</RFA>
+    </RFA_LISTE>
+    <POOLSAP>N</POOLSAP>
+  </AUSTAUSCH_STEUERUNG>
+  <METADATEN>
+    <DOCID> 57131413</DOCID>
+    <EXTERNE_ARTIKEL_ID>DW@210603-01-0118</EXTERNE_ARTIKEL_ID>
+    <DOKUMENTATIONSSTELLE>DW Bonn</DOKUMENTATIONSSTELLE>
+    <DOKUMENTATIONSSTATUS>                                                                                                  4</DOKUMENTATIONSSTATUS>
+    <ERSCHEINUNGSDATUM>                                                                                           20210603</ERSCHEINUNGSDATUM>
+    <ERFASSUNGSDATUM>20210622</ERFASSUNGSDATUM>
+    <AENDERUNGSDATUM>00000000</AENDERUNGSDATUM>
+    <QUELLE>
+      <QUEID>5141</QUEID>
+      <AUSTAUSCH_NAME>DW (Deutsch)</AUSTAUSCH_NAME>
+      <ERSCHEINUNGSORT>Bonn</ERSCHEINUNGSORT>
+      <ERSCHEINUNGSWEISE>t</ERSCHEINUNGSWEISE>
+      <ARTIKELSPRACH_LISTE>
+        <ARTIKELSPRACHE>de</ARTIKELSPRACHE>
+      </ARTIKELSPRACH_LISTE>
+      <HERKUNFT>DW</HERKUNFT>
+    </QUELLE>
+    <PERSONENLISTE>
+      <PERSON>
+        <SAP_KEY>1562966</SAP_KEY>
+        <MANUELL_ERFASST>J</MANUELL_ERFASST>
+        <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+        <NACHNAME>Zivkovic</NACHNAME>
+        <VORNAME> Olivera</VORNAME>
+      </PERSON>
+      <PERSON>
+        <SAP_KEY>985648</SAP_KEY>
+        <MANUELL_ERFASST>J</MANUELL_ERFASST>
+        <KATEGORIE_KUERZEL>BEAR</KATEGORIE_KUERZEL>
+        <NACHNAME>Pitu</NACHNAME>
+        <VORNAME> Lavinia</VORNAME>
+      </PERSON>
+      <PERSON>
+        <SAP_KEY>305684</SAP_KEY>
+        <MANUELL_ERFASST>J</MANUELL_ERFASST>
+        <KATEGORIE_KUERZEL>BEAR</KATEGORIE_KUERZEL>
+        <NACHNAME>Schwartz</NACHNAME>
+        <VORNAME> Robert</VORNAME>
+      </PERSON>
+      <PERSON>
+        <SAP_KEY>317732</SAP_KEY>
+        <MANUELL_ERFASST>J</MANUELL_ERFASST>
+        <KATEGORIE_KUERZEL>RED</KATEGORIE_KUERZEL>
+        <NACHNAME>Blagojevic</NACHNAME>
+        <VORNAME> Sanja</VORNAME>
+      </PERSON>
+    </PERSONENLISTE>
+    <ARD_RESSORT_LISTE>
+      <ARD_RESSORT>POLI</ARD_RESSORT>
+    </ARD_RESSORT_LISTE>
+    <PRAESENTATIONSFORM_LISTE>
+      <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+    </PRAESENTATIONSFORM_LISTE>
+    <ARTIKEL_IMAGE>
+      <FORMAT>                                                                                                  0</FORMAT>
+      <ANZAHL_A4_SEITEN>                                                                                                  0</ANZAHL_A4_SEITEN>
+    </ARTIKEL_IMAGE>
+    <SERIE>000</SERIE>
+    <TEXTART>Video-Manuskript</TEXTART>
+  </METADATEN>
+  <INHALT>
+    <TITEL>
+      <HAUPTTITEL>Wilde Müllkippen in Serbien</HAUPTTITEL>
+      <SONSTIGER_TITEL>Wilde Müllkippen in Serbien</SONSTIGER_TITEL>
+      <SEITENTITEL>Desk Europa</SEITENTITEL>
+    </TITEL>
+    <VOLLTEXT>
+      <TEXT>In ganz Serbien kommt es häufig vor, dass Haus- und Sperrmüll, ja sogar gefährliche Abfälle irgendwo im Freiland abgestellt werden. Regelmäßig organisieren engagierte Bürger:innen Reinigungsaktionen - doch das Müllproblem bleibt weiter bestehen.$NEW-BLOCK$Hier entsorgt man bereits$NEW-BLOCK$seit Jahren den Müll illegal$NEW-BLOCK$$NEW-BLOCK$Nun haben die Bürger:innen angefangen,$NEW-BLOCK$den Müll selber zu sammeln$NEW-BLOCK$+++Aktivistin+++ Ich mache es, weil ich hoffe, dass wir die Aufmerksamkeit der Bürger für dieses Problem erhöhen und wir sie stoppen werden, den Müll illegal zu entsorgen. Sie müssen ihr Land respektieren und lieben, der Natur etwas Gutes tun. Die lokale Regierung muss endlich aufwachen und sehen, was passiert, wenn niemand seinen Job macht. Die Menschen hier haben nicht genug Mülltonnen, niemand wurde für illegale Entsorgung bestraft. Ich hoffe, dass beide Seiten einen Kompromiss und eine gute Lösung für uns alle finden können.$NEW-BLOCK$+++Bürger+++ Ich komme zu diesen Reinigungsaktionen immer, wenn ich kann. In letzter Zeit gibt es ein großes Bedürfnis danach, weil die Situation schlimm geworden ist. Ich meine, das hier ist keine richtige Müllentsorgung, es ist einfach ein ganz schlimmes Verhalten der lokalen Bewohner.$NEW-BLOCK$+++Französin+++ Gib Gas!$NEW-BLOCK$Sogar eine Französin kam zur Hilfe$NEW-BLOCK$+++Französin+++Ich kann das nicht verstehen. Es ist einfach zu viel. Wir haben in Frankreich kaum dieses Problem, unsere Regierung macht einen guten Job. Ich verstehe nicht, warum die Regierung hier gar nichts macht. Es ist einfach traurig. Ihr habt ein sehr schönes Land, wunderschöne Natur und Gebirge, aber irgendwie findet man immer ganz viel Müll überall. Sehr schlimm.$NEW-BLOCK$Auf dieser wilden Deponie$NEW-BLOCK$findet man jede Art von Müll$NEW-BLOCK$$NEW-BLOCK$Schuhe, Elektrogeräte, Möbel, Glas und$NEW-BLOCK$sogar Mikroplastik tief im Erdreich$NEW-BLOCK$+++Bojan Simišić, Organisation ”Eko Straza”+++ Niemand beschäftigt sich mit dem Problem der Müllentsorgung. Die illegalen Mülldeponien wurden nie beseitigt. Es gibt eine Liste von allen Deponien, aber es gibt keine Lösung dafür. Die unverantwortlichen Bürger schmeißen den Müll einfach überall hin, und selten wird jemand dafür bestraft. Wir haben eigentlich gute Gesetze, aber niemand respektiert sie.$NEW-BLOCK$$NEW-BLOCK$Diese Säcke werden von der zuständigen$NEW-BLOCK$Müllabfuhr gesammelt und richtig entsorgt$NEW-BLOCK$$NEW-BLOCK$Der Müll aber wird nicht verwertet,$NEW-BLOCK$weil ein geregeltes Abfallsystem fehlt$NEW-BLOCK$$NEW-BLOCK$Nach Schätzungen gibt es tausende$NEW-BLOCK$illegale Mülldeponien in Serbien$NEW-BLOCK$$NEW-BLOCK$Trotz erfolgreicher Reinigungsaktionen -$NEW-BLOCK$alles können Aktivist:innen nicht einsammeln$NEW-BLOCK$$NEW-BLOCK$$NEW-BLOCK$Reportage: Olivera Zivkovic$NEW-BLOCK$$NEW-BLOCK$$NEW-BLOCK$Quelle: Umweltschutzbehörde Serbiens$NEW-BLOCK$Autor: Zivkovic, Olivera$NEW-BLOCK$Herkunft: 6 DW-eigen$NEW-BLOCK$Schlagwörter Redaktionssprache: Serbien, Mülldeponien, illegal, Reinigungsaktionen</TEXT>
+    </VOLLTEXT>
+  </INHALT>
+</ARTIKEL>

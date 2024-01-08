@@ -1,0 +1,9 @@
+{
+    "DB_username": "root",
+    "DB_userpw": "123",
+    "DB_adress": "db",
+    "DB_port": "3306",
+    "DB_database": "timrepo",
+    "StartOffsetTimEntityChange":5000000000,
+    "In_PRODUCTIONSYSTEM":false
+}  

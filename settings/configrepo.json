@@ -1,0 +1,162 @@
+{ 
+  "Schemaprefix":"",
+  "ORA_Schemaprefix":"",
+  "UseDBDriver":"mysql",
+  "DB_Schema":"timrepo", 
+  "ORA_DB_Schema":"timrepo",
+  "SuppressWriteLogsToFileSys":true,
+  "StartOffsetTimEntityChange": 5000000000,
+  "StartOffsetTimEntityChangePrio1": 10000000000,
+  "StartOffsetTimEntityChangePrio2": 20000000000,
+  "StartOffsetTimEntityChangePrio3": 30000000000000,
+  "MSUINavi":{
+    "RefReceiver":"http://127.0.0.1:17201/datareceiver/ui/index",
+    "RefLogger":"http://127.0.0.1:17051/logcentral/ui/index",
+    "RefReactShowRepo":"http://127.0.0.1:9020/reactShowRepo/changes"
+  },
+  "EnabledInterfaces": {
+		"Keycloak":false,
+    "ProxyImageStore":false,
+    "UserNotifyService":false,
+    "PublicationRepo":false,
+    "RangeListService":false,
+    "MetaEntityRepo":true,
+    "ELSLayer":false
+	},
+  "Imagestore":{
+    "TimChannel":"/timFileSys/timchannel/dockerlocl/imagestore/"
+  },
+  "KeycloakSettings":{
+    "Realm":"MDHPresse",
+    "FrontEndLink":{
+       "UrlPage":"http://localhost:17301/repo/ui/index",
+       "URLPageClientSeparated":"http://localhost:17301/repo/rui",
+       "URLPageClient2Separated":"http://localhost:9020/reactShowRepo/changes",
+       "Cookies":{
+         "Domain":"localhost",
+         "Path":"/",
+         "Names":{
+           "Caller":"REPOTIMAUTHLOGIN",
+           "AccessToken":"REPOTIMAUTHACCESSTOKEN",
+           "RefreshToken":"REPOTIMAUTHREFRESHTOKEN"
+         }
+       },
+       "CookiesClientSeparated":{
+        "Domain":"localhost",
+        "Path":"/",
+        "Names":{
+          "Caller":"REPOTIMAUTHLOGIN",
+          "AccessToken":"REPOTIMAUTHACCESSTOKEN",
+          "RefreshToken":"REPOTIMAUTHREFRESHTOKEN"
+        }
+      },
+      "CookiesClient2Separated":{
+        "Domain":"localhost",
+        "Path":"/",
+        "Names":{
+          "Caller":"REPOTIMAUTHLOGIN",
+          "AccessToken":"REPOTIMAUTHACCESSTOKEN",
+          "RefreshToken":"REPOTIMAUTHREFRESHTOKEN"
+        }
+      }
+     },
+     "Server":{
+       "ClientID":"tim_client",
+       "ConfigURL":"http://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
+       "ConfigURRScheme":"http",
+       "UrlLogin":"http://localhost:17301/repo/ui/index/login",
+       "UrlLogout":"http://localhost:17301/repo/ui/index/logout",
+       "URLRedirect":"http://localhost:17301/repo/ui/index/oidc/callback",
+       "URLRedirectClientSeparated":"http://localhost:17301/repo/ui/index/client/oidc/callback",
+       "URLRedirectClient2Separated":"http://localhost:17301/repo/ui/index/client2/oidc/callback"
+     },
+     "SecretsFrom":{
+      "UseThisMap":true,
+      "ClientSecret":"2b8ef5eb-554d-460f-a954-0ccebbe0bd3e",
+      "AdminUser":{
+        "Name":"timmsadmin",
+        "PWD":"admin"
+      }
+     }               
+ },
+ "Trace":{
+  "ProvideEntityChanges":{"StdOut":false} 
+ },
+ "ActivDebugScopes": {
+  "Database": true,
+  "PkgSvc": true,
+  "Domain": true,
+	"Security":false
+ }, 
+ "DebugBusinessFunctions":{
+  "DebuggableUnits":[
+    {"Name":"CreateOrdersetFillingIndex","Activated":false},  {"Name":"UpdateMetaArtikel","Activated":false},
+    {"Name":"UpdateAstatArticle","Activated":false},
+    {"Name":"UpdateRelasetArticle","Activated":false},
+    {"Name":"UpdateContentTextsArticle","Activated":false},
+    {"Name":"DeactivateArticleCollection","Activated":false},
+    {"Name":"UnsetExpirationArticleCollection","Activated":false},
+    {"Name":"SetExpirationArticleCollection","Activated":false},
+    {"Name":"CancelVirtualDeleteArticleCollection","Activated":false},
+    {"Name":"SetVirtualDeleteArticleCollection","Activated":false},
+    {"Name":"UnlockArticleCollection","Activated":false},
+    {"Name":"LockArticleCollection","Activated":false},
+    {"Name":"ReactivateArticleCollection","Activated":false},
+    {"Name":"AddRelaToArticleColl","Activated":false},
+    {"Name":"RemoveRelaFromArticleColl","Activated":false},
+    {"Name":"ReplaceRelaInArticleColl","Activated":false}
+  ]
+ },
+ "ExportFilesysParam":{
+  "Filepath": "testpath",
+	"CreateSubpathDocRange":true,
+	"AfterEachNumDoc":10,
+	"Fileformat":"timelsjson"
+ },
+ "ServiceProviderURIs":{
+  "ProxyImageStore":{
+    "Svc":"tim-ms-proxy-imagestore",
+    "Port":"8080",
+    "IngressPath":"poxy_imagestore",
+    "Api":"api"
+  },
+  "UserNotifyService":{
+    "Svc":"tim-ms-newsletter",
+    "Port":"8080",
+    "IngressPath":"newsletter",
+    "Api":"tim"
+  },
+  "PublicationRepo": {
+		"Svc":"tim-ms-publication",       
+		"Port":"8080",
+		"IngressPath":"publication",
+		"Api":"api"
+	},
+  "RangeListService": {
+    "Svc":"dev01-presse.mdh.cn.ard.de",
+    "Port":"80",
+    "IngressPath":"rangelist",
+    "Api":"api"
+  },
+  "MetaEntityRepo": {
+    "Svc": "dev01-presse.mdh.cn.ard.de",
+    "Port": "80",
+    "IngressPath": "metaEntities",
+    "Api": "api/rest/v1/metaEntity"
+  },
+  "TimELSEngine": {
+   "Svc": "dev01-presse.mdh.cn.ard.de",
+   "Port": "80",
+   "IngressPath": "elsengine",
+   "Api": "api"
+ },
+ "NdbService": { 
+     "Svc": "https://normdbhotfix.ivz.cn.ard.de"
+  }
+  
+},
+ "DeployEnv":"locl",
+ "DeployVersion":"locl-20210320-001",
+ "DevelopModus":true,
+ "MeasureRuntimeActions":true
+}

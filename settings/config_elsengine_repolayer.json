@@ -1,0 +1,42 @@
+{
+    "MariaDBSchema":"timelsengine",
+    "DefaultNewMachineSetting":{
+       "URLELS":{
+          "UseDeployenvELSUrl":false,
+          "AlternativeURL":{
+            "Host": "",
+            "Port": "",
+            "Protocol": "",
+            "SvcPath": ""
+         }   
+        },
+        "URLRepo": {
+          "Host": "https://dev01-presse.mdh.cn.ard.de",
+          "Port": "17301",
+          "Protocol": "https",
+          "SvcPath": "/repo"
+        },
+        "NumConcurRun":0
+      },    
+    "ELSMachines": [
+      {
+        "Name": "guenes_locl_mdhpresse",
+        "URLELS":{
+          "UseDeployenvELSUrl":true,
+          "AlternativeURL":{
+             "Host": "",
+             "Port": "",
+             "Protocol": ""            
+          }   
+        },
+        "URLRepo": {
+          "Host": "dev01-presse.mdh.cn.ard.de",
+          "Port": "80",
+          "Protocol": "http",
+          "IngressPath": "/repo"
+        },
+        "IndexName": "guenes_locl_mdhpresse",
+        "NumConcurRun":0
+      }
+    ]
+  }

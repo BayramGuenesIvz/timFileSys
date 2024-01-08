@@ -1,0 +1,39 @@
+{
+  "thisStage": "DockComp",
+  "BackendURLs": {
+    "TimELS": "http://localhost:17400/elsengine/api/queries/v1",
+    "Repo": "http://dev01-presse.mdh.cn.ard.de/repo/",
+    "RepoEditSvc": "http://127.0.0.1:17301/repo/rui/entities",
+    "Receiverui": "http://127.0.0.1:17201/datareceiver/ui/index",
+    "CSExporterui": "http://dev01-presse.mdh.cn.ard.de/cs_exporter/ui/",
+    "LogCentralUI": "http://127.0.0.1:17051/logcentral/ui/index",
+    "ProxyImageStore":"http://dev01-presse.mdh.cn.ard.de/proxy_imagestore/",
+    "RepoEditSvcProd":"https://presse.mdh.cn.ard.de/repo/rui/entities",
+    "ReceiverUIProd": "https://presse.mdh.cn.ard.de/datareceiver/ui/index",
+    "CSExporterUIProd": "https://presse.mdh.cn.ard.de/cs_exporter/ui/",
+    "LogCentralUIProd": "https://presse.mdh.cn.ard.de/logcentral/ui/index",
+    "ProxyImageStoreProd":"https://presse.mdh.cn.ard.de/proxy_imagestore/"
+  },
+  "EnableKeycloak": false,
+  "EnableEditSvc":false,
+  "EnableExport":{
+    "Changes":true,
+    "AklFiles":true,
+    "AklFilesWithPdf":true
+  },
+  "KeycloakSettings": {
+    "FrontEndLink": {
+       "Cookies": {
+        "Domain": "localhost",
+        "Path": "/",
+        "Names": {
+          "Caller": "REPOTIMAUTHLOGIN",
+          "AccessToken": "REPOTIMAUTHACCESSTOKEN",
+          "RefreshToken": "REPOTIMAUTHREFRESHTOKEN"
+        }
+      }
+    }
+  },
+  "MaxShowHits":2000,
+  "MaxShowHitsWithChgAttr":1000
+}

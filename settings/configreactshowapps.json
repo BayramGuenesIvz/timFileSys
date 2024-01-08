@@ -1,0 +1,11 @@
+{
+    "thisStage":"DockComp",
+    "useAppUrls":true,
+    "appURLs":{
+        "adminer":"http://127.0.0.1:18081/",
+        "logserver":"http://127.0.0.1:17051/logcentral/ui/index",
+        "receiver":"http://127.0.0.1:17201/datareceiver/ui/index",
+        "repo":"http://127.0.0.1:17201/repo/ui/index",
+        "repoNodejs":"http://127.0.0.1:5005/repoUINode"
+    }
+}

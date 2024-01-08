@@ -1,0 +1,48 @@
+{   "Schemaprefix":"",
+    "ORA_Schemaprefix":"",
+    "UseDBDriver":"mysql",  
+    "DB_Schema":"timlog",
+    "ORA_DB_Schema":"timlog",
+    "DeployEnv":"locl",
+    "LocationDebugLog":
+    {
+     "locl":"/timFileSys/DebugLog/",   
+     "dev01":"/timFileSys/dev01/DebugLog/",
+     "dev02":"/timFileSys/dev02/DebugLog/",
+     "kons01":"/timFileSys/kons01/DebugLog/",
+     "kons02":"/timFileSys/kons02/DebugLog/",
+     "prod01":"/timFileSys/prod/DebugLog/"
+    },    
+   "LocationErrLog":
+    {
+     "locl":"/timFileSys/ErrLog/",   
+     "dev01":"/timFileSys/dev01/ErrLog/",
+     "dev02":"/timFileSys/dev02/ErrLog/",
+     "kons01":"/timFileSys/kons01/ErrLog/",
+     "kons02":"/timFileSys/kons02/ErrLog/",
+     "prod01":"/timFileSys/prod/ErrLog/"
+    },  
+    "WriteToFileSys":true,
+    "AutoDeleteDebugLogAfterDays":5,
+    "AutoDeleteErrLogAfterDays":14,
+    "CheckTimeToRemLogEntriesFreq":10,
+    "DeleteDebugLogWhenGEHHMM":"1200",
+    "DeleteDebugLogWhenLEHHMM":"2406",
+	"DeleteErrLogWhenGEHHMM":"1230",
+    "DeleteErrLogWhenLEHHMM":"2436",
+    "MSUINavi":{
+        "RefReceiver":"http://127.0.0.1:17201/datareceiver/ui/index",
+        "RefRepo":"http://127.0.0.1:17301/repo/ui/index",
+        "RefCSExporter":"http://127.0.0.1:17301/repo/ui/index"
+      },
+    "ActivDebugScopes": {
+		"ChronoJobs":false,
+        "Database": false,
+		"AppModel": false,
+		"PkgSvc": false,
+    "Server":false,
+    "Settings":false		
+    },  
+    "AllowDBAdmin":true,
+    "DeployVersion":"locl-20210320-001"
+}

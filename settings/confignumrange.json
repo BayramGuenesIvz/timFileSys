@@ -1,0 +1,7 @@
+{
+  "UseDBDriver":"mysql",
+  "DB_User":"root", 
+  "DB_Pwd":"123", 
+  "SERVICEDB": "localhost",
+  "PORTDB": "33306"
+}

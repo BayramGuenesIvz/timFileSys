@@ -1,0 +1,105 @@
+{
+  "Schemaprefix":"",
+  "ORA_Schemaprefix":"",
+  "UseDBDriver":"mysql",
+  "DB_Schema":"timreceiver", 
+  "ORA_DB_Schema":"timreceiver", 
+  "RunInTestMode":false, 
+  "RunScaleMode":false,
+  "RunBufferedSaveToRepo":true,
+  "PullLoadingFrequency":60,
+  "ProcessLoadingFrequency":30,
+  "DetectDanglingImportsFreq":300,
+  "RetryFrequency":30,
+  "FeedbackFrequency":120,
+  "EnabledInterfaces":{
+    "SharedFileSys":true,
+    "CentralLogger":true, 
+    "Producer":true,
+    "Repo":true,
+    "Keycloak":true
+  },
+  "MSUINavi":{
+    "RefLoadChannel":"http://127.0.0.1:17160/timloadchannelrui/ui/tcorders",
+    "RefRepo":"http://127.0.0.1:9020/reactShowRepo/changes",
+    "RefLogger":"http://127.0.0.1:17051/logcentral/ui/index",
+    "RefCSExporter":"http://127.0.0.1:17051/logcentral/ui/index"
+  },
+  "KeycloakSettings":{
+    "Realm":"tiimmicroservices",
+    "FrontEndLink":{
+       "UrlPage":"http://localhost:17201/datareceiver/ui/index",
+       "Cookies":{
+         "Domain":"localhost",
+         "Path":"/",
+         "Names":{
+           "Caller":"TIMAUTHLOGIN",
+           "AccessToken":"TIMAUTHACCESSTOKEN",
+           "RefreshToken":"TIMAUTHREFRESHTOKEN"
+         }
+       }
+     },
+     "Server":{
+       "ClientID":"timms",
+       "ConfigURL":"http://dev01-presse.mdh.cn.ard.de/auth/realms/tiimmicroservices",
+       "ConfigURRScheme":"http",
+       "UrlLogin":"http://localhost:17201/datareceiver/ui/index/login",
+       "UrlLogout":"http://localhost:17201/datareceiver/ui/index/logout",
+       "URLRedirect":"http://localhost:17201/datareceiver/ui/index/oidc/callback"
+     },
+     "SecretsFrom":{
+      "UseThisMap":true,
+      "ClientSecret":"c4ba43be-4c01-4357-9630-b631f293ce3b",
+      "AdminUser":{
+        "Name":"timmsadmin",
+        "PWD":"admin"
+      }
+     }               
+ },
+  "Trace":{
+    "Pull":{"StdOut":false,
+      "FileOut":false
+    },
+    "DataImportLoading":{"StdOut":true},
+    "SuspendDanglingImport":{"StdOut":false,
+      "FileOut":false
+    }
+  },
+  "ActivDebugScopes": {
+    "ReceiverClass":false,
+    "ChronoJobs":false,
+    "Controller": false,
+		"Database": false,
+		"Models": false,
+		"PkgSvc": false,
+		"DomainProcessing": false,
+    "SecurityAuth": false
+  },
+  "GinPingURL":{
+    "Host":"10.247.127.168",
+    "Port":"8080",
+    "Path":"/ping"
+  },
+  "DeployVersion":"",
+  "DeployEnv":"DockerLocl",
+  "LinkSystems":{
+    "DataProducer":{
+      "dev01":"SVCProducerATQ",
+      "dev02":"SVCProducerATE",
+      "kons01":"SVCProducerATQ",
+      "kons02":"SVCProducerATP",
+      "prod":""
+    },
+    "PANConvert":{
+     "dev01":"",
+     "dev02":"",
+     "kons01":"",
+     "kons02":"",
+     "prod":""
+   }
+ },
+ "ReceiverProcessor":{
+  "VersionProcessorSequencial":"V1",
+  "VersionProcessorConcurrent":"V2"
+ }
+}

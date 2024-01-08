@@ -1,0 +1,54 @@
+{
+    "DeployEnv":"locl",
+    "AutoIngestingByRepoEls":true,
+    "UseDBDriver":"mysql",
+    "DBSettingsMariaDB":{
+        "DBMariaSchemaPrefix": "",
+        "DBMariaSchemaName": "timelsengine",
+        "MARIA_DB_USER":"root",
+	    "MARIA_DB_PASSWORD":"123",
+	    "MARIA_DB_HOST":"db", 
+      	"MARIA_DB_PORT":"3306"
+    },
+    "Ingest":{
+        "WorkerPoolSize":2,
+        "MaxNumIndicese":2,
+        "MaxPackageSize":10
+    },
+    "ChangePriosStartPointer":{
+        "StartOffsetPrio1": 10000000000,
+        "StartOffsetPrio2": 20000000000,
+        "StartOffsetPrio3": 30000000000000
+    },
+    "ServiceProviderURIs": {
+        "TimELSEngine": {
+		   "Svc":"tim-ms-els-engine",
+		   "Port":"8080",
+		   "IngressPath":"elsengine",
+           "Api":"admin/api/v1"
+        },
+        "TimRepo": {
+            "Svc":"tim-ms-repo",
+            "Port":"8080",
+            "IngressPath":"repo",
+            "Api":"retrieval/api/v1"
+        },
+         "ElasticSearch": [
+           { "Deployenv": "locl",
+             "ELSAddress": {
+                "Host":"essad3.ivz.cn.ard.de",
+                "Port":"39300",
+                "Protocol":"http"
+             }
+           }
+        ] 
+    },    
+    "ActivDebugScopes": {
+        "Database": true,
+        "Model": true,
+        "Security": true,
+        "Services": true,
+        "Controller": true
+    },
+    "DisplayLogInfo":false	
+}    

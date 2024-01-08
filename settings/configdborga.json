@@ -1,0 +1,16 @@
+{   "Schemaprefix":"", 
+    "UseDBDriver":"mysql",
+    "DB_databases": {
+        "Logger":"timlog",
+        "Receiver":"timreceiver",
+        "Repo":"timrepo",
+        "ELSEngine": "timelsengine"
+    },
+    "StartOffsetTimEntityChange":5000000000,
+    "StartOffsetTimEntityChangePrio1": 10000000000,
+    "StartOffsetTimEntityChangePrio2": 20000000000,
+    "StartOffsetTimEntityChangePrio3": 30000000000000,
+    "StartOffsetTimEntityId": 5000000000,
+    "In_PRODUCTIONSYSTEM":false,
+    "DeployVersion":"dev01-cli-db1-001"
+}  

@@ -1,0 +1,132 @@
+{
+  "Schemaprefix": "",
+  "ORA_Schemaprefix": "",
+  "UseDBDriver": "mysql",
+  "DB_Schema": "timreceiver",
+  "ORA_DB_Schema": "timreceiver",
+  "RunInTestMode": false,
+  "RunScaleMode": false,
+  "RunBufferedSaveToRepo": true,
+  "PullLoadingFrequency": 60,
+  "ProcessLoadingFrequency": 30,
+  "DetectDanglingImportsFreq": 300,
+  "RetryFrequency": 30,
+  "FeedbackFrequency": 120,
+  "EnabledInterfaces": {
+    "SharedFileSys": true,
+    "CentralLogger": true,
+    "Producer": true,
+    "Repo": true,
+    "Keycloak": false,
+    "ProxyImageStore": false
+  },
+  "MSUINavi": {
+    "RefLoadChannel": "http://127.0.0.1:17160/timloadchannelrui/ui/tcorders",
+    "RefRepo": "http://127.0.0.1:17750/reactShowRepo/changes",
+    "RefRepoEditAdmin":"http://127.0.0.1:17301/repo/rui",
+    "RefLogger": "http://127.0.0.1:17051/logcentral/ui/index",
+    "RefCSExporter": "http://dev01-presse.mdh.cn.ard.de/cs_exporter/dashboard"
+  },
+  "KeycloakSettings": {
+    "Realm": "MDHPresse",
+    "FrontEndLink": {
+      "UrlPage": "http://localhost:17201/datareceiver/ui/index",
+      "Cookies": {
+        "Domain": "localhost",
+        "Path": "/",
+        "Names": {
+          "Caller": "TIMAUTHLOGIN",
+          "AccessToken": "TIMAUTHACCESSTOKEN",
+          "RefreshToken": "TIMAUTHREFRESHTOKEN"
+        }
+      }
+    },
+    "Server": {
+      "ClientID": "tim_client",
+      "ConfigURL": "http://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
+      "ConfigURRScheme": "http",
+      "UrlLogin": "http://localhost:17201/datareceiver/ui/index/login",
+      "UrlLogout": "http://localhost:17201/datareceiver/ui/index/logout",
+      "URLRedirect": "http://localhost:17201/datareceiver/ui/index/oidc/callback"
+    },
+    "SecretsFrom": {
+      "UseThisMap": true,
+      "ClientSecret": "2b8ef5eb-554d-460f-a954-0ccebbe0bd3e",
+      "AdminUser": {
+        "Name": "timmsadmin",
+        "PWD": "admin"
+      }
+    }
+  },
+  "Trace": {
+    "Pull": { "StdOut": false, "FileOut": false },
+    "DataImportLoading": { "StdOut": true },
+    "SuspendDanglingImport": { "StdOut": false, "FileOut": false }
+  },
+  "ActivDebugScopes": {
+    "ReceiverClass": false,
+    "ChronoJobs": false,
+    "Controller": false,
+    "Database": false,
+    "Models": false,
+    "PkgSvc": false,
+    "DomainProcessing": false,
+    "SecurityAuth": false
+  },
+  "DisplayLogInfo":false,
+  "GinPingURL": {
+    "Host": "10.247.127.168",
+    "Port": "8080",
+    "Path": "/ping"
+  },
+  "DeployVersion": "",
+  "DeployEnv": "DockerLocl",
+  "LinkSystems": {
+    "DataProducer": {
+      "Dev01": "SVCProducerATQ",
+      "Dev02": "SVCProducerATE",
+      "Kons01": "SVCProducerATQ",
+      "Kons02": "SVCProducerATP",
+      "Prod": "",
+      "FeedbackPath":{
+        "Dev01":"",
+        "Dev02":"",
+        "Kons01":"",
+        "Kons02":"",
+        "Prod":""
+      }  
+    },
+    "PANConvert":{
+      "FeedbackPath":{
+        "Dev01":"/timFileSys/timchannel/dockerlocl/WDR_RUECK_TIM/",
+        "Dev02":"",
+        "Kons01":"",
+        "Kons02":"",
+        "Prod":"/timFileSys/timchannel/dockerlocl/WDR_RUECK_TIM/"
+      }  
+    }
+  },
+  "ReceiverProcessor": {
+    "VersionProcessorSequencial": "V1",
+    "VersionProcessorConcurrent": "V2"
+  },
+  "ServiceProviderURIs": {
+    "ProxyImageStore": {
+      "Svc": "dev01-presse.mdh.cn.ard.de",
+      "Port": "80",
+      "IngressPath": "proxy_imagestore",
+      "Api": "api"
+    }
+  },
+  "SvcPathPullFromSAPMig": "/PullLoadingsSince/dataid/",
+	"HandleMigExpBySepRcv":true,
+  "PullPeriodInSeconds":3,
+  "IVZCvtFilter":{
+    "FilterActivated":true,
+    "UseProcessDirectories":true,
+    "UseUnprocessDirectories":false,
+    "ProcessLoadDirectories":["SPHINX"],
+    "UnprocessLoadDirectories":[]  
+  },
+  "SendingImageBeforeSave":false
+}

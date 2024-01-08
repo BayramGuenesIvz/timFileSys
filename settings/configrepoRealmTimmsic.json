@@ -1,0 +1,105 @@
+{ 
+  "Schemaprefix":"",
+  "ORA_Schemaprefix":"",
+  "UseDBDriver":"mysql",
+  "DB_Schema":"timrepo", 
+  "ORA_DB_Schema":"timrepo",
+  "SuppressWriteLogsToFileSys":true,
+  "StartOffsetTimEntityChange": 5000000000,
+  "StartOffsetTimEntityChangePrio1": 10000000000,
+  "StartOffsetTimEntityChangePrio2": 20000000000,
+  "StartOffsetTimEntityChangePrio3": 30000000000000,
+  "MSUINavi":{
+    "RefReceiver":"http://127.0.0.1:17201/datareceiver/ui/index",
+    "RefLogger":"http://127.0.0.1:17051/logcentral/ui/index",
+    "RefReactShowRepo":"http://127.0.0.1:9020/reactShowRepo/changes"
+  },
+  "EnabledInterfaces": {
+		"Keycloak":true,
+    "ProxyImageStore":false,
+    "UserNotifyService":false
+	},
+  "Imagestore":{
+    "TimChannel":"/timFileSys/timchannel/dockerlocl/imagestore/"
+  },
+  "KeycloakSettings":{
+    "Realm":"tiimmicroservices",
+    "FrontEndLink":{
+       "UrlPage":"http://localhost:17301/repo/ui/index",
+       "URLPageClientSeparated":"http://localhost:17301/repo/rui,
+       "URLPageClient2Separated":"http://localhost:9020/reactShowRepo/changes",
+       "Cookies":{
+         "Domain":"localhost",
+         "Path":"/",
+         "Names":{
+           "Caller":"REPOTIMAUTHLOGIN",
+           "AccessToken":"REPOTIMAUTHACCESSTOKEN",
+           "RefreshToken":"REPOTIMAUTHREFRESHTOKEN"
+         }
+       },
+       "CookiesClientSeparated":{
+        "Domain":"localhost",
+        "Path":"/",
+        "Names":{
+          "Caller":"REPOTIMAUTHLOGIN",
+          "AccessToken":"REPOTIMAUTHACCESSTOKEN",
+          "RefreshToken":"REPOTIMAUTHREFRESHTOKEN"
+        }
+      },
+      "CookiesClient2Separated":{
+        "Domain":"localhost",
+        "Path":"/",
+        "Names":{
+          "Caller":"REPOTIMAUTHLOGIN",
+          "AccessToken":"REPOTIMAUTHACCESSTOKEN",
+          "RefreshToken":"REPOTIMAUTHREFRESHTOKEN"
+        }
+      }
+     },
+     "Server":{
+       "ClientID":"timms",
+       "ConfigURL":"http://dev01-presse.mdh.cn.ard.de/auth/realms/tiimmicroservices",
+       "ConfigURRScheme":"http",
+       "UrlLogin":"http://localhost:17301/repo/ui/index/login",
+       "UrlLogout":"http://localhost:17301/repo/ui/index/logout",
+       "URLRedirect":"http://localhost:17301/repo/ui/index/oidc/callback",
+       "URLRedirectClientSeparated":"http://localhost:17301/repo/ui/index/client/oidc/callback",
+       "URLRedirectClient2Separated":"http://localhost:17301/repo/ui/index/client2/oidc/callback"
+     },
+     "SecretsFrom":{
+      "UseThisMap":true,
+      "ClientSecret":"c4ba43be-4c01-4357-9630-b631f293ce3b",
+      "AdminUser":{
+        "Name":"timmsadmin",
+        "PWD":"admin"
+      }
+     }               
+ },
+ "Trace":{
+  "ProvideEntityChanges":{"StdOut":false,
+          "FileOut":false} 
+ },
+ "ActivDebugScopes": {
+  "Database": true,
+  "PkgSvc": true,
+  "Domain": true,
+	"Security":false
+ }, 
+ "ServiceProviderURIs":{
+  "ProxyImageStore":{
+    "Svc":"tim-ms-proxy-imagestore",
+    "Port":"8080",
+    "IngressPath":"poxy_imagestore",
+    "Api":"api"
+  },
+  "UserNotifyService":{
+    "Svc":"tim-ms-newsletter",
+    "Port":"8080",
+    "IngressPath":"newsletter",
+    "Api":"tim"
+  }       
+},
+ "DeployEnv":"locl",
+ "DeployVersion":"locl-20210320-001",
+ "DevelopModus":true
+}

@@ -1,0 +1,15 @@
+{
+    "DB_UserPwd":"",
+    "DB_SQLApplschemaName":"timlog",
+    "LocationDebugLog":"/timFileSys/DebugLog/",
+    "LocationErrLog":"/timFileSys/ErrLog/",
+    "WriteToFileSys":false,
+    "AutoDeleteDebugLogAfterDays":7,
+    "AutoDeleteErrLogAfterDays":14,
+    "CheckTimeToRemLogEntriesFreq":300,
+    "DeleteDebugLogWhenGEHHMM":"2200",
+    "DeleteDebugLogWhenLEHHMM":"2206",
+	"DeleteErrLogWhenGEHHMM":"2230",
+	"DeleteErrLogWhenLEHHMM":"2236"
+
+}

@@ -1,0 +1,8 @@
+{
+    "DB_username": "root",
+    "DB_userpw": "123",
+    "DB_adress": "db",
+    "DB_port": "3306",
+    "DB_database": "timreceiver",
+    "In_PRODUCTIONSYSTEM":false
+}  

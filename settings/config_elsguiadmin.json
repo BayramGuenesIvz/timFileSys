@@ -1,0 +1,18 @@
+{
+    "ServiceProviderURIs":{
+        "ElsEngine":{
+            "Svc":"localhost",
+            "Port":"17400",
+            "IngressPath":"elsengine",
+            "Api":"",
+            "Protocol":"http"
+        },
+        "GuiELSAdmin":{
+            "Svc":"tim-gui-els-admin",
+            "Port":"8080",
+            "IngressPath":"guielsadmin",
+            "Api":"api",
+            "Protocol":"http"
+          }
+    }
+}

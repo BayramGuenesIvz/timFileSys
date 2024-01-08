@@ -1,0 +1,12 @@
+{
+  "Dummy":"",
+  "DB_Schema":"timreceiver",
+  "DB_UserPwd":"root:123",
+  "TestLoadingFile1":"Ladung1.xml",
+  "TestLoadingFilePath1":"/timFileSys/producedfiles/Ladung1",
+  "TestLoadingFile2":"Ladung2.xml",
+  "TestLoadingFilePath2":"/timFileSys/producedfiles/Ladung2",
+  "TestLoadingFile3":"Ladung3.xml",
+  "TestLoadingFilePath3":"/timFileSys/producedfiles/Ladung3",
+  "Workdir":"/timFileSys/producedfiles/workdir"
+}

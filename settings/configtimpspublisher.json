@@ -1,0 +1,7 @@
+{
+    "thisStage": "DockComp",
+    "BackendURLs": {
+      "Repo": "http://127.0.0.1:17301/repo/",
+      "Receiverui: "http://127.0.0.1:17201/datareceiver/ui/index"     
+    }
+}

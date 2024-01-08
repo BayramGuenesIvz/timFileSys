@@ -1,0 +1,17 @@
+{
+  "MariaDBSchema":"timelsengine",
+  "ELSMachines": [
+    {
+      "Name": "guenes_locl_mdhpresse",
+      "URLRepo": {
+        "Host": "dev01-presse.mdh.cn.ard.de",
+        "Port": "80",
+        "Protocol": "http",
+        "SvcPath": "/repo"
+      },
+      "Indexname":"guenes_locl_mdhpresse",
+      "LoadChannelList":["TimChannel","CSChange","IVZCvt","SAPMig"],
+      "NotifyWhenLoadingComplete":false
+    }
+  ]
+}

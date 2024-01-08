@@ -1,0 +1,153 @@
+{
+  "Schemaprefix": "",
+  "ORA_Schemaprefix": "",
+  "UseDBDriver": "mysql",
+  "DB_Schema": "timreceiver",
+  "ORA_DB_Schema": "timreceiver",
+  "EnabledInterfaces": {
+    "Database": true,
+    "SharedFileSys": false,
+    "CentralLogger": true,
+    "Keycloak": false,
+    "ProxyImageStore": false
+  },
+  "MSUINavi": {
+    "RefReceiver": "http://127.0.0.1:17201/datareceiver/ui/index",
+    "RefLogger": "http://127.0.0.1:17051/logcentral/ui/index"
+  },
+  "KeycloakSettings": {
+    "Realm": "MDHPresse",
+    "FrontEndLink": {
+      "UrlPage": "http://localhost:17160/timloadchannelrui/ui/tcorders",
+      "Cookies": {
+        "Domain": "localhost",
+        "Path": "/",
+        "Names": {
+          "Caller": "TIMCHANNELAUTHLOGIN",
+          "AccessToken": "TIMCHANNELAUTHACCESSTOKEN",
+          "RefreshToken": "TIMCHANNELAUTHREFRESHTOKEN"
+        }
+      }
+    },
+    "Server": {
+      "ClientID": "tim_client",
+      "ConfigURL": "https://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
+      "ConfigURRScheme": "https",
+      "UrlLogin": "http://localhost:17160/timloadchannelrui/ui/index/login",
+      "UrlLogout": "http://localhost:17160/timloadchannelrui/ui/index/logout",
+      "URLRedirect": "http://localhost:17160/timloadchannelrui/ui/index/oidc/callback"
+    },
+    "SecretsFrom": {
+      "UseThisMap": true,
+      "ClientSecret": "2b8ef5eb-554d-460f-a954-0ccebbe0bd3e",
+      "AdminUser": {
+        "Name": "timmsadmin",
+        "PWD": "admin"
+      }
+    }
+  },
+  "TimResources": {
+    "LoadDataOrigin": {
+      "Path_MigSys": {
+        "Pressespiegel": "/mnt/mdh-presse/pressespiegel/prod/",
+        "Techdocs": "/timFileSys/timchannel/dockerlocl/exports/techdocs/"
+      },
+      "Producer":{
+        "Pressespiegel":{
+          "ThisStagePath":"",
+          "ProdStagePath":"",
+          "Distributor":{
+            "Stage":"",
+            "ProducerSourcePath":"",
+            "DistributeRootPath":"",
+            "DistributeChildPaths":[],
+            "RemoveFilesFromPathProducer":false
+          }
+        },
+        "Techdocs":"/path/timchannel/techdocs/"
+       }          
+     },
+    "ReimportWorkingPath":"/timFileSys/timchannel/dockerlocl/reimport/",
+    "PathParkingLoadDataOrigin": "/timFileSys/timchannel/dockerlocl/parkingloadorigin/",
+    "PathSourcesOrderTC": "/timFileSys/timchannel/dockerlocl/tcinpath/",
+    "TimChannelLoadStore": "/timFileSys/timchannel/dockerlocl/loadstore/",
+    "TimChannelImageStore": "/timFileSys/timchannel/dockerlocl/imagestore/",
+    "TimChannelTrush": "/timFileSys/timchannel/dockerlocl/trush/"    
+  },
+  "IVZConvertAccess":{
+    "MethFileShare":true,
+    "MethREST":false,
+    "IVZConvertDataPaths":{
+      "KONSInhouse": "/mnt/textimp_ablage/KONS_INHOUSE",
+      "PRODInhouse": "/mnt/textimp_ablage/PROD_INHOUSE",
+      "KONSSphings":"",
+      "PRODSphings":""
+    }
+  },  
+  "DataCleansing": [
+    {
+      "Item": {
+        "Name": "PathParkingLoadDataOrigin",
+        "CleanseAfterDays": 0,
+        "CleanseTargetItemName": "TimChannelTrush"
+      }
+    },
+    {
+      "Item": {
+        "Name": "PathSourcesOrderTC",
+        "CleanseAfterDays": 0,
+        "CleanseTargetItemName": "TimChannelTrush"
+      }
+    },
+    {
+      "Item": {
+        "Name": "TimChannelLoadStore",
+        "CleanseAfterDays": 0,
+        "CleanseTargetItemName": "TimChannelTrush"
+      }
+    },
+    {
+      "Item": {
+        "Name": "TimChannelImageStore",
+        "CleanseAfterDays": 0,
+        "CleanseTargetItemName": "TimChannelTrush"
+      }
+    },
+    {
+      "Item": {
+        "Name": "TimChannelTrush",
+        "CleanseAfterDays": 0,
+        "CleanseTargetItemName": "TimChannelTrush"
+      }
+    }
+  ],
+  "ActivDebugScopes": {
+    "Database": false,
+    "PkgSvc": false,
+    "Models": false,
+    "Security": false
+  },
+  "GinPingURL": {
+    "Host": "tim-ms-load-channel-rui",
+    "Port": "9990",
+    "Path": "/mock_proxy_imagestore/api/health"
+  },
+  "ServiceProviderURIs": {
+    "ProxyImageStore": {
+      "Svc": "tim-ms-load-channel-rui",
+      "Port": "9990",
+      "IngressPath": "mock_proxy_imagestore",
+      "Api": "api"
+    },
+    "TimLogger": {
+      "Svc":"tim-ms-log-central",
+      "Port":"8080",
+      "IngressPath":"logcentral",
+      "Api":""
+    }
+  },
+  "DeployEnv": "DockerLocl",
+  "DeployVersion": "",
+  "AppVersion": "V1.1.2",
+  "FilterTopics":true
+}

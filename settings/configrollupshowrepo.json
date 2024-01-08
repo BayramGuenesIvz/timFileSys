@@ -1,0 +1,22 @@
+{
+  "thisStage": "DockComp",
+  "BackendURLs": {
+    "Repo": "http://127.0.0.1:17301/repo/",
+    "Receiverui: "http://127.0.0.1:17201/datareceiver/ui/index",
+    "LogCentralUI": "http://127.0.0.1:17051/logcentral/ui/index"
+  },
+  "EnableKeycloak": true,
+  "KeycloakSettings": {
+    "FrontEndLink": {
+       "Cookies": {
+        "Domain": "localhost",
+        "Path": "/",
+        "Names": {
+          "Caller": "REPOTIMAUTHLOGIN",
+          "AccessToken": "REPOTIMAUTHACCESSTOKEN",
+          "RefreshToken": "REPOTIMAUTHREFRESHTOKEN"
+        }
+      }
+    }
+  }
+}
