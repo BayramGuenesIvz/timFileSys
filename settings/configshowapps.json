@@ -53,6 +53,24 @@
     "IntPort":"8080",
     "Notes":"" 
   },
+  "ELSGui":{
+    "Addr":"127.0.0.1",
+    "Port":"17450",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
+  "Availability":{
+    "Addr":"127.0.0.1",
+    "Port":"18083",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
+  "GuiAvailability":{
+    "Addr":"127.0.0.1",
+    "Port":"18082",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
   "DBOrgLogger":{
     "Addr":"CLI-Prog: tim_cli_dborg_log",
     "Port":"startApp.sh",

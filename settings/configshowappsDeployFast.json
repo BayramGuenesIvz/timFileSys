@@ -77,6 +77,18 @@
     "IntPort":"8080",
     "Notes":"" 
   },
+  "Availability":{
+    "Addr":"127.0.0.1",
+    "Port":"18083",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
+  "GuiAvailability":{
+    "Addr":"127.0.0.1",
+    "Port":"18082",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
   "DBOrga":{
     "Addr":"Service Container CLI-Prog: tim_cli_dbdef",
     "Port":"ServiceName tim-dbdef",

@@ -1,0 +1,11 @@
+{
+    "ServiceProviderURIs":{
+        "ElsEngine":{
+            "Svc":"localhost",
+            "Port":"8080",
+            "IngressPath":"sysavailability",
+            "Api":"",
+            "Protocol":"http"
+        }    
+    }
+}

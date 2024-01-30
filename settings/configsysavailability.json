@@ -4,6 +4,14 @@
     "EnabledInterfaces": {
       "Keycloak": false
     },
+    "DBSettingsMariaDB": {
+      "DBMariaSchemaPrefix": "",
+      "DBMariaSchemaName": "timlog",
+      "MARIA_DB_USER": "root",
+      "MARIA_DB_PASSWORD": "123",
+      "MARIA_DB_HOST": "db",
+      "MARIA_DB_PORT": "3306"
+     },
     "KeycloakSettings": {
       "realm": "MDHPresse",
       "client": "tim_client",
