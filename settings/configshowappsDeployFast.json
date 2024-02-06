@@ -89,6 +89,18 @@
     "IntPort":"8080",
     "Notes":"" 
   },
+  "GuiMediaUploader":{
+    "Addr":"127.0.0.1",
+    "Port":"18084",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
+  "MediaUploader":{
+    "Addr":"127.0.0.1",
+    "Port":"18085",
+    "IntPort":"8080",
+    "Notes":"" 
+  },
   "DBOrga":{
     "Addr":"Service Container CLI-Prog: tim_cli_dbdef",
     "Port":"ServiceName tim-dbdef",

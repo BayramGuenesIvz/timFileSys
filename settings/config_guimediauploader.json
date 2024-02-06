@@ -1,0 +1,11 @@
+{  
+  "ServiceProviderURIs":{
+    "UploaderEngine":{
+      "Svc":"vo-media-uploader-service-gateway",
+      "Port":"8080",
+      "IngressPath":"mediaUploaderSvcGateway",
+      "Api":"api",
+      "Protocol":"http"
+    }
+  }
+} 
