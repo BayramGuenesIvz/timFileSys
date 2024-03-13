@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_ASV_BILD_BU_20240215_20240215_020127_023335.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>ASV</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20240215</DATUM>
+            <UHRZEIT>020127</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>BIL@213640670_20240215</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>NDR Hamburg</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20240215</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20240215</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>020127</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>BI</AUSTAUSCH_KUERZEL>
+            <NUMMER>39</NUMMER>
+            <HERKUNFT>BIL</HERKUNFT>
+        </QUELLE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERLAG_METARUBRIK>Titelseite</VERLAG_METARUBRIK>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <SEITE>1</SEITE>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>ThyssenKrupp-Gewinne schmelzen</HAUPTTITEL>
+            <SONSTIGER_TITEL>Titelseite</SONSTIGER_TITEL>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Essen - Bei Deutschlands größtem Stahlhersteller ThyssenKrupp glüht 25 Jahre nach der Fusion von Thyssen und Krupp das Minus! Das Unternehmen mit Sitz in Essen gab gestern einen Nettoverlust von 314 Millionen Euro bekannt. Im Vorjahr hatte der Konzern 75 Millionen Euro Gewinn verzeichnet. Die Gründe: Hohe Zinsen, sinkende Preise für Stahl und die geringe Nachfrage von Automobilkunden im Stahlgeschäft trieben den Industrie-Riesen ins Minus. Der Auftragseingang war um 13 Prozent rückläufig. Die Aktie gab gestern zeitweise um 10 Prozent nach.$NEW-BLOCK$Nur für rundfunkinternen Gebrauch, © AS AG, alle Rechte vorbehalten.</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

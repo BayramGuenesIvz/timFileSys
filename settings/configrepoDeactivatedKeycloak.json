@@ -26,7 +26,7 @@
     "Realm":"tiimmicroservices",
     "FrontEndLink":{
        "UrlPage":"http://localhost:17301/repo/ui/index",
-       "URLPageClientSeparated":"http://localhost:17301/repo/rui,
+       "URLPageClientSeparated":"http://localhost:17301/repo/rui",
        "URLPageClient2Separated":"http://localhost:9020/reactShowRepo/changes",
        "Cookies":{
          "Domain":"localhost",

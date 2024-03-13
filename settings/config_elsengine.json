@@ -26,13 +26,7 @@
 		   "Port":"8080",
 		   "IngressPath":"elsengine",
            "Api":"admin/api/v1"
-        },
-        "TimRepo": {
-            "Svc":"tim-ms-repo",
-            "Port":"8080",
-            "IngressPath":"repo",
-            "Api":"retrieval/api/v1"
-        },
+        },       
          "ElasticSearch": [
            { "Deployenv": "locl",
              "ELSAddress": {
@@ -50,5 +44,5 @@
         "Services": true,
         "Controller": true
     },
-    "DisplayLogInfo":false	
+    "DisplayLogInfo":true	
 }    

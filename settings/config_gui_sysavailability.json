@@ -1,9 +1,10 @@
 {
+    "DeployEnv":"locl", 
     "ServiceProviderURIs":{
-        "ElsEngine":{
-            "Svc":"localhost",
+        "SysAvailability":{
+            "Svc":"tim-ms-sys-availability",
             "Port":"8080",
-            "IngressPath":"sysavailability",
+            "IngressPath":"sys_availability",
             "Api":"",
             "Protocol":"http"
         }    

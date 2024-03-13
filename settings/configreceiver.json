@@ -17,7 +17,7 @@
     "CentralLogger": true,
     "Producer": true,
     "Repo": true,
-    "Keycloak": false,
+    "Keycloak": true,
     "ProxyImageStore": false
   },
   "MSUINavi": {
@@ -28,6 +28,7 @@
     "RefCSExporter": "http://dev01-presse.mdh.cn.ard.de/cs_exporter/dashboard"
   },
   "KeycloakSettings": {
+    "AuthUrl":"https://dev01-presse.mdh.cn.ard.de/auth",
     "Realm": "MDHPresse",
     "FrontEndLink": {
       "UrlPage": "http://localhost:17201/datareceiver/ui/index",
@@ -43,8 +44,8 @@
     },
     "Server": {
       "ClientID": "tim_client",
-      "ConfigURL": "http://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
-      "ConfigURRScheme": "http",
+      "ConfigURL": "https://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
+      "ConfigURRScheme": "https",
       "UrlLogin": "http://localhost:17201/datareceiver/ui/index/login",
       "UrlLogout": "http://localhost:17201/datareceiver/ui/index/logout",
       "URLRedirect": "http://localhost:17201/datareceiver/ui/index/oidc/callback"
@@ -112,10 +113,32 @@
   },
   "ServiceProviderURIs": {
     "ProxyImageStore": {
+      "Protocol":"http",
       "Svc": "dev01-presse.mdh.cn.ard.de",
       "Port": "80",
       "IngressPath": "proxy_imagestore",
       "Api": "api"
+    },
+    "Repo": {
+      "Protocol":"http",
+      "Svc":"tim-ms-repo",
+      "Port": "8080",
+      "IngressPath":"repo",
+      "Api":""
+    },
+    "TimLoadChannel": {
+      "Protocol":"http",
+      "Svc":"tim-ms-load-channel-rui",
+      "Port": "8080",
+      "IngressPath":"timloadchannelrui",
+      "Api":"api"
+    },
+    "Logger": {
+      "Protocol":"http",
+      "Svc":"tim-ms-log-central",
+      "Port": "8080",
+      "IngressPath":"logcentral",
+      "Api":""
     }
   },
   "SvcPathPullFromSAPMig": "/PullLoadingsSince/dataid/",

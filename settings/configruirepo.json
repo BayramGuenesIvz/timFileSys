@@ -1,8 +1,8 @@
 {
   "thisStage": "DockComp",
   "BackendURLs": {
-    "TimELS": "http://localhost:17400/elsengine/api/queries/v1",
-    "Repo": "http://dev01-presse.mdh.cn.ard.de/repo/",
+    "TimELS":"https://kons01-presse.mdh.cn.ard.de/elsengine/api/queries/v1",
+    "Repo": "https://kons01-presse.mdh.cn.ard.de/repo/",
     "RepoEditSvc": "http://127.0.0.1:17301/repo/rui/entities",
     "Receiverui": "http://127.0.0.1:17201/datareceiver/ui/index",
     "CSExporterui": "http://dev01-presse.mdh.cn.ard.de/cs_exporter/ui/",
@@ -14,7 +14,7 @@
     "LogCentralUIProd": "https://presse.mdh.cn.ard.de/logcentral/ui/index",
     "ProxyImageStoreProd":"https://presse.mdh.cn.ard.de/proxy_imagestore/"
   },
-  "EnableKeycloak": false,
+  "EnableKeycloak": true,
   "EnableEditSvc":false,
   "EnableExport":{
     "Changes":true,
@@ -22,6 +22,7 @@
     "AklFilesWithPdf":true
   },
   "KeycloakSettings": {
+    "AuthUrl":"https://dev01-presse.mdh.cn.ard.de/auth",
     "FrontEndLink": {
        "Cookies": {
         "Domain": "localhost",

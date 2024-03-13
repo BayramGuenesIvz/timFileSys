@@ -12,7 +12,7 @@
         },
         "URLRepo": {
           "Host": "https://dev01-presse.mdh.cn.ard.de",
-          "Port": "17301",
+          "Port": "443",
           "Protocol": "https",
           "SvcPath": "/repo"
         },
@@ -20,7 +20,7 @@
       },    
     "ELSMachines": [
       {
-        "Name": "guenes_locl_mdhpresse",
+        "Name": "dev01_mdhpresse",
         "URLELS":{
           "UseDeployenvELSUrl":true,
           "AlternativeURL":{
@@ -31,12 +31,12 @@
         },
         "URLRepo": {
           "Host": "dev01-presse.mdh.cn.ard.de",
-          "Port": "80",
-          "Protocol": "http",
+          "Port": "443",
+          "Protocol": "https",
           "IngressPath": "/repo"
         },
-        "IndexName": "guenes_locl_mdhpresse",
-        "NumConcurRun":0
+        "IndexName": "dev01_mdhpresse",
+        "NumConcurRun":1
       }
     ]
   }

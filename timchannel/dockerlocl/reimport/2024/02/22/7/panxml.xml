@@ -1,0 +1,100 @@
+<ARTIKEL>
+  <AUSTAUSCH_STEUERUNG>
+    <AUSTAUSCH_ID>00000000000012701147</AUSTAUSCH_ID>
+    <LIEFERUNGSTYP>CSCHANGE-MODIFY</LIEFERUNGSTYP>
+    <LIEFERANT>WDR:ATQ:ZAT_PAN_EXPORT_TIM_CS_DELTA</LIEFERANT>
+    <RFA_LISTE>
+      <RFA>SWR</RFA>
+    </RFA_LISTE>
+    <POOLSAP>V</POOLSAP>
+    <VERARBEITUNGSSTATUS>
+      <STATUS>generiert</STATUS>
+      <DATUM>20221024</DATUM>
+      <UHRZEIT>131156</UHRZEIT>
+      <XMLERZEUGER>ZAT_PAN_EXPORT_TIM_CS_DELTA</XMLERZEUGER>
+    </VERARBEITUNGSSTATUS>
+  </AUSTAUSCH_STEUERUNG>
+  <METADATEN>
+    <DOCID>67526983</DOCID>
+    <EXTERNE_ARTIKEL_ID>BNNI4BKPD3_20221028BG002</EXTERNE_ARTIKEL_ID>
+    <ALTE_ARTIKEL_ID>67526983</ALTE_ARTIKEL_ID>
+    <DOKUMENTATIONSSTELLE>SWR Karlsruhe</DOKUMENTATIONSSTELLE>
+    <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+    <DOKUMENTATIONSSTATUS_TIM>1</DOKUMENTATIONSSTATUS_TIM>
+    <ERSCHEINUNGSDATUM>20220228</ERSCHEINUNGSDATUM>
+    <ERFASSUNGSDATUM>20221024</ERFASSUNGSDATUM>
+    <ERFASSUNGSZEIT>114521</ERFASSUNGSZEIT>
+    <AENDERUNGSDATUM>00000000</AENDERUNGSDATUM>
+    <AENDERUNGSZEIT>000000</AENDERUNGSZEIT>
+    <QUELLE>
+      <QUEID>3779</QUEID>
+      <AUSTAUSCH_KUERZEL>FAZ</AUSTAUSCH_KUERZEL>
+      <AUSTAUSCH_NAME>Badische Neueste Nachrichten / Karlsruhe</AUSTAUSCH_NAME>
+      <ERSCHEINUNGSORT>Karlsruhe</ERSCHEINUNGSORT>
+      <ERSCHEINUNGSWEISE>t</ERSCHEINUNGSWEISE>
+      <ARTIKELSPRACH_LISTE>
+        <ARTIKELSPRACHE>de</ARTIKELSPRACHE>
+      </ARTIKELSPRACH_LISTE>
+      <HERKUNFT>BNN</HERKUNFT>
+      <VERLAG>Badische Neueste Nachrichten</VERLAG>
+    </QUELLE>
+    <VERLAGSEIGENE_KLASSIFIZIERUNG>
+      <VERSCHLAGWORTUNGSLISTE>
+        <item/>
+        <item/>
+      </VERSCHLAGWORTUNGSLISTE>
+    </VERLAGSEIGENE_KLASSIFIZIERUNG>
+    <ARTIKEL_IMAGE>
+      <DMS_ID>/ZT/B/1/5/CA525663C44D6D4CE10000000AF76A2F</DMS_ID>
+      <FORMAT>2</FORMAT>
+      <ANZAHL_A4_SEITEN>1</ANZAHL_A4_SEITEN>
+      <GROESSE_BYTES>                                                                                             302067</GROESSE_BYTES>
+      <GANZSEITE>G</GANZSEITE>
+    </ARTIKEL_IMAGE>
+    <SEITE>32</SEITE>
+    <SERIE>000</SERIE>
+    <MEHRZWECKFELD_RECHERCHIERBAR>
+      <FELD>
+        <FELD_NAME>Verlags-ID</FELD_NAME>
+        <FELD_INHALT>BNNI4BKPD3</FELD_INHALT>
+      </FELD>
+      <FELD>
+        <FELD_NAME>Ausgabe</FELD_NAME>
+        <FELD_INHALT>BNNK</FELD_INHALT>
+      </FELD>
+    </MEHRZWECKFELD_RECHERCHIERBAR>
+    <MEHRZWECKFELD_NICHT_RECHERCHR>
+      <FELD>
+        <FELD_NAME>seite</FELD_NAME>
+        <FELD_INHALT>32</FELD_INHALT>
+      </FELD>
+      <FELD>
+        <FELD_NAME>PAGEFILE</FELD_NAME>
+        <FELD_INHALT>28022022.BNN.110.8_1.pdf</FELD_INHALT>
+      </FELD>
+    </MEHRZWECKFELD_NICHT_RECHERCHR>
+    <TEXTART>Presseartikel</TEXTART>
+    <MEHRZWECKFELD>
+      <FELD>
+        <FELD_NAME>AUSG</FELD_NAME>
+        <FELD_INHALT>BNNK</FELD_INHALT>
+      </FELD>
+      <FELD>
+        <FELD_NAME>SONS</FELD_NAME>
+        <FELD_INHALT><MZWECKR><Verlags-ID>BNNI4BKPD3</Verlags-ID></MZWECKR></FELD_INHALT>
+      </FELD>
+    </MEHRZWECKFELD>
+  </METADATEN>
+  <INHALT>
+    <TITEL>
+      <HAUPTTITEL>Lkw fahren  in die Ukraine</HAUPTTITEL>
+      <SEITENTITEL>Aus der Region</SEITENTITEL>
+      <VORSPANN>Karlsruhe (smk). Olga (Foto: Olga Skripnik) und Wladimir Skripnik aus Karlsruhe möchten den Menschen in der Ukraine helfen. Das Unternehmer-Ehepaar hat seit einigen Jahren eine Fabrik für Europaletten in der ukrainischen Region Lwiw unmittelbar an der polnischen Grenze. Weil die Produktion seit dem Einmarsch der russischen Truppen stillsteht, wollen die beiden die elf Lkw der Firma für den Transport von Hilfsgütern zur Verfügung stellen.</VORSPANN>
+    </TITEL>
+    <VOLLTEXT>
+      <TEXT>"Die Fahrer sind bereit, die Sachen bis an die Grenze zu bringen. Von dort gibt es bereits bürgerliche Organisationen, die die Verteilung der Hilfsgüter übernehmen werden", heißt es in einem Schreiben der Skripniks an die BNN. Außerdem hat das Ehepaar Kontakt zu lokalen Krankenhäusern aufgenommen. Sie helfen bei der Vermittlung von Hilfsangeboten im medizinischen Bereich. Wer nach Transportmöglichkeiten in die Ukraine sucht oder Hilfsangebote machen möchte, kann sich an die E-Mail-Adresse info@domofloor.com wenden. Telefonisch ist Olga Skripnik unter (07 21) 48 53 22 22 oder (01 72) 73 78 88 86 zu erreichen.$NEW-BLOCK$$NEW-BLOCK$Bildunterschrift: Olga Skripnik</TEXT>
+      <ANZAHL_WORTE>      165</ANZAHL_WORTE>
+      <ANZAHL_VOLLTEXTSEITEN>        1</ANZAHL_VOLLTEXTSEITEN>
+    </VOLLTEXT>
+  </INHALT>
+</ARTIKEL>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_ASV_BILD_BU_20240214_20240215_103202_023416.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>ASV</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20240215</DATUM>
+            <UHRZEIT>103202</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>BIL@213627158_20240214</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>NDR Hamburg</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20240214</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20240215</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>103202</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>BI</AUSTAUSCH_KUERZEL>
+            <NUMMER>38</NUMMER>
+            <HERKUNFT>BIL</HERKUNFT>
+        </QUELLE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERLAG_METARUBRIK>BILD DEUTSCHLAND</VERLAG_METARUBRIK>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <SEITE>4</SEITE>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>Jetzt wird Hoenig (wenigstens) Musical-König</HAUPTTITEL>
+            <SONSTIGER_TITEL>&quot;Ein bisschen Frieden&quot; für Heinz / BILD DEUTSCHLAND</SONSTIGER_TITEL>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>München - Die Dschungelkrone blieb ihm verwehrt. Jetzt wird er immerhin Musical-König.$NEW-BLOCK$BILD erfuhr: Hit-Komponist Ralph Siegel (78) hat &quot;Ich bin ein Star, holt mich hier raus!&quot;-Teilnehmer Heinz Hoenig (72) quasi direkt aus dem Dschungelcamp heraus für die Wiederaufnahme seines Musicals &quot;Ein bisschen Frieden - Sommer of Love&quot; engagiert. Die Premiere ist am 8. Mai im Deutschen Theater in München, gespielt wird bis zum 19. Mai.$NEW-BLOCK$Schon in den Siebziegerjahren machte Hoenig eine Gesangsausbildung und hatte eine Band.$NEW-BLOCK$Hoenig zu BILD: &quot;Es ist mir eine Ehre und große Freude in einem Musical von Ralph Siegel dabei zu sein. Ralph ist eine lebende Legende.&quot;$NEW-BLOCK$T. May$NEW-BLOCK$Bildunterschrift: Langjährige Freunde: Heinz Hoenig (l.) und Ralph Siegel$NEW-BLOCK$Fotonachweis: Fotos: KIMVIRGINIAA/INSTAGRAM, RTL/STEFAN THOYAH, PRIVAT, PICTURE ALLIANCE/UNITED ARCHIVES$NEW-BLOCK$Bildunterschrift: 1992: Heinz Hoenig in einer Musical-Nummer mit Senta Berger (82)$NEW-BLOCK$Nur für rundfunkinternen Gebrauch, © AS AG, alle Rechte vorbehalten.</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

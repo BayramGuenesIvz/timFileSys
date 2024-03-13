@@ -15,18 +15,19 @@
     "RefReactShowRepo":"http://127.0.0.1:9020/reactShowRepo/changes"
   },
   "EnabledInterfaces": {
-		"Keycloak":false,
+		"Keycloak":true,
     "ProxyImageStore":false,
     "UserNotifyService":false,
     "PublicationRepo":false,
     "RangeListService":false,
-    "MetaEntityRepo":true,
-    "ELSLayer":false
+    "MetaEntityRepo":false,
+    "ELSLayer":true
 	},
   "Imagestore":{
     "TimChannel":"/timFileSys/timchannel/dockerlocl/imagestore/"
   },
   "KeycloakSettings":{
+    "AuthUrl":"https://dev01-presse.mdh.cn.ard.de/auth",
     "Realm":"MDHPresse",
     "FrontEndLink":{
        "UrlPage":"http://localhost:17301/repo/ui/index",
@@ -62,8 +63,8 @@
      },
      "Server":{
        "ClientID":"tim_client",
-       "ConfigURL":"http://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
-       "ConfigURRScheme":"http",
+       "ConfigURL":"https://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
+       "ConfigURRScheme":"https",
        "UrlLogin":"http://localhost:17301/repo/ui/index/login",
        "UrlLogout":"http://localhost:17301/repo/ui/index/logout",
        "URLRedirect":"http://localhost:17301/repo/ui/index/oidc/callback",
@@ -86,7 +87,7 @@
   "Database": true,
   "PkgSvc": true,
   "Domain": true,
-	"Security":false
+	"Security":true
  }, 
  "DebugBusinessFunctions":{
   "DebuggableUnits":[
@@ -115,43 +116,58 @@
  },
  "ServiceProviderURIs":{
   "ProxyImageStore":{
+    "Protocol":"http",
     "Svc":"tim-ms-proxy-imagestore",
     "Port":"8080",
     "IngressPath":"poxy_imagestore",
     "Api":"api"
   },
   "UserNotifyService":{
+    "Protocol":"http",
     "Svc":"tim-ms-newsletter",
     "Port":"8080",
     "IngressPath":"newsletter",
     "Api":"tim"
   },
   "PublicationRepo": {
-		"Svc":"tim-ms-publication",       
+		"Protocol":"http",
+    "Svc":"tim-ms-publication",       
 		"Port":"8080",
 		"IngressPath":"publication",
 		"Api":"api"
 	},
   "RangeListService": {
+    "Protocol":"https",
     "Svc":"dev01-presse.mdh.cn.ard.de",
-    "Port":"80",
+    "Port":"443",
     "IngressPath":"rangelist",
     "Api":"api"
   },
   "MetaEntityRepo": {
+    "Protocol":"https",
     "Svc": "dev01-presse.mdh.cn.ard.de",
-    "Port": "80",
+    "Port": "443",
     "IngressPath": "metaEntities",
     "Api": "api/rest/v1/metaEntity"
   },
   "TimELSEngine": {
-   "Svc": "dev01-presse.mdh.cn.ard.de",
-   "Port": "80",
-   "IngressPath": "elsengine",
-   "Api": "api"
+    "Protocol":"https",
+    "Svc": "dev01-presse.mdh.cn.ard.de",
+    "Port": "443",
+    "IngressPath": "elsengine",
+    "Api": "api"
  },
  "NdbService": { 
-     "Svc": "https://normdbhotfix.ivz.cn.ard.de"
+     "Svc": "normdbhotfix.ivz.cn.ard.de",
+     "Port":    "443",
+		"Api": "",    
+		"Protocol": "https"
+  },
+  "Logger": { 
+    "Svc": "normdbhotfix.ivz.cn.ard.de",
+    "Port":    "443",
+		"Api": "",    
+		"Protocol": "https"
   }
   
 },

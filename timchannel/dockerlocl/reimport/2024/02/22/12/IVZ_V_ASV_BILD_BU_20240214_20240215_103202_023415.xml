@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_ASV_BILD_BU_20240214_20240215_103202_023415.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>ASV</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20240215</DATUM>
+            <UHRZEIT>103202</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>BIL@213648287_20240214</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>NDR Hamburg</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20240214</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20240215</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>103202</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>BI</AUSTAUSCH_KUERZEL>
+            <NUMMER>38</NUMMER>
+            <HERKUNFT>BIL</HERKUNFT>
+        </QUELLE>
+        <PERSONENLISTE>
+            <PERSON>
+                <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+                <NACHNAME>T. Biermann</NACHNAME>
+                <VORNAME>A. Opitz, S. Sievering, R. Stanger</VORNAME>
+            </PERSON>
+            <PERSON>
+                <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+                <NACHNAME>Kremers</NACHNAME>
+                <VORNAME>T.</VORNAME>
+            </PERSON>
+        </PERSONENLISTE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERLAG_METARUBRIK>Titelseite</VERLAG_METARUBRIK>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <SEITE>1</SEITE>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>EIN HERZ ZUM VALENTINSTAG</HAUPTTITEL>
+            <SONSTIGER_TITEL>Liebe ist / Titelseite</SONSTIGER_TITEL>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Von T. BIERMANN, A. OPITZ, S. SIEVERING, R. STANGER, T. KREMERS$NEW-BLOCK$Cumbria - Manchmal schreibt Mutter Natur die schönsten Geschichten.... Nach wochenlanger Trockenheit ist der Wasserspiegel im britischen Elterwater-Steinbruch so weit gesunken, dass pünktlich zum Valentinstag eine verborgene Herzform sichtbar wurde. Durch eine besondere chemische Verbindung in dem 500 Jahre altem Vulkangestein schimmert das Wasser dort leuchtend und türkisfarben. Mehr herzige Geschichten zum Valentinstag$NEW-BLOCK$... das schönste Gefühl. Am Valentinstag verraten Paare in BILD, was Sie an ihrem Partner lieben$NEW-BLOCK$Berlin - Heute ist der 14. Februar, der Tag der Liebe. Ein Tag, um seinem Liebsten/seiner Liebsten zu sagen, wie wichtig er oder sie im Leben geworden ist. Mit Blumen, Pralinen oder mit einfachen Worten. BILD fragte bei Paaren nach, wie sie ihre Liebe in Worte fassen würden.$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...wenn sie ihm das Leben rettet.&quot;$NEW-BLOCK$SIE sagt: &quot;...lange aufeinander zu warten. Ich war noch ein Kind und traurig, als er wegzog. Als er dann nach 30 Jahren wieder vor mir stand, war es wie damals. Wir haben sofort geheiratet.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$... sie zu fragen, ob sie den Rest ihres Leben mit dir verbringen möchte.$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...wenn keine Hürde zu groß ist.&quot; SIE sagt: &quot;...wenn er immer für mich da ist. Sascha ist das Beste, was mir passiert ist.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...im gleichen Büro zu sitzen und zu wissen, dass sie die Richtige ist.&quot; SIE sagt: &quot;...wenn er nach 60 Jahren noch genauso schön ist, wie damals.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$… zu erleben, wie er seine erste Geburtstagskerze auspustet.$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...wenn sie einfach wunderschön ist. Ich liebe ihre Haare, ihre Augen und natürlich auch ihren Charakter.&quot; SIE sagt: &quot;...wie Feuer und Wasser zu sein und sich perfekt zu ergänzen.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...dass sie mich jeden Tag auf die Palme bringt. Dass sie da ist. Dass sie die kleinen Sachen im Leben bestimmt und mir die großen überlässt.&quot; SIE sagt: &quot;...wenn er alles reparieren kann.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...wenn sie unfassbar gut kochen kann. Franziska ist schlau, sie ist schön, sie ist perfekt.&quot;$NEW-BLOCK$SIE sagt: &quot;...wenn er jeden Tag aufs Neue mein Herz erobert.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$... stärker als alle Elemente!$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...sich zu verstehen, ohne etwas gesagt zu haben. Nihilia vervollständigt mich.&quot; SIE sagt: &quot;... dass er mich versteht, obwohl ich selbst noch nicht genau weiß, was mit mir los ist.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...wenn sie wunderschön ist. Chris verwirklicht mir meine Träume.&quot; SIE sagt: &quot;...die gleichen Ideale zu haben. Er steht mir bei, wenn es mir nicht gut geht. Das liebe ich an ihm.&quot;$NEW-BLOCK$Liebe ist...$NEW-BLOCK$ER sagt: &quot;...loyal zu sein. Ich liebe alles an Maurizio. Er ist ein Mensch, der gern gibt, das zeichnet ihn aus.&quot; ER sagt: &quot;...sich unverfälscht freuen zu können. Hendrik hat das Kind in sich behalten.&quot;$NEW-BLOCK$Bildunterschrift: Anna (45) und Sebastian Dedek (47)$NEW-BLOCK$Bildunterschrift: Viktoria (36) und Sascha Wolff (38) aus Göttelborn (Saarland)$NEW-BLOCK$Bildunterschrift: Erika (81) und Joachim Pralle (79) aus Hannover$NEW-BLOCK$Bildunterschrift: Lilia (23) und Daniel (25) aus Berlin$NEW-BLOCK$Bildunterschrift: Petra (72) und Dieter (78) aus Berlin$NEW-BLOCK$Bildunterschrift: Franziska (55) und Dietmar (58) aus Berlin-Wilmersdorf$NEW-BLOCK$Bildunterschrift: Nihilia (29) und Ram (33) aus Berlin$NEW-BLOCK$Bildunterschrift: Neto (32) und Chris (38)$NEW-BLOCK$Fotonachweis: Fotos: HENNING SCHEFFEN, TIL BIERMANN, CHRISTIAN LOHSE, PRIVAT$NEW-BLOCK$Bildunterschrift: Hendrik (63) und Maurizio (51) aus Neuruppin (Brandenburg)$NEW-BLOCK$Kasten: BILD DES TAGES$NEW-BLOCK$Kastentitel: Woher kommt Valentinstag$NEW-BLOCK$Der Valentinstag hat seinen Namen vom heiligen Valentin, der im 3. Jahrhundert in Rom lebte. Er ist der Schutzpatron der Liebenden. Zu Lebzeiten traute er Paare nach christlichem Zeremoniell. Obwohl Kaiser Claudius II. es verboten hatte. Der Kaiser ließ Valentin am 14. Februar 269 enthaupten. Heute wandern zu seinen Ehren mehr als 100 Millionen Rosen über die Ladentheke - nicht zuletzt, weil Valentin den Paaren nach der Trauung Blumen geschenkt hatte.$NEW-BLOCK$Nur für rundfunkinternen Gebrauch, © AS AG, alle Rechte vorbehalten.</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

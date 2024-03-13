@@ -8,7 +8,7 @@
     "Database": true,
     "SharedFileSys": false,
     "CentralLogger": true,
-    "Keycloak": false,
+    "Keycloak": true,
     "ProxyImageStore": false
   },
   "MSUINavi": {
@@ -16,6 +16,7 @@
     "RefLogger": "http://127.0.0.1:17051/logcentral/ui/index"
   },
   "KeycloakSettings": {
+    "AuthUrl":"https://dev01-presse.mdh.cn.ard.de/auth",
     "Realm": "MDHPresse",
     "FrontEndLink": {
       "UrlPage": "http://localhost:17160/timloadchannelrui/ui/tcorders",
@@ -128,18 +129,21 @@
     "Security": false
   },
   "GinPingURL": {
+    "Protocol":"http",
     "Host": "tim-ms-load-channel-rui",
     "Port": "9990",
     "Path": "/mock_proxy_imagestore/api/health"
   },
   "ServiceProviderURIs": {
     "ProxyImageStore": {
+      "Protocol":"http",
       "Svc": "tim-ms-load-channel-rui",
       "Port": "9990",
       "IngressPath": "mock_proxy_imagestore",
       "Api": "api"
     },
     "TimLogger": {
+      "Protocol":"http",
       "Svc":"tim-ms-log-central",
       "Port":"8080",
       "IngressPath":"logcentral",

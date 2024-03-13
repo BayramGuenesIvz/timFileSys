@@ -11,7 +11,7 @@
       },
       "Indexname":"guenes_locl_mdhpresse",
       "LoadChannelList":["TimChannel","CSChange","IVZCvt","SAPMig"],
-      "NotifyWhenLoadingComplete":false
+      "NotifyWhenLoadingComplete":true
     }
   ]
 }
