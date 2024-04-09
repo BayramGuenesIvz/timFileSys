@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_ASV_BILD_BU_20240215_20240215_020127_023337.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>ASV</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20240215</DATUM>
+            <UHRZEIT>020127</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>BIL@213640673_20240215</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>NDR Hamburg</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20240215</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20240215</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>020127</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>BI</AUSTAUSCH_KUERZEL>
+            <NUMMER>39</NUMMER>
+            <HERKUNFT>BIL</HERKUNFT>
+        </QUELLE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERLAG_METARUBRIK>Titelseite</VERLAG_METARUBRIK>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <SEITE>1</SEITE>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>Leserbriefe</HAUPTTITEL>
+            <SONSTIGER_TITEL>Titelseite</SONSTIGER_TITEL>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Zu: Liebe ist...$NEW-BLOCK$Täglich in der Früh schicke ich meiner Frau ein Foto von dem Beitrag. Dies ist unser kleines Ritual. Die anderen schrecklichen Dinge, die täglich passieren, sind schlimm genug und dieser kleine Satz macht für mich die BILD sehr menschlich.$NEW-BLOCK$Peter Hlavac, München$NEW-BLOCK$Ich liebe meine Frau, auch nach 40 Ehejahren und nicht nur am Valentinstag. Ich bringe meiner Frau auch öfters Blumen mit, nur nicht am 14. Februar.$NEW-BLOCK$Mathias Laforsch, Langen (Hessen)$NEW-BLOCK$Zu: Bürokratie-Wahnsinn!$NEW-BLOCK$Ich bin so dankbar über diesen Bericht und würde mich sehr freuen, wenn BILD regelmäßig darauf aufmerksam machen würde.$NEW-BLOCK$Friedrich Maurer, Weingarten (Baden-Württembeg)$NEW-BLOCK$Seit Jahren verspricht die Politik diesen Irrsinn abzuschaffen, es passiert aber überhaupt nichts.$NEW-BLOCK$Friedrich Lohmann, Scheeßel (Niedersachsen)$NEW-BLOCK$Zu: Bargeldloses Bezahlen immer beliebter$NEW-BLOCK$Ich zahle lieber mit Bargeld, da hat man mehr Kontrolle.$NEW-BLOCK$Jens Curda, Otterbach (Rheinland-Pfalz)$NEW-BLOCK$Kasten: Fax 030/25 91 76 336 E-Mail Leserbriefe@bild.de Einsendung bitte mit Namen, vollständiger Adresse und Handynummer. Hinweise zum Datenschutz siehe Impressum$NEW-BLOCK$Nur für rundfunkinternen Gebrauch, © AS AG, alle Rechte vorbehalten.</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

@@ -28,7 +28,7 @@
     "RefCSExporter": "http://dev01-presse.mdh.cn.ard.de/cs_exporter/dashboard"
   },
   "KeycloakSettings": {
-    "AuthUrl":"https://dev01-presse.mdh.cn.ard.de/auth",
+    "AuthUrl":"https://presse3.mdh.cn.ard.de/auth",
     "Realm": "MDHPresse",
     "FrontEndLink": {
       "UrlPage": "http://localhost:17201/datareceiver/ui/index",
@@ -44,7 +44,7 @@
     },
     "Server": {
       "ClientID": "tim_client",
-      "ConfigURL": "https://dev01-presse.mdh.cn.ard.de/auth/realms/MDHPresse",
+      "ConfigURL": "https://presse3.mdh.cn.ard.de/auth/realms/MDHPresse",
       "ConfigURRScheme": "https",
       "UrlLogin": "http://localhost:17201/datareceiver/ui/index/login",
       "UrlLogout": "http://localhost:17201/datareceiver/ui/index/logout",
