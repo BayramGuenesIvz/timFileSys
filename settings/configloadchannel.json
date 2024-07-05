@@ -57,14 +57,12 @@
       },
       "Producer":{
         "Pressespiegel":{
-          "ThisStagePath":"",
-          "ProdStagePath":"",
+          "StagePathList":[""],
           "Distributor":{
-            "Stage":"",
-            "ProducerSourcePath":"",
-            "DistributeRootPath":"",
-            "DistributeChildPaths":[],
-            "RemoveFilesFromPathProducer":false
+            "Distribute": false,
+            "DistributeFrom":"",
+            "DistributeTo":[],
+            "RemoveFilesFrom":false
           }
         },
         "Techdocs":"/path/timchannel/techdocs/"
