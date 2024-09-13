@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_VHB_HB_20240723_20240723_131409_052800.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>VHB</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20240723</DATUM>
+            <UHRZEIT>131409</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>HB@4EA25276-2696-4D9C-8F27-BB24EC9C5C73_BG003</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>WDR Köln</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20240723</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20240723</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>131409</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>HB</AUSTAUSCH_KUERZEL>
+            <NUMMER>140</NUMMER>
+            <HERKUNFT>HB</HERKUNFT>
+        </QUELLE>
+        <PERSONENLISTE>
+            <PERSON>
+                <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+                <NACHNAME>Dörner</NACHNAME>
+                <VORNAME>Astrid</VORNAME>
+            </PERSON>
+            <PERSON>
+                <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+                <NACHNAME>Holtermann</NACHNAME>
+                <VORNAME>Felix</VORNAME>
+            </PERSON>
+        </PERSONENLISTE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERSCHLAGWORTUNGSLISTE>
+                <SCHLAGWORT>
+                    <FELD_NAME>PAGEFILE</FELD_NAME>
+                    <KATEGORIE_KUERZEL>SONST</KATEGORIE_KUERZEL>
+                    <SCHLAGWORT_TEXT>2024/202407/20240723/PDFHB20240723006.pdf</SCHLAGWORT_TEXT>
+                </SCHLAGWORT>
+                <SCHLAGWORT>
+                    <FELD_NAME>seite</FELD_NAME>
+                    <KATEGORIE_KUERZEL>SONST</KATEGORIE_KUERZEL>
+                    <SCHLAGWORT_TEXT>6</SCHLAGWORT_TEXT>
+                </SCHLAGWORT>
+            </VERSCHLAGWORTUNGSLISTE>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <EXTERNE_INDEXATE>
+            <INDEXAT>
+                <INDEXQUELLE>HB</INDEXQUELLE>
+                <INDEXITEM>
+                    <KATEGORIE>Firma</KATEGORIE>
+                    <KATEGORIE_KUERZEL>FA</KATEGORIE_KUERZEL>
+                    <WERT>Republican Party Republikanische Partei USA</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Person</KATEGORIE>
+                    <KATEGORIE_KUERZEL>P</KATEGORIE_KUERZEL>
+                    <WERT>Vance, J.D.</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>GES Gesellschaft und soziales Leben</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>IPO Innenpolitik und Staat</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>INB Internationale Beziehungen</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>IPO-23 Partei</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>IPO-26 Politiker</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>IPO-30 Staatsoberhaupt</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>IPO-33 Wahl</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>IPO-33-05 Wahlkampf</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>WIR Wirtschaft und Konjunktur</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Schlagwort</KATEGORIE>
+                    <KATEGORIE_KUERZEL>SW</KATEGORIE_KUERZEL>
+                    <WERT>Wirtschaft und Konjunktur</WERT>
+                </INDEXITEM>
+                <INDEXITEM>
+                    <KATEGORIE>Land</KATEGORIE>
+                    <KATEGORIE_KUERZEL>L</KATEGORIE_KUERZEL>
+                    <WERT>USA C1USA</WERT>
+                </INDEXITEM>
+            </INDEXAT>
+        </EXTERNE_INDEXATE>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <ARTIKEL_IMAGE>
+            <DATEINAME>I_IVZ_HB_20240723_PDFHB20240723006.pdf_1579811.PDF</DATEINAME>
+            <FORMAT>2</FORMAT>
+        </ARTIKEL_IMAGE>
+        <SEITE>6</SEITE>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>48 Stunden vor dem Rückzug: Protokoll einer folgenreichen Entscheidung</HAUPTTITEL>
+            <SONSTIGER_TITEL>RÜCKBLICK</SONSTIGER_TITEL>
+            <SEITENTITEL>Specials</SEITENTITEL>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Auf einmal ist sie da, die Nachricht, die seit drei Wochen wie wohl keine zweite in den USA antizipiert wurde. Es sei &quot;im besten Interesse meiner Partei und des Landes, wenn ich von meiner Kandidatur zurücktrete&quot;, erklärte US-Präsident Joe Biden auf den Plattformen X und Instagram. Es ist Sonntag, 13.46 Uhr an der US-Ostküste, und obwohl viele Beobachter auf diese Ankündigung gewartet hatten, löst sie dennoch eine Art politisches Beben aus.$NEW-BLOCK$$NEW-BLOCK$Es ist eine Entscheidung, &quot;die historisch mit nichts vergleichbar ist&quot;, sagt Frank Kelly, Geschäftsführer der auf politische Risiken spezialisierten Beratungsfirma Fulcrum Macro Advisors, dem Handelsblatt. Biden ist der erste amtierende Präsident seit Lyndon B. Johnson 1968, der auf eine mögliche Wiederwahl verzichtet.$NEW-BLOCK$$NEW-BLOCK$Fast 30 Minuten später folgt ein zweiter Post, in dem sich Biden explizit dafür starkmacht, dass seine Vizepräsidentin Kamala Harris nun die Kandidatin der Demokratischen Partei werden soll.$NEW-BLOCK$$NEW-BLOCK$Für kurze Zeit herrscht Verwirrung am frühen Samstagnachmittag: Sind die Posts echt? Oder ein Fake? Beobachter wundert, dass sie vom Privataccount Bidens abgesetzt werden, nicht vom offiziellen Präsidenten-Account. Auch das Weiße Haus und Bidens Wahlkampfteam können die Nachricht zunächst nicht bestätigen.$NEW-BLOCK$$NEW-BLOCK$Noch am Freitag hatte sein Team erklärt, Biden werde kommende Woche seinen Wahlkampf fortsetzen. Am Sonntag um 11.17 Uhr verschickte Bidens Wahlkampfteam noch eine E-Mail, in der sich mehrere Demokraten in den wichtigen Swingstates für den US-Präsidenten aussprachen.$NEW-BLOCK$$NEW-BLOCK$Dann aber bestätigt unter anderem First Lady Jill Biden die Richtigkeit der Erklärung. Der Grund für die Verwirrung: Bidens engste Mitarbeiter wurden erst um 13.45 Uhr, also nur eine Minute vor dem Post, über die Entscheidung informiert, um &quot;Leaks&quot; zu vermeiden, wie die &quot;New York Times&quot; berichtete. Für den in den vergangenen Wochen zunehmend getrieben wirkenden Präsidenten war das wohl die letzte Chance, die eigene Handlungsfähigkeit vollumfänglich zu bewahren und nach außen zu demonstrieren. So habe Biden seine Entscheidung &quot;auf seine Weise&quot; verkünden und die Intrigen und undichten Stellen vermeiden können, die seinen Wahlkampf in den vergangenen Wochen beschädigt hätten, sagt ein Insider.$NEW-BLOCK$$NEW-BLOCK$Biden verbrachte das Wochenende nicht im Weißen Haus, sondern in seinem Ferienhaus in Rehoboth, am Atlantik im US-Bundesstaat Delaware. Der Präsident hat Covid und sich dort selbst isoliert. 48 Stunden ringt er mit der Entscheidung. &quot;Ich brauche dich und Mike im Haus&quot;, gibt Präsident Biden am späten Samstagnachmittag laut dem Bericht telefonisch durch. Am Apparat sind Steve Ricchetti, einer seiner engsten Berater, und Mike Donilon, sein Chefstratege. Dann arbeitet das Trio bis spät in die Nacht an Bidens Erklärung - zugleich eine Art Vermächtnis des Präsidenten.$NEW-BLOCK$$NEW-BLOCK$Donilon übernimmt dabei laut &quot;New York Times&quot; die Aufgabe, mit Biden an dem Entwurf der Erklärung zu arbeiten. Ricchetti ist für die Planung der nächsten Schritte verantwortlich - unter anderem die wichtige Frage, wann die Mitarbeiter informiert werden sollten. Unklar ist, wann genau Vizepräsidentin Harris von Bidens Entscheidung erfährt - wohl erst am Sonntag, wie US-Medien berichten.$NEW-BLOCK$$NEW-BLOCK$Wochenlang hatte Biden versucht, die Debatte von seinem Gesundheitszustand hin zu den Versäumnissen seines Rivalen Donald Trump zu lenken. Doch ohne Erfolg. Der Schock nach dem verpatzten TV-Duell gegen Trump sitzt tief, bei Wählern, bei Geldgebern und in der eigenen Partei. Und seit dem Attentat auf Trump hat der Republikaner noch einmal beim Stimmungstrend zugelegt.$NEW-BLOCK$$NEW-BLOCK$Nachdem seine Entscheidung steht, soll Biden seine Familie informiert haben, meldet der Nachrichtensender CNN. Seine Tochter Ashley und sein Schwiegersohn Howard seien am Sonntag nach Rehoboth gefahren, um in dieser aufwühlenden Zeit bei ihm zu sein.$NEW-BLOCK$$NEW-BLOCK$Nur Minuten, bevor er sein Rücktrittsschreiben veröffentlicht, habe der Präsident seine Kommunikationschefin Anita Dunn informiert, wie die &quot;New York Times&quot; berichtet. Der Präsident liest ihr den Brief vor und bedankt sich bei seinen Mitarbeitern für ihre Arbeit.$NEW-BLOCK$$NEW-BLOCK$Biden ist niemand, der wichtige Entscheidungen überstürzt trifft. Lange habe er die Sachlage abgewogen, heißt es bei CNN, und sich Umfragewerte aus wichtigen Swingstates zeigen lassen. Und die Botschaft war eindeutig: Biden fiel immer stärker hinter seinen Herausforderer Trump zurück.$NEW-BLOCK$$NEW-BLOCK$Langsam, aber sicher sei der Präsident &quot;empfänglich&quot; geworden für Gespräche über seinen Rücktritt. Lange habe er gedacht: &quot;Kamala kann nicht gewinnen.&quot; Am Ende habe sich seine Aussage in eine Frage gewandelt: &quot;Glauben Sie, dass Kamala gewinnen kann?&quot;, zitiert CNN einen hochrangigen Berater.$NEW-BLOCK$$NEW-BLOCK$Auch Stunden nachdem Biden seine Entscheidung verkündet hat, bleibt Unsicherheit: So ist am Sonntagabend in Washington immer noch nicht klar, wann Biden sich nun an das Volk wenden will. Sein Leibarzt lässt mitteilen, dass es Biden nach der Covid-Infektion schon deutlich besser gehe. Doch wann der Präsident vor die Kameras tritt, um sich an die Nation zu wenden, bleibt vorerst offen - höchst ungewöhnlich, wie es bei Beobachtern heißt. Ein Berater nennt die Covid-Infektion, die ihn immer noch heiser klingen lasse, als Grund für die lange Verzögerung.$NEW-BLOCK$$NEW-BLOCK$Die Republikaner konzentrierten umgehend darauf, Bidens gewünschte Nachfolgerin Kamala Harris anzugreifen - und dem Präsidenten die Eignung für seine verbleibenden Monate im Amt abzusprechen. Nur 45 Minuten nach Bidens Rückzug erklärte Trump auf seiner Plattform Truth Social, der 81-Jährige sei &quot;nicht geeignet, für das Amt des Präsidenten zu kandidieren, und er ist sicherlich nicht geeignet, das Amt auszuüben&quot;. Auch andere führende Republikaner, darunter der Sprecher des Repräsentantenhauses Mike Johnson, erklärten wenig später, Biden sei nicht fit genug, um seine Amtszeit zu beenden. Johnson forderte Biden ausdrücklich zum Rücktritt auf. &quot;Präsident Trump und ich sind bereit, Amerika zu retten, egal, wer an der Spitze der Demokraten steht&quot;, schrieb Trumps Vize-Präsidentschaftskandidat J. D. Vance auf der Plattform X. Harris habe Bidens Klima- und Migrationspolitik mitgestaltet. &quot;Sie ist für all diese Misserfolge verantwortlich.&quot;$NEW-BLOCK$$NEW-BLOCK$Bei den Demokraten herrschte Erleichterung, aber auch das Bemühen, Bidens Erfolge und seinen jahrzehntelangen Dienst in der Politik herauszustreichen. Die früheren Präsidenten Bill Clinton und Barack Obama betonten Bidens Verdienste. &quot;Joe Biden ist einer der bedeutendsten Präsidenten Amerikas und ein guter Freund und Partner für mich. Heute wurden wir auch - wieder einmal - daran erinnert, dass er ein Patriot von höchstem Rang ist&quot;, erklärte Obama. Doch während Clinton betonte, seine Frau Hillary und er &quot;werden alles dafür tun, Kamala Harris zu unterstützen&quot;, gab Obama keine entsprechende Unterstützungserklärung ab. &quot;Ich bin außerordentlich zuversichtlich, dass die Führer unserer Partei in der Lage sein werden, einen Prozess in Gang zu setzen, aus dem ein hervorragender Kandidat hervorgehen wird&quot;, schrieb Obama.$NEW-BLOCK$$NEW-BLOCK$Harris soll sich im Vorfeld schon diskret die Unterstützung wichtiger Kongressmitglieder gesichert haben für den Fall, dass Biden zurücktritt, berichtete CNN. Das erkläre das starke positive Feedback, das die Vize-Präsidentin in kürzester Zeit bekam.$NEW-BLOCK$$NEW-BLOCK$Doch ihr Weg wird nicht einfach werden. &quot;Sie kommt in den Swingstates nicht gut an&quot;, gibt ein Investor in New York zu bedenken, der auf ein breiteres Auswahlverfahren setzt. &quot;Wenn man einfach Harris durchwinkt, ändert sich an der schlechten Ausgangsposition der Demokraten wenig bis gar nichts.&quot;$NEW-BLOCK$$NEW-BLOCK$Und während sich die Demokraten nach Bidens historischem Rückzug noch neu sortieren, ist eines am Sonntag aber sehr klar geworden: Es wird ein völlig anderer Wahlkampf werden als erwartet.$NEW-BLOCK$$NEW-BLOCK$ZITATE FAKTEN MEINUNGEN$NEW-BLOCK$$NEW-BLOCK$Präsident Trump und ich sind bereit, Amerika zu retten, egal, wer an der Spitze der Demokraten steht. J. D. Vance Running Mate von Donald Trump</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

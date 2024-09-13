@@ -1,9 +1,19 @@
 { 
-  "Schemaprefix":"",
-  "ORA_Schemaprefix":"",
-  "UseDBDriver":"mysql",
-  "DB_Schema":"timrepo", 
-  "ORA_DB_Schema":"timrepo",
+  "Schemaprefix": "dev02_",
+  "ORA_Schemaprefix": "DEV02_",
+  "UseDBDriver": "godror",
+  "DB_Schema": "pressetimrepo",
+  "ORA_DB_Schema": "timrepo", 
+  "ORAIF?Schemaprefix": "dev02_",
+  "ORAIF?ORA_Schemaprefix": "DEV02_",
+  "ORAIF?UseDBDriver": "godror",
+  "ORAIF?DB_Schema": "pressetimrepo",
+  "ORAIF?ORA_DB_Schema": "timrepo",
+  "MARIADBIF?SchemaprefixMARIADB":"",
+  "MARIADBIF?ORA_Schemaprefix":"",
+  "MARIADBIF?UseDBDriver":"mysql",
+  "MARIADBIF?DB_Schema":"timrepo", 
+  "MARIADBIF?ORA_DB_Schema":"timrepo",
   "SuppressWriteLogsToFileSys":true,
   "StartOffsetTimEntityChange": 5000000000,
   "StartOffsetTimEntityChangePrio1": 10000000000,
@@ -15,7 +25,7 @@
     "RefReactShowRepo":"http://127.0.0.1:9020/reactShowRepo/changes"
   },
   "EnabledInterfaces": {
-		"Keycloak":true,
+		"Keycloak":false,
     "ProxyImageStore":false,
     "UserNotifyService":false,
     "PublicationRepo":false,
@@ -130,29 +140,29 @@
     "Api":"tim"
   },
   "PublicationRepo": {
-		"Protocol":"http",
-    "Svc":"tim-ms-publication",       
-		"Port":"8080",
-		"IngressPath":"publication",
-		"Api":"api"
+		"Protocol":"https",
+    "Svc":"presse3-eval.mdh.cn.ard.de",
+    "Port":"443",
+    "IngressPath":"publication",
+    "Api":"api"
 	},
   "RangeListService": {
     "Protocol":"https",
-    "Svc":"dev01-presse.mdh.cn.ard.de",
+    "Svc":"presse3-eval.mdh.cn.ard.de",
     "Port":"443",
     "IngressPath":"rangelist",
     "Api":"api"
   },
   "MetaEntityRepo": {
     "Protocol":"https",
-    "Svc": "dev01-presse.mdh.cn.ard.de",
+    "Svc": "presse3-eval.mdh.cn.ard.de",
     "Port": "443",
     "IngressPath": "metaEntities",
     "Api": "api/rest/v1/metaEntity"
   },
   "TimELSEngine": {
     "Protocol":"https",
-    "Svc": "dev01-presse.mdh.cn.ard.de",
+    "Svc": "presse3-eval.mdh.cn.ard.de",
     "Port": "443",
     "IngressPath": "elsengine",
     "Api": "api"

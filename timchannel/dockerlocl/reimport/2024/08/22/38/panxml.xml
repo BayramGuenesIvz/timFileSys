@@ -1,0 +1,64 @@
+<ARTIKEL>
+<AUSTAUSCH_STEUERUNG>
+<AUSTAUSCH_ID>IVZ_S_NB_BILMV_20220603_20220603_114202_114562.xml</AUSTAUSCH_ID>
+<LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+<LIEFERANT_TYP>S</LIEFERANT_TYP>
+<LIEFERANT>NDR Schwerin</LIEFERANT>
+<VERARBEITUNGSSTATUS>
+<STATUS>ok</STATUS>
+<DATUM>20220603</DATUM>
+<UHRZEIT>114202</UHRZEIT>
+<XMLERZEUGER>IVZ</XMLERZEUGER>
+</VERARBEITUNGSSTATUS>
+</AUSTAUSCH_STEUERUNG>
+<METADATEN>
+<EXTERNE_ARTIKEL_ID>BG13325NDR@NDS71449_20220603</EXTERNE_ARTIKEL_ID>
+<TXTART>Print-Presseartikel</TXTART>
+<DOKUMENTATIONSSTELLE>NDR Schwerin</DOKUMENTATIONSSTELLE>
+<DOKUMENTATIONSSTATUS>4</DOKUMENTATIONSSTATUS>
+<ERSCHEINUNGSDATUM>20220603</ERSCHEINUNGSDATUM>
+<ERFASSUNGSDATUM>20220603</ERFASSUNGSDATUM>
+<ERFASSUNGSZEIT>114202</ERFASSUNGSZEIT>
+<QUELLE>
+<AUSTAUSCH_KUERZEL>BILMV</AUSTAUSCH_KUERZEL>
+<HERKUNFT>NDR</HERKUNFT>
+</QUELLE>
+<PERSONENLISTE>
+<PERSON>
+<KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+<NACHNAME>Wittwer</NACHNAME>
+<VORNAME>Adrian</VORNAME>
+</PERSON>
+</PERSONENLISTE>
+<DESKRIPTORENLISTE>
+<DESKRIPTOR>
+      <SAP_KEY>5430</SAP_KEY>
+      <KATEGORIE_KUERZEL>SACH</KATEGORIE_KUERZEL>
+      <DESKRIPTORENTEXT>Staatliche Auszeichnung</DESKRIPTORENTEXT>
+      <MANUELL_ERFASST>false</MANUELL_ERFASST>
+    </DESKRIPTOR>s
+<DESKRIPTOR>
+<KATEGORIE_KUERZEL>GEO</KATEGORIE_KUERZEL>
+<DESKRIPTORENTEXT>Deutschland</DESKRIPTORENTEXT>
+</DESKRIPTOR>
+</DESKRIPTORENLISTE>
+<PRAESENTATIONSFORM_LISTE>
+<PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+</PRAESENTATIONSFORM_LISTE>
+<ARTIKEL_IMAGE>
+<DATEINAME>I_IVZ_NB_BILMV_20220603_20220603_0002_114562.PDF</DATEINAME>
+<FORMAT>1</FORMAT>
+<ANZAHL_A4_SEITEN>2</ANZAHL_A4_SEITEN>
+</ARTIKEL_IMAGE>
+<SEITE>12</SEITE>
+</METADATEN>
+<INHALT>
+<TITEL>
+<HAUPTTITEL>INSPIRIERT</HAUPTTITEL>
+</TITEL>
+<VOLLTEXT>
+<TEXT>Von ADRIAN WITTWER Die Basketballer der Rostock Seawolves erstklassig! Nachdem man die Saison gebührend bejubelt hat, heißt es nun: raus aus den Feierlichkeiten, rein in die Saisonplanung.$NEW-BLOCK$Manager Jens Hakanowitz (42) nach ersten Sponsorengesprächen: "Wir spüren eine Begeisterung, haben viele Zusagen bekom men." Die müssen in den nächsten Wochen vertraglich fixiert werden, um den Etat stem men zu könnenVon der Bundesliga vorgeschrieben ist ein Mindest-Budget von 2,75 Mio.$NEW-BLOCK$Euro. die Seawolves planen mit 3 Mio.$NEW-BLOCK$oder sogar noch mehr? Hakanowitz: "Wir arbeiten aktu ell daran, das noch etwas aufzustocken." Ein Sponsor für den Klubnamen könnte einen Schub geben.$NEW-BLOCK$Seawolves-Boss André Jürgens (44): "Wir beschäftigen uns mit diesem Thema, haben Anfragen. Aber dafür muss vieles passen" Weiterer Eckpunkt: 2000 Dauerkarten will man für die Stadthalle (Kapazität: 4500 Fans) verkaufen, vorige Saison waren es 1100.$NEW-BLOCK$Und sportlich? Hakanowitz weiß "Du brauchst zehnSiege, um die Klasse zu halten. Das heißt, du musst jedes dritte Spiel gewinnen! Fakl ist: Ohne hochkarätige Neuzugänge sind wir nicht in der Lage, Fuß zu fassen. Die Rolle-n-5'n Team werden sich verändern.$NEW-BLOCK$Wer letzte Saison in der ersten Reihe stand, steht nun tendenziell in der zweiten. Dann gilt es, die erste Reihe aus einem anderen Regal zu füllen." </TEXT>
+<STATUS>2</STATUS>
+</VOLLTEXT>
+</INHALT>
+</ARTIKEL>

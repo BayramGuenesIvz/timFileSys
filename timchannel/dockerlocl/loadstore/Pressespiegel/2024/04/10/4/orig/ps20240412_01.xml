@@ -1,0 +1,469 @@
+<!-- Add XML Data -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Header>
+<wdr:Hostname xmlns:wdr="http://intern.wdr.de/pressespiegel" SOAP-ENV:mustUnderstand="1">EPSE</wdr:Hostname>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<pressespiegel_request:pressespiegel_request xmlns:pressespiegel_request="http://intern.wdr.de/pressespiegel">
+<PRESSESPIEGEL xmlns="http://intern.wdr.de/pressespiegel">
+<PSP_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/PS12Uhr20240410.pdf</PSP_IMAGE_URI>
+<PSP_ART>12Uhr</PSP_ART>
+<PSP_AUSGABENR>
+<!-- @(editionnumber) -->
+</PSP_AUSGABENR>
+<PSP_ID>20240410_12Uhr</PSP_ID>
+<PSP_ERSCHEINUNGSDATUM>20240410</PSP_ERSCHEINUNGSDATUM>
+<PSP_IMAGE_TYPVERSION>1.4</PSP_IMAGE_TYPVERSION>
+<PSP_ARD_ANSTALT>WDR</PSP_ARD_ANSTALT>
+
+<ARTIKEL_LISTE>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032621715</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240326</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Die WDR Angebotswelt – intuitiv, transparent, für alle</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Dr. Christian Jörres (Product Owner Angebotswelt) und Tobias Baum (stellvertretender Leiter Angebotsmanagement)  Was ist die Angebotswelt?  Tobias Baum (stellv. Leiter des WDR Angebotsmanagements): Die WDR Angebotswelt ist das digitale Herzstück der WDR Angebotssteuerung – eine Datenbank, in der wir all unsere WDR Angebote sammeln und mit weiteren Daten, wie Zielgruppe, Inhaltskategorie, Programmauftrag und in der Zukunft auch Nutzungsdaten, zusammenführen. Die Angebotswelt zahlt somit direkt auf unser gemeinsames Unternehmensziel ein, das datenbasierte Arbeiten im WDR voranzubringen.  Wofür brauchen wir sie? Was hat der WDR davon?  Tobias Baum: Möglichst alle Nutzerinnen und Nutzer sollen im WDR Gesamtangebot für sie passende Angebote finden – das ist unser gemeinsamer Auftrag. Um das zu erreichen, brauchen wir als WDR ein Tool, das uns den Überblick über all unsere Angebote und die Menschen, die wir mit diesen Angeboten ansprechen wollen, ermöglicht. Genau dafür wurde die WDR Angebotswelt entwickelt – mit ihrer Hilfe können wir Lücken und Doppelungen identifizieren und gemeinsam unser WDR Gesamtangebot weiterentwickeln.  Woher kommen die Daten?  Dr. Christian Jörres, Product Owner Angebotswelt (WDR Dateneinheit): In der aktuellen Version 1.0 der Angebotswelt kommen die Daten für ein Angebote aus den Redaktionen, die die einzelnen Angebote verantworten. Oft sind die benötigten Informationen bereits vorhanden gewesen, allerdings konnten sie bisher nicht einheitlich dokumentiert werden. Diese essenzielle Aufgabe übernehmen derzeit die Angebotsexpert:innen der Programmbereiche.  Parallel arbeiten wir in der Dateneinheit daran, Nutzungsdaten der verschiedenen Verbreitungswege zusammenzutragen. Die Zusammenführung der Daten erfolgt dann Plattform für Plattform. Dafür bauen wir gerade ein eigenes Team auf, um strategisches, fachliches und technisches Wissen aus dem Angebotsmanagement, der Medienforschung und der Dateneinheit zu bündeln und das datenbasierte Arbeiten im WDR zu stärken.  Wer kann sie nutzen? Für wen ist die Angebotswelt?  Dr. Christian Jörres: Die Angebotswelt ist für jeden im Haus über angebote.wdr.de abrufbar. Der individuelle Nutzen ist dabei, wie bei jedem Tool, stark abhängig von den jeweiligen Aufgaben. Als Beispiel fällt mir die Distributionsmanagerin ein, die nach einem Ansprechpartner zur Kollaboration mit einem Angebot sucht, dass die gleiche Zielgruppe adressiert. Ebenso unterstützt die Angebotswelt Aufgaben im Marketing und im Archiv. Wir freuen uns über jeden weiteren Use-Case, der an uns herangetragen wird. Für alle anderen ist die Angebotswelt eine Einladung durch das Gesamtangebot des WDR - an dem wir alle tagtäglich mitwirken - zu stöbern und so neue Inhalte für sich zu entdecken.  Kann mit den aktuellen Daten jetzt schon ermittelt werden, wo der WDR Angebote doppelt bietet und welche Zielgruppen er gar nicht erreicht?  Tobias Baum: Das geht im Moment leider noch nicht. Gerade sind wir in einer Phase, in der fast alle Angebote in die Datenbank eingetragen wurden, aber wichtige weitere Datenfelder – besonders rund um die Zielgruppen – noch offen sind. In den nächsten Wochen finden in den Redaktionen dazu zahlreiche Workshops statt – organisiert werden diese Workshops von den Angebotsexpert:innen der Programmbereiche. Unser gemeinsamer Plan ist es, dass wir den Datensatz bis zum Sommer so weit befüllen, dass erste Analysen des Gesamtangebots möglich sind.  Sind wir im WDR Vorreiter oder haben die anderen LRA und die ARD auch so ein System, so dass wir alle Angebote vergleichen können?  Tobias Baum: In vielen Landesrundfunkanstalten der ARD werden gerade Überlegungen vorgenommen, wie man das jeweilige Angebots-Portfolio überblicken und steuern kann. Und ja, auch das Thema Datenbank spielt dabei in vielen Häusern eine große Rolle. Mit der WDR Angebotswelt sind wir in der ARD sehr weit und es laufen schon einige Gespräche darüber, ob auch andere Landesrundfunkanstalten die Angebotswelt für sich einsetzen können. Vielleicht schaffen wir es ja, mit unserer Angebotswelt eine Datenbank für alle Angebote in der ARD zu etablieren. Das wäre ein riesiger Schritt.</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT>Die Angebotswelt des WDR ist online. Mit der Bündelung des gesamten WDR-Programms in einer Datenbank ist ein weiterer Schritt Richtung Unternehmensziele getan. Die digitale Heimat aller Menschen in NRW zu sein – das ist das Ziel des WDR für die nahe Zukunft. Ein Schritt dahin ist der Launch der Angebotswelt der Dateneinheit, des Programm- und Angebotsmanagements, auf der alle Angebote des WDR – linear, digital oder auch Konzerte – gebündelt abrufbar sind. Wir haben mit Dr. Christian Jörres, Product Owner der Angebotswelt und Tobias Baum, stellvertretender Leiter des Angebotsmanagements, über das neue Angebot gesprochen.</ARTIKEL_AUTOABSTRACT>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032621715.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>1</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032621714</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240326</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Wahlvorstand: Personalratswahl am 04./05. Juni</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Der Wahlvorstand hat das so genannte Wahlausschreiben veröffentlicht. Mit diesem Dokument werden alle Eckpunkte der bevorstehenden Personalratswahl offiziell festgelegt. Wichtigste Info für die Wählerinnen und Wähler: Am 04./05. Juni wird gewählt.   Auch bei dieser Personalratswahl werden wieder Briefwahlunterlagen einige Wochen vor dem Wahltermin an alle Wählerinnen und Wähler verschickt, so dass die Stimmzettel bequem zu Hause ausgefüllt werden können. Am 04. und 05.06. kann persönlich gewählt werden.   Wer sich unsicher ist, ob er bei der Personalratswahl mitwählen darf, kann das offizielle Wahlverzeichnis überprüfen. Es ist während der Öffungszeiten beim Empfang des Vierscheibenhauses einsehbar.   Zunächst müssen nun aber die Wahlvorschläge beim Wahlvorstand abgegeben werden, damit diese geprüft und zugelassen werden können. Alle Einzelheiten stehen im offiziellen Wahlausschreiben, das am offiziellen Aushang im Foyer des Vierscheibenhauses ausgehängt ist und auch per Mail an alle Beschäftigten versendet wird.   Für Rückfragen steht der Wahlvorstand unter PR-Wahl2024@wdr.de zur Verfügung oder persönlich nach Terminvereinbarung. Das Wahlbüro befindet sich im Raum VSH 409.   Alle offiziellen Eckdaten zur Personalratswahl: •    • Wahlausschreiben vom 26.03.2024, PDF 415,74 KB</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032621714.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>2</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032521713</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL>Vom 25. März bis zum 5. April ist die Nord-Süd-Fahrt nur eingeschränkt befahrbar.</ARTIKEL_UNTERTITEL>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240325</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Teilweise Sperrung der Nord-Süd-Fahrt</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Die Nord-Süd-Fahrt (Tunisstraße) wird ab dem 25. März, 6:00 Uhr, bis zum 5. April, 17:00 Uhr nur eingeschränkt befahrbar sein. Die jeweils die innenliegende Fahrbahnspur unter dem Archivhaus wird während dieses Zeitraums auf beiden Seiten gesperrt. Die äußeren Fahrbahnen in beide Richtungen bleiben weiterhin befahrbar.   Grund für die teilweise Sperrung sind Messungen an den Betonpfeilern des Archivhauses im Rahmen von Sicherheitsprüfungen.   Die Maßnahme erfolgt in enger Abstimmung mit dem Amt für Straßen und Verkehrstechnik der Stadt Köln. Wir bitten alle Verkehrsteilnehmer:innen um Verständnis für mögliche Unannehmlichkeiten und empfehlen, alternative Routen zu nutzen, um Verzögerungen zu vermeiden.   Bei Fragen wenden Sie sich bitte direkt an die zuständige Objektleitung Gerd Szczepanski, Tel: 0173 72 34 817, Mail: gerd.szczepanski@wdr.de   Text: WDR / Abteilung Gebäudebetrieb</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032521713.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>3</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032521712</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL>Der langjährige WDR-Redakteur ist am 8. März 2024 im Alter von 66 Jahren gestorben. In einem digitalen Kondolenzbuch sammeln wir Ihre Gedanken zum Tod des Kollegen.</ARTIKEL_UNTERTITEL>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240325</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Im Gedenken an Holger Hülsmeyer</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT> Holger Hülsmeyer war ein guter Kollege, vielen ein Freund und ein kreativer Kopf. Im WDR Studio Münster hat sein Weg im WDR begonnen. Dann wechselte er nach Dortmund zu WDR 2 und erfand die "Westzeit" mit. Anschließend gehörte er zum Team fürs neue WDR 4. Fast 33 Jahre hat er für den WDR gearbeitet bevor er vor 4 Jahren in seinen Holger-Un-Ruhestand ging und sich noch mehr für seine Familie, seine Hilfsprojekte und seine Kunst engagierte. Sein Tod hat viele von uns erschrocken, berührt und traurig gemacht.   Jede und jeder verbindet mit Holger schöne Erinnerungen und Geschichten: lustige, alberne, weise, besonnene, ermunternde, trostreiche, mutige, lebenskluge, unterstützende und beschützende, schöne  – immer persönliche. Deswegen haben wir in der WDR 4 Wortredaktion gedacht, in diesen Erlebnissen ist mehr von Holger drin als ein einzelner Nachruf erzählen könnte. Wir wollen sie sammeln – für uns und auch für seine Frau Claudia und seine Kinder Lisetta, Helene, Fritz.   Text: WDR 4 Wortredaktion/Gabi Kraiczek</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032521712.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>4</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032521711</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240325</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Intendanz</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Kulturkompass: Nächste Werkstatt-Runde für Freie Mitarbeitende</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Titelbild   Ein ungewohntes Bild in der 5. Etage im Vierscheibenhaus: Die Wände voller Leinwände mit verschiedenen denkbaren Initiativen. Schon beim Betreten des Workshops wird klar: Die rund 30 Teilnehmenden der ersten Workshops waren fleißig. Vom Kommunikations- und Teams-Knigge über die Förderung von Weiterbildungsmaßnahmen bis zur flexibleren Gestaltung der Prognose wurden einige Ideen bereits weiter zu Initiativen ausgearbeitet, andere liegen zur Bearbeitung bereit.     Arbeit der Freien in den Workshops baut aufeinander auf   „Hieran arbeiten wir nun weiter“, sagt Frederik Marquardt vom Team Unternehmenskultur. Er leitet zusammen mit Andrea Steinsträter, Büroleiterin von Jörg Schönenborn und Jérôme Niemeyer als externem Partner den Workshop. „Ziel heute ist es, die Ideen, die den Teilnehmenden am Herzen liegen, aufzunehmen und alleine oder in der Gruppe weiterzuentwickeln.“ Außerdem bestehe die Möglichkeit, weiter neue, eigene Ideen einzubringen.   Handlungsfelder: Von Onboarding bis Wartezeit aufs Honorar alles dabei   Das lassen sich die Teilnehmenden nicht zweimal sagen. Bis nachmittags wird diskutiert, notiert und schließlich präsentiert. Das Spektrum der Handlungsfelder ist breit: Von der Verbesserung des „Onboardings“ neuer freier Mitarbeitender, über die Themen wertschätzendes Feedback und Weiterbildung bis hin zur Frage, wie man die Wartezeit für die Honorierung verkürzen könne. Auch wie diversere Teams helfen können, effizienter und mit besseren Ergebnissen zusammenzuarbeiten, ist ein Thema. Und: Der Informations- und Wissensaustausch und der angemessene Umgang mit langjährigen Freien.   Da sich die Teilnehmenden in verschiedenen Runden immer wieder neu zusammensetzen, fließt die Diskussion lebhaft und die Vortragenden können über produktives Feedback und weiteren Input nicht klagen. Gleich mehrere Teilnehmende haben sich der Initiative „Verbesserung des Onboardings“ angenommen. Jan Buck, Audio Producer in der PG Produktion Wort, hat festgestellt: In vielen Teams müsse man sich als Freier zu viel zusammensuchen und es gebe zahlreiche unterschiedliche Wissensstände. „Toll wäre eine Broschüre, ein Wiki oder auch ein Online-Portal, in dem den Neuen gleich zum Start erklärt wird, wie die Dinge im WDR funktionieren“, meint er. Das kommt an – mehrere im Raum kennen noch ein früheres Vorbild, das „WDR Dschungelbuch“. Auch die Freienvertretung des Personalrats wird als Unterstützung und Ansprechpartner für neue Mitarbeitende genannt. Jan weiter: „Ein weiterer Best Case ist auch das Get together der HA Personal, wo bestehende Probleme besprochen werden können, dies darf gerne weiter ausgebaut werden.“   Jörg Schönenborn geht in die Arbeitsgruppen und diskutiert mit   Am Vormittag dabei ist auch der aktuelle Kulturpate Jörg Schönenborn. Er hat die Workshop-Reihe ins Leben gerufen, passend zum Thema seiner Patenschaft: Wie können Feste und Freie gemeinsam den Wandel gestalten? „Toll ist, dass ein sehr weites Bild entstanden ist, mit ganz vielen Impulsen“, freut er sich angesichts der verschiedenartigen Initiativen. Die Aufgabe sei jetzt, herauszufinden, welches die für Viele wichtigen Punkte seien.  Schönenborn selbst sieht als ersten Punkt Fragen des Umgangs und der Wertschätzung. „Es geht darum, Freie auf Augenhöhe zu behandeln, sie müssen in ihrer Rolle genauso anerkannt werden wie die festen Mitarbeitenden“. Gleichzeitig – und um dies zu schaffen - brauche es auf beiden Seiten Rollenklarheit.   Als zweiten zentralen Ansatzpunkt sieht er die Fort- und Weiterbildung. „Hier müssen wir fragen, welche die Bedürfnisse der freien Mitarbeitenden sind, gleichzeitig aber auch genau die Angebote machen, die die Mitarbeitenden für unsere künftigen Angebote qualifizieren.“ Der WDR müsse hier freien Mitarbeitenden Entscheidungshilfen geben, wo sie sich am sinnvollsten einbringen könnten – um sie in die Angebote der Zukunft zu bekommen und diese passend qualifiziert besetzen zu können.   Anschließend setzte sich Jörg Schönenborn in mehrere Arbeitsgruppen des Workshops und diskutierte mit den Teilnehmenden ihre Ideen und Initiativen. Schönenborn abschließend: „Es geht heute nicht darum, alle Probleme zu lösen, sondern zu beschreiben, wo die Aufgaben sind.“   Fazit: Viele Ideen schon überraschend konkret ausgearbeitet   Zum Ende zogen die Teilnehmenden ein positives Fazit. Moritz Nuhn aus der DPT – er arbeitet im Studio Bielefeld - war nicht ohne Erwartungen gekommen. Zum Ende zeigt er sich zufrieden. „Ich finde bewundernswert, wie viele Ideen bereits eingebracht wurden und bin überzeugt davon, dass diese auch umsetzbar sind". Zustimmung von Elmar Sommer, langjähriger Mitarbeiter beim Rockpalast: „Ich bin überrascht, wie viel konkret ausgearbeitet wurde“, sagt er. „Jetzt bin ich gespannt, was daraus wird.“   Julia Spyker, Autorin bei WDR 3, lobt vor allem den Austausch mit den anderen Teilnehmenden. „Ich habe viele neue Aspekte gehört und mich mit Themen beschäftigt, die ich so gar nicht auf dem Schirm hatte". Und Katja Schwiglewski, Moderatorin bei WDR 3, war zu Beginn noch skeptisch, was Workshops wie dieser bringen könnten. „Aber es war fruchtbar und hat gezeigt: Die Basis im WDR ist sehr lebendig.“   Nach dem Workshop ist vor dem Workshop   Um die Initiativen im Anschluss an die Workshops weiter zu begleiten, konnten sich die Teilnehmenden als Pat:innen ihrer jeweiligen Initiativen zur Verfügung stellen. Die Pat:innen werden als Ansprechpartner und Verantwortliche ihre Initiative gemeinsam mit dem Team der Unternehmenskultur weiter betreuen.   Unterstützt werden sie hierbei von „Friends“. Diese werden in den nächsten Wochen für jede Initiative festgelegt. Friends sind Mitarbeitende in den zu den jeweiligen Initiativen passenden Fachabteilungen des Hauses. Sie sollen die Pat:innen dabei unterstützen, rechtliche oder organisatorische Hürden zu beseitigen und die Vorschläge weiter konkretisieren.   Frederik Marquardt gab einen Ausblick: Es gelte als nächstes abzuschätzen, welche Schritte konkret möglich und nötig seien. Dazu geht das Projektteam in den Austausch mit den Friends im Haus. Parallel werden die erarbeiteten Ideen gemeinsam mit den Teilnehmenden danach priorisiert, inwieweit ihre Umsetzung die Beteiligung der freien Mitarbeitenden am Wandel des WDR stärkt. Im Anschluss wird es in den nächsten Wochen gemeinsame Austausch-Runden mit Friends und Pat:innen der Vorschläge geben, um diese weiterzuentwickeln.   Bis zum Sommer will das Team Unternehmenskultur dann die ersten Handlungsfelder durch die Entscheidungsfindung in der Direktionssitzung und auf den Weg gebracht haben.   Wenn Ihr Interesse am weiteren Prozess habt und vielleicht sogar beim nächsten Workshop dabei sein wollt, schreibt an kulturkompass@wdr.de   Text: WDR Kommunikation / Markus Christian Mayer </ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT>Freie Mitarbeitende entwickeln Ideen für eine intensivere Beteiligung am Wandel im WDR. Eine direkte Folge der Ergebnisse der „Kulturkompass“-Umfrage. Beim inzwischen vierten Workshop war auch wieder Jörg Schönenborn mit dabei.</ARTIKEL_AUTOABSTRACT>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032521711.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>5</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121710</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>tichyseinblick.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Intendanz</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>SPD, Linken und Grünen droht das Landtags-Aus in Sachsen ++ Für Habeck ist die Energiekrise beendet, für die Bürger beginnt die Preiskatastrophe ++ Bayern verbietet Gendern ++ Lehrerinnen verbieten Schülern Wassertrinken im Ramadan ++</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>VON REDAKTION Mi, 20. März 2024  CDU, SPD und Grüne in Sachsen haben demoskopisch keine Mehrheit mehr. Sie haben zusammen nur noch 41 Prozent. Die AfD mit 34 Prozent und das BSW mit 11 Prozent hätten eine Sperrmajorität. Würde das Wahlergebnis, bräuchte es die Linkspartei als vierten Koalitionspartner. Aber der SPD mit 6, Linken und Grünen mit je 5 Demoskopie-Prozenten droht das Draußenbleiben.   Der Demoskopiepegel gibt der Ampel in Sachsen 13 Prozent, SPD und Grünen zusammen mit 11 Prozent so viel wie dem BSW allein. Nicht nur die FDP wäre im nächsten Sächsischen Landtag nicht vertreten.   Ostaufstand auch innerhalb der Unionsfraktion. Im Vermittlungsausschuss von Bundestag und Bundesrat war ein Platz frei geworden, den Merz mit Julia Klöckner aus Rheinland-Pfalz besetzen wollte. Statt Klöckner ist nun der Thüringer CDU-Abgeordnete und ehemalige Ostbeauftragte der Bundesregierung, Christian Hirte, von der Fraktion gewählt worden. Die Bundestagsfraktion war laut RND gestern einstimmig für ihn. Klöckner war gar nicht erst angetreten.   Für Habeck ist die Energiekrise beendet, die Energieversorgung sicher, die im Ausland gekauften 90 Prozent fossiler Energien so sicher wie bald runter auf 30 Prozent. Die Gasspeicher sind voll, die Preise wieder auf dem Niveau vor dem Ukraine-Krieg. Nicht sagte Habeck, dass die hiesigen Strompreise weltweit höchste sind. Nicht, dass große Teile der Energie-intensiven Industrie ihre Produktion einstellten und abwanderten. Der Bundesrechnungshof warnt vor Energieknappheit. Das sind für Habeck nur Zahlen. Und Habecks Zahlen?   In Bayern soll in Schulen, Hochschulen und Behörden nicht mehr gegendert werden dürfen. Beschloss das bayerische Kabinett am Dienstag. Sachsen verbot Gendern als erstes Bundesland, Sachsen-Anhalt folgte im letzten Sommer, nun Bayern. In Umfragen sind an drei Viertel der Bürger gegen Gendersprache.   Plante der Potsdamer SUV-Hasser einen Bomben-Anschlag? Fragt die BZ Berlin und schreibt: „Vor einer Woche wurde in Potsdam Joachim H. (38, Botaniker) festgenommen, der allein in der Nacht zu Dienstag (12. März) bei 46 SUVs die Luft aus den Reifen gelassen haben soll. Diese Fälle werden strafrechtlich als Sachbeschädigung eingestuft. Doch möglicherweise plante der Mann noch weitaus gefährlichere Straftaten – wie die Vorbereitung einer Sprengstoffexplosion.“   Einer von fünf muslimischen Gefangenen ist Weißer, da Banden in Gefängnissen Mitgefangenen unter Gewaltandrohung befehlen, Muslime zu werden, meldet der Telegraph.  Daten des Justizministeriums melden für September 2023 in England und Wales 15.594 muslimische Gefangene in Gefängnissen, was 18 Prozent aller Insassen entspricht, obwohl sie nur 6,5 Prozent der Bevölkerung ausmachen. Davon waren 3.096 oder 19,9 Prozent Weiße. Das ist fast dreimal so viel wie in der allgemeinen muslimischen Bevölkerung, wo 7,8 Prozent als Weiße gelten. 5.489 (35 Prozent) waren „asiatischer oder asiatisch-britischer“ ethnischer Zugehörigkeit, während jeder vierte (4.212) Schwarze oder schwarze Briten waren.   Zwei Lehrerinnen einer Gesamtschule im Großraum Frankfurt verbieten ihren Schülern, im Unterricht zu trinken, weil drei Kinder der Klasse von 27 wegen Ramadan fasten. Das ist die dritte Repression an Schülern, die innerhalb einer Woche ans Licht kommt. Mehr dazu später auf TE von Charlotte Kirchhof.   Politikwissenschaftler Carlo Masala von der Universität der Bundeswehr in München warnt, dass die Ukraine den Krieg gegen Russland verliere, wenn sie keine neuen Soldaten rekrutieren könne und nicht regelmäßig zusätzliche Munition aus dem Westen bekomme. „Die Ukraine ist derzeit in einer sehr kritischen Lage, die sie zwingt, Städte und Dörfer zu räumen“, sagte er dem „Redaktionsnetzwerk Deutschland“.   Über einen erzwungenen Verkauf oder ein Verbot von TikTok in den USA wird der US-Senat nicht so schnell abstimmen wie in dieser Woche das Repräsentantenhaus. Berichtete heise.de nach New York Times-Gesprächen mit einigen der 100 Senatoren und anderen Quellen. Das Repräsentantenhaus stimmte mit 352 zu 65 dafür, TikTok unter US-amerikanische Kontrolle zu bringen oder sperren zu lassen.</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>Tichys Einblick</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121710.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>6</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121709</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>tichyseinblick.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>ARD</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Intendanz</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Na, Dobrindt, wer hat’s erfunden?</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>VONMi, 20. März 2024   Alexander Dobrindt, CSU wird von Steffi Lemke, Grüne mit den Folgen seines Politikerhandelns konfrontiert. Jetzt sollen seine Partei und er aber an nichts schuld sein. Und Maischberger führt vor, wie man ein spannendes Thema durch Wiederholung zum Stimmungskiller machen kann.   Bei Maischberger sitzt der Schauspieler Walter Sittler in der Runde der Journalisten und darf vor sich hin sinnieren. Wer keine mit Steuergeld subventionierten deutsche Film„werke“ schaut, der kennt ihn nur aus Maischberger. Man verpasst nichts.   Lustig ist: Sittler kann nicht verstehen, dass Bürgergeld-Empfänger, die Arbeit nicht annehmen, sanktioniert werden sollen. Das seien doch nur 0,3 Prozent der Bürgergeld-Empfänger. 3.000 Leute. „Das muss man doch aushalten können“.   ZEIT ZUM LESEN „Tichys Einblick“ – so kommt das gedruckte Magazin zu Ihnen Nun, es gibt Millionen Menschen, die arbeiten können und keine Arbeit haben. 3,8 Millionen Bürgergeld-Empfänger sollen es sein, sagt zumindest Kristina Dunz vom RND, die auch in der Journalistenrunde sitzt. Das dürfte wohl eine niedrige Schätzung sein: Wer in Arbeitsbeschaffungsmaßnahmen des Arbeitsamts hängt, dort fragwürdige Lehrgänge besucht, der gilt zum Beispiel nicht als arbeitslos. Anzeige   Heißt es nicht ständig, es gebe Personalmangel? Auf dem Bau, im Verkauf, in der Produktion … Wie passt das zusammen? Man darf bloß nicht zu sehr darüber nachdenken, wie das zusammenpasst. Das Ergebnis könnten Gedanken an der Grenze zur Strafbarkeit sein. Sittler will übrigens Einwanderung „nicht nur von Hochqualifizierten“, sondern auch von „Menschen, die Arbeit machen, die hier keiner machen will“. Seit 2015 gab es kein Jahr, in dem weniger als eine Million nach Deutschland eingewandert sind. Allein 2022 waren es 2,7 Millionen. Alles Fachkräfte? Wo sind diese „Menschen“ auf dem Arbeitsmarkt?   Ausnahmsweise kommt es in der Diskussionssendung Maischberger auch mal zu einer Diskussion. Alexander Dobrindt (CSU) und Steffi Lemke (Grüne) diskutieren miteinander. Lemke ist sogar Bundesministerin, und zwar für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz. Also, Klima, das macht der Minister für Klima und Wirtschaft, Robert Habeck. Bei den Grünen ist Umwelt- und Naturschutz generell unter Klima subsumiert. Und damit nicht mehr der zentrale Aufgabenbereich von Lemke. Verbraucherschutz, dafür gibt es die Stiftung Warentest und andere Gruppen. Was Private leisten können, muss ein Ministerium nicht machen. Nukleare Sicherheit: Gut, die Atomkraftwerke sind abgeschaltet, viel bleibt an dieser Stelle also auch nicht übrig. Nur die Atommüll-Verwaltung. Braucht es dieses Ministerium für mehr als für Spesen und Genossenparkplätze?   Alexander Dobrindt ist fast so vergesslich wie Scholz. Er schimpft lange über das Heizungsgesetz der Ampel. Das Gesetz ist tatsächlich eine Katastrophe für viele Bürger. Doch: Das Heizungsgesetz ist kein neues Gesetz. Es wurde ursprünglich von der CDU eingeführt, um die Öl-Heizungen der Bürger abzuschalten. Die Ampel hat dieses Gesetz nur noch verschärft. Frei nach einer Schweizer Halsbonbon-Werbung muss man fragen: „Wer hat’s erfunden?“ Eine Frage, auf der Lemke sichtlich genüsslich herumreitet.   Dobrindt bringt auch sinnvolle Kritik vor: über die Energiesicherheit, die Stromproduktion, den Atomausstieg. Er kritisiert die nach wie vor hohe Migration. Die absurden Ausgaben der Bundesregierung. Aber wieder: Wer hat all das angestoßen? – Nun …   Nicht, dass ein gutes Bild von Lemke entsteht: Lemke schmettert jede Kritik an der Migrationspolitik ab. „Ausländerfeindlichkeit“ sollte nicht Inhalt eines Wahlkampfes sein. – Nun …   Immer wieder Russland   Es gibt interessante Themen, die man zum Ukraine-Krieg oder Russland besprechen könnte. Nun wurde in Russland gewählt. 87 Prozent der Stimmen sollen für Putin abgegeben worden sein. Rüdiger von Fritsch, ehemaliger Botschafter in Russland, spricht zum Thema. Wenn Russland nur nicht Dauerthema wäre bei Maischberger, dann würde man zuhören wollen.   Es wäre interessant auseinanderzunehmen: Wie funktioniert das System Putin? Wie läuft die Fälschung ab, wie die Repression, deren in Deutschland bekanntestes Opfer der Oppositionelle Alexei Nawalny ist? – Nun …   Es ist bitter für den Gast von Fritsch. Er scheint sich auszukennen, er bringt die Kritik an Forderungen, den Ukraine-Krieg „einzufrieren“ gut auf den Punkt. Einfrieren geht nur, wenn auch Russland dazu bereit ist, zu Konditionen, die auch für die Ukraine tragbar sind. Er könnte ein interessanter Gast sein. Die Ermüdung muss aber beim regelmäßigen Zuschauer einsetzen. Man lernt nichts in dem Gespräch, das nicht schon in der Vorwoche angerissen wurde. Und in der Woche davor. Und davor. Und davor …</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>Tichys Einblick</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121709.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>MAXIMILIAN TICHY</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>7</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121708</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>meedia.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>WDR</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Intendanz</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Das ZDF gewinnt im jungen Publikum mit den "Tricks der Supermärkte"</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT> 20.03.2024 09:45   Lineares TV: Tages- und Prime-Time-Sieg gingen am Dienstag im Gesamtpublikum jeweils an Das Erste. Um 20 Uhr sahen dort zunächst 4,54 Millionen Neugierige die "Tagesschau", die damit einen Marktanteil von 17,9 Prozent erzielte. Um 20.15 Uhr fiel "Die Notärztin" dann zunächst auf 3,38 Millionen und dennoch gute 15,1 Prozent, bevor der Dauerbrenner "In aller Freundschaft" die Zahlen des Ersten ab 21.05 Uhr wieder auf 4,50 Millionen und sehr starke 18,5 Prozent steigerte. Advertisment   Dass es zwischen 20.15 Uhr und 21 Uhr eine Delle im Ersten gab, könnte auch an der ZDF-Konkurrenz gelegen haben: "Die Tricks der Supermärkte - mit Pia Osterhaus" hielt in diesen 45 Minuten nämlich gut mit, erreichte Werte von 3,22 Millionen und 12,8 Prozent. "frontal" fiel danach mit 2,23 Millionen dann auf nicht so schöne 9,1 Prozent.   Bei den Privaten setzte sich am Abend klar RTL durch: 2,36 Millionen sahen die neue Folge der Reihe "Miss Merkel - Ein Uckermark-Krimi" - ein guter Marktanteil von 9,8 Prozent. Über die Mio.-Marke schafften es um 20.15 Uhr noch zwei weitere öffentlich-rechtliche und ein privater Sender: Den Krimi "Ostfriesengrab" schalteten bei ZDFneo 1,37 Millionen (tolle 5,5 Prozent) ein, den ORF-"Tatort: Virus" aus dem Jahr 2017 im BR Fernsehen 1,29 Millionen (tolle 5,2 Prozent), die ProSieben-Show "Wer isses?" 1,03 Millionen (gute 4,5 Prozent).   Sat.1 landete mit seiner Serie "The Irrational" hingegen unter dieser Marke - bei 0,89 Millionen und unschönen 3,5 Prozent. Vox hatte am Dienstagabend erst recht keine Chance auf die Million: Nur 0,60 Millionen interessierten sich für den Staffel-Auftakt von "Herz an Bord - Frisch verliebt auf hoher See", das reichte nur für einen schwachen Marktanteil von 2,5 Prozent.</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT>Während Das Erste mit seinen Serien die Dienstags-Prime-Time im Gesamtpublikum gewann, lag bei den 14- bis 49-Jährigen das ZDF vorn: "Die Tricks der Supermärkte" erzielten dort einen deutlich überdurchschnittlichen Marktanteil. Die neue "Miss Merkel"-Folge lief bei RTL unterdessen recht ordentlich, aber nicht gerade sensationell.</ARTIKEL_AUTOABSTRACT>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>meedia</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121708.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Jens Schröder</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>8</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121707</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>meedia.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>WDR</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Intendanz</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Nachwuchsförderpreis der ARD Degeto Film widmet sich dem "Women Empowerment 50+"</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Als Gewinn winkt ein Treatmentauftrag im Wert von 7.500 Euro sowie die Chance, den Stoff bis zum finalen Drehbuch zu entwickeln. Der Impuls Preis bietet somit jungen Filmschaffenden die Möglichkeit, sich auf Anhieb einem großen Publikum zu präsentieren. Heitere und berührende Filme wie "Familie ist kein Wunschkonzert", "Zum Glück gibt's Schreiner", "Papa auf Wolke 7", "Der Alte und die Nervensäge" und "Schon tausendmal berührt" wurden bereits erfolgreich in der ARD und der ARD Mediathek ausgestrahlt. Weitere Filme sind in Drehvorbereitung. Christoph Pellander, Redaktionsleiter der ARD Degeto Film will die Frauen ab 50 damit zur Hauptsache machen: "In der deutschen Filmlandschaft sind Frauenfiguren ab 50+ viel zu häufig nur als Nebenfiguren zu sehen. Die ARD Degeto Film bietet Frauen in dieser Lebensphase in ihren Filmen bereits eine große Plattform und möchte mit der neuen Impuls-Preis-Ausschreibung interessante und spannende Frauenfiguren noch stärker in den Vordergrund stellen. Was beschäftigt Frauen in ihrer sogenannten 'zweiten Lebenshälfte', was sind ihre Ziele und aktuellen Themen? Wir sind gespannt, wie Absolvent:innen der Filmhochschulen diese Fragen beantworten, und freuen uns auf vielschichtige, diverse und authentische Filmexposés." Einsendeschluss ist der 2. Mai 2024. Am 8. April ist um 12:30 Uhr eine virtuelle Info-Veranstaltung geplant, zu der separat eingeladen wird.</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT>Seit zehn Jahren lädt die ARD Degeto Film Studierende der deutschsprachigen Filmhochschulen ein, ihre Stoffideen für den Sendeplatz "Endlich Freitag im Ersten" einzureichen. In diesem Jahr nimmt der Impuls Preis das Thema "Women Empowerment 50+" in den Fokus.</ARTIKEL_AUTOABSTRACT>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>meedia</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121707.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Susanne von Kessel-Doelle</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>9</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121706</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>meedia.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>WDR</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Intendanz</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Audio-MA-Blitz-Analyse: Radio Bollerwagen katapultiert sich nach oben, größte Verlierer allesamt öffentlich-rechtlich</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Die Erfolgsgeschichte des Partymusiksenders Radio Bollerwagen geht weiter: Die neueste Ausgabe der MA Audio bescheinigt dem Kanal ein Plus von 146,9 Prozent gegenüber der vorigen MA und mit 79.000 Hörerinnen und Hörern pro Durchschnittsstunde in der werberelevanten Zeit montags bis freitags 6 bis 18 Uhr schon Platz 64 des Gesamt-Rankings aller Sender. Große prozentuale Zuwächse verzeichnen diesmal auch das 80s80s Radio auf Platz 33 mit einem Plus von 25,0 Prozent, radio eins auf 39 mit einem von 23,3 Prozent, 89.0 RTL auf 45 mit einem von 32,7 Prozent, das rbb24 Inforadio auf 69 mit einem von 22,6 Prozent, Gong 96,3 auf Platz 80, das sich um heftige 60,0 Prozent steigerte, das Schwarzwaldradio auf dem 83. Platz mit einem Zuwachs von 55,2 Prozent, 98.8 Kiss FM direkt dahinter mit einem Plus von 25,8 Prozent, sowie Hitradio Ohr auf Platz 96 mit einer Steigerung von 36,4 Prozent. Advertisment   Auf den ersten zehn Rängen legten insbesondere Radio NRW und Bayern 3 deutlich zu. Radio NRW, das bei der MA 2023 II deutliche Verluste von 157.000 Hörerinnen und Hörern erdulden musste, gewann davon immerhin 53.000 zurück, Bayern 3 erreichte mit 626.000 die beste Reichweite seit der MA 2021. Für SWR1 BW ging es auf Platz 10 ebenfalls nach oben - und das sogar auf den besten Wert seit der MA 2014 II.   Auch neue MA-Rekorde gibt es: Neben dem 80s80s Radio, Energy DAB+ National, Radio Bollerwagen und dem Schwarzwaldradio, die allesamt noch nicht allzu lang dabei sind, können auch bei hr1, radio eins und hr-info die Sektflaschen geöffnet werden: Alle drei Sender waren so stark wie mindestens seit 20 Jahren nicht.   ma 2024 Audio I: Top 100 Sender (nur Werbeträger / ohne Kombis)   PlatzSenderHörer pro Stunde (Mo-Fr, 6-18 Uhr)vs. 2023 IIvs. 2023 II in %   1 Radio NRW 1.334.000 53.000 4,1   2 Bayern 1 1.121.000 -25.000 -2,2   3 WDR 2 966.000 -17.000 -1,7   4 SWR3 870.000 -21.000 -2,4   5 Antenne Bayern 676.000 30.000 4,6   6 1Live 650.000 14.000 2,2   7 NDR 2 640.000 -16.000 -2,4   8 Bayern 3 626.000 43.000 7,4   9 Radio Bob! 543.000 -7.000 -1,3   10 SWR1 BW 431.000 12.000 2,9   11 SWR4 BW 351.000 -26.000 -6,9   12 Hit Radio FFH 339.000 -19.000 -5,3   13 MDR Sachsen 309.000 17.000 5,8   14 radio ffn 306.000 -3.000 -1   15 Rock Antenne 294.000 -1.000 -0,3   16 hr3 284.000 6.000 2,2   17 Klassik Radio 223.000 5.000 2,3   18 hr1 218.000 3.000 1,4   19 hr4 217.000 -35.000 -13,9   20 MDR Jump 216.000 -3.000 -1,4   21 Radio Regenbogen 211.000 -3.000 -1,4   22 SWR1 RP 202.000 -15.000 -6,9   23 RPR1. 198.000 -11.000 -5,3   24 R.SH Radio Schleswig-Holstein 194.000 0 0   25 Radio Hamburg 194.000 3.000 1,6   26 Antenne Niedersachsen 192.000 -15.000 -7,2   27 sunshine live 190.000 10.000 5,6   28 bigFM Deutschlands biggste Beats 172.000 15.000 9,6   29 Ostseewelle Hit-Radio MV 166.000 6.000 3,8   30 Antenne Brandenburg 165.000 -19.000 -10,3   31 radio SAW 161.000 -13.000 -7,5   32 BR24 160.000 -14.000 -8   33 80s80s Radio 160.000 32.000 25   34 MDR Sachsen-Anhalt 156.000 -14.000 -8,2   35 MDR Thüringen 154.000 -12.000 -7,2   36 Radio Schlagerparadies 150.000 -9.000 -5,7   37 Energy DAB+ National 150.000 11.000 7,9   38 Radio Brocken 146.000 14.000 10,6   39 radio eins 143.000 27.000 23,3   40 SWR4 RP 142.000 -1.000 -0,7   41 Hitradio antenne 1 141.000 -7.000 -4,7   42 Radio PSR 135.000 -19.000 -12,3   43 Bayern 2 135.000 -20.000 -12,9   44 Radio 7 134.000 -6.000 -4,3   45 89.0 RTL 130.000 32.000 32,7   46 RTL Radio 129.000 -7.000 -5,1   47 Hitradio RTL Sachsen 124.000 -8.000 -6,1   48 Antenne Thüringen 120.000 -2.000 -1,6   49 rbb 88.8 119.000 -4.000 -3,3   50 Radio 21 119.000 1.000 0,8   51 Berliner Rundfunk 91!4 118.000 -8.000 -6,3   52 104.6 RTL 115.000 -13.000 -10,2   53 bigFM Baden-Württemberg 105.000 -15.000 -12,5   54 Radio Paloma 105.000 2.000 1,9   55 Bremen Eins 97.000 -12.000 -11   56 Schlager Radio 96.000 11.000 12,9   57 94,3 rs2 86.000 9.000 11,7   58 Bremen Vier 86.000 14.000 19,4   59 BB Radio 85.000 0 0   60 R.SA 84.000 -2.000 -2,3   61 Rockland Radio 83.000 -14.000 -14,4   62 You FM 81.000 4.000 5,2   63 hr-info 79.000 5.000 6,8   64 Radio Bollerwagen 79.000 47.000 146,9   65 planet radio 75.000 9.000 13,6   66 SR 1 69.000 1.000 1,5   67 Fritz 68.000 0 0   68 SR 3 Saarlandwelle 68.000 8.000 13,3   69 rbb24 Inforadio 65.000 12.000 22,6   70 Radio Arabella 63.000 9.000 16,7   71 Star FM Maximum Rock 61.000 -3.000 -4,7   72 Die neue 107.7 60.000 2.000 3,4   73 Radio Bob! rockt Schleswig-Holstein 57.000 -8.000 -12,3   74 105'5 Spreeradio 53.000 3.000 6   75 Regenbogen Zwei 52.000 5.000 10,6   76 Radio Teddy 52.000 8.000 18,2   77 Energy Sachsen 50.000 -8.000 -13,8   78 Radio Salü 50.000 -3.000 -5,7   79 LandesWelle Thüringen 49.000 -7.000 -12,5   80 Gong 96,3 (München) 48.000 18.000 60   81 Rock Antenne Hamburg 47.000 -4.000 -7,8   82 Jam FM 46.000 -4.000 -8   83 Schwarzwaldradio 45.000 16.000 55,2   84 98.8 Kiss FM 39.000 8.000 25,8   85 Bremen Next 38.000 -8.000 -17,4   86 egoFM 38.000 1.000 2,7   87 Radio Ton 37.000 -4.000 -9,8   88 die neue welle 37.000 -8.000 -17,8   89 delta radio 36.000 -2.000 -5,3   90 100,5 Das Hitradio. 35.000 5.000 16,7   91 BR-Klassik 34.000 -14.000 -29,2   92 Energy Berlin 34.000 -6.000 -15   93 Radio Galaxy Bayern 33.000 -6.000 -15,4   94 Energy Region Stuttgart 31.000 -4.000 -11,4   95 Energy Bremen 30.000 -5.000 -14,3   96 Hitradio Ohr 30.000 8.000 36,4   97 80er-Radio harmony 28.000 -1.000 -3,4   98 Donau 3 FM 28.000 -11.000 -28,2   99 Radio Paradiso 28.000 0 0   100 Energy München 28.000 -13.000 -31,7   Quelle: ma 2024 Audio I / Tabelle: MEEDIA   Nach absoluten Zahlen heißt der größte Gewinner dank seines Reichweiten-Wachstums von 53.000 Hörerinnern und Hörern Radio NRW. Direkt dahinter folgt dann schon Radio Bollerwagen, das sich von 32.000 auf 79.000 steigerte - wie erwähnt um unfassbare 146,9 Prozent. Weitere große Gewinner sind Bayern 3, das 80s80s Radio und 89,0 RTL:   ma 2024 Audio I: die 10 größten Gewinner (nur Werbeträger / ohne Kombis)   PlatzSenderHörer pro Stunde (Mo-Fr, 6-18 Uhr)vs. 2023 IIvs. 2023 II in %   1 Radio NRW 1.334.000 53.000 4,1   2 Radio Bollerwagen 79.000 47.000 146,9   3 Bayern 3 626.000 43.000 7,4   4 80s80s Radio 160.000 32.000 25   5 89.0 RTL 130.000 32.000 32,7   6 Antenne Bayern 676.000 30.000 4,6   7 radio eins 143.000 27.000 23,3   8 Gong 96,3 (München) 48.000 18.000 60   9 MDR Sachsen 309.000 17.000 5,8   10 Schwarzwaldradio 45.000 16.000 55,2   Quelle: ma 2024 Audio I / Tabelle: MEEDIA</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT>Zweimal im Jahr wartet die gesamte Radiobranche auf die Reichweitenzahlen der MA Audio. Jubelstimmung lösen sie diesmal u.a. bei Radio NRW, Radio Bollerwagen und Bayern 3 aus, Trauerstimmung u.a. bei den ARD-Sendern hr4, SWR4 BW, Bayern 1, SWR3 und Bayern 2.</ARTIKEL_AUTOABSTRACT>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>meedia</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121706.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Jens Schröder</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>10</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121705</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL>Weil die aktuelle Kika-Chefin Astrid Plenk schon in wenigen Tagen zum MDR wechselt, um dort das Landesfunkhaus Thüringen zu leiten, muss beim öffentlich-rechtlichen Kindersender vorerst eine kommissarische Lösung her.</ARTIKEL_UNTERTITEL>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>dwdl.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>WDR</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Kika erhält ab April eine kommissarische Doppelspitze</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>von am 20.03.2024 - 12:19 Uhr   Wer wird künftig den Kika als Programmgeschäftsführer bzw. Programmgeschäftsführerin leiten? Um eine Antwort auf diese Frage zu erhalten ist noch viel Geduld notwendig. Wie eine Sprecherin des zuständigen MDR gegenüber dem Medienmagazin DWDL.de bestätigt hat, wird die entsprechende Position demnächst erst einmal ausgeschrieben. Nötig wird das, weil die langjährige Kika-Chefin Astrid Plenk den Kindersender schon in wenigen Tagen verlässt.   Trotz einer Vertragsverlängerung um drei Jahre im vergangenen Jahr wechselt Plenk im April zum MDR, wo sie künftig das Landesfunkhaus Thüringen leitet. Sie folgt damit dem Ruf des MDR-Intendanten Ralf Ludwig. Der recht kurzfristige Wechsel führt nun aber auch dazu, dass es beim Kika noch keine endgültige Nachfolge-Regelung gibt.   Gegenüber DWDL.de bestätigt eine MDR-Sprecherin, dass man ab dem 1. April erst einmal auf eine kommissarische Lösung setzen wird. Demnach sind zwei Vertretungen geplant: Nach innen wird Sven Steinhoff den Kika vertreten, nach außen übernimmt diesen Part Michael Stumpf. Steinhoff ist langjähriger Mitarbeiter des Kika, beim Sender agiert er aktuell als Leiter Content-Begleitung und Telemedien. Stumpf ist Leiter der ZDF-Hauptredaktion Kinder und Jugend.   Da die Stelle der Kika-Programmgeschäftsführerin aktuell noch nicht einmal ausgeschrieben ist, ist davon auszugehen, dass der oder die NachfolgerIn von Astrid Plenk noch einige Woche auf sich warten lassen wird. Gut möglich ist auch, dass Plenk künftig weiterhin im Kika-Umfeld agieren wird. Der Kika hat seinen Sitz bekanntlich nicht nur im MDR-Landesfunkhaus Thüringen, Plenk kündigte auch bereits an, in ihrem neuen Job das Landesfunkhaus mit dem Kika und der MDR Media GmbH stärker miteinander verzahnen zu wollen. </ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>DWDL</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121705.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Timo Niemeier</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>11</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121704</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>meedia.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>WDR</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>TikTok reduziert AfD-Reichweite</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>#GEGENRECHTS   20.03.2024 12:29 Der öffentliche Druck auf TikTok wurde in den vergangenen Wochen immer stärker. Sowohl der Talk-Satiriker Jan Böhmermann als auch das ARD-Format Hart aber fair widmeten sich ausgiebig dem vermeintlichen Erfolg der AfD auf TikTok. Laut TikTok-Statistik erzielte Krah allein mit dem Video für „echte Männer“ seit letztem Juni 1,4 Mio. Abrufe. Mit den Videos, die Krah im März 2024 veröffentlichte, erreichte er unterdessen nur noch wenige Tausend Views. Der „Spiegel“ berichtet, dass TikTok offiziell mitgeteilt hat, dass man das Ausspielen der Videos im „Für-Dich-Feed“ unterbunden und einige Videos ganz von der Plattform gelöscht habe. Das Netzwerk begründet diese Maßnahme mit andauernden Verletzungen der AGB und Community-Regeln.Advertisment Tatsächlich dürften die Zusammenhänge allerdings etwas komplexer sein. Jan Böhmermann hatte sich in seiner Sendung vor knapp drei Wochen intensiv mit dem Phänomen Krah befasst. Er moderierte Krah als „Nazi“ an und karikierte ihn unter anderem als „Fleischersatz im Trachtenjanker“. Böhmermann war in Topform, was unter anderem daran liegen könnte, dass Maximilian Krah sich den Talker im Oktober bereits persönlich vorgenommen hat. „Böhmermann ist ein kleiner, reicher ….“ Das Ende des Satzes verschwindet hinter einem Testbild und wird effektvoll von einem Piepton verdrängt. Anfang dieser Woche stand Maximilian Krah auf der Agenda von Louis Klamroth. Das Thema von Hart aber fair am Montag war „Hass im Netz“. Die ersten zwanzig Minuten verbrachten die Talk-Gäste allerdings damit, den vermeintlichen Erfolg der AfD auf TikTok zu hinterfragen und Gesundheitsminister Lauterbach Tipps für seine Videos zu geben. Lauterbach hatte vor der Sendung seinen eigenen TikTok-Kanal gestartet. Er war es auch, der dem gestandenen Social-Media-Profi Sascha Lobo entgegenhielt, dass reine View-Zahlen nicht unbedingt ein Indikator für Erfolg seien. Die Argumentation hat Substanz, denn im letzten Jahr entlarvte TikTok ein offensichtlich russisches Propaganda-Netzwerk, dass durch gezielte, massenhafte Videoabrufe versucht, den TikTok-Algorithmus zu beeinflussen. Damals ging es vor allem um Desinformation zum Ukraine-Krieg. Angesichts der anstehenden Wahlen in Deutschland und Europa ist es mehr als wahrscheinlich, dass ähnliche Maßnahmen auch jetzt in Gang sind. Dazu passt eine aktuelle Recherche des Sicherheitsanbieters Fraud0, der zufolge der Bot-Traffic inzwischen auf bis über 20 Prozent angestiegen ist. Betroffen sei vor allem LinkedIn und dort auch Werbeformate. Im Durchschnitt geht Fraud0 davon aus, dass 21 Prozent des gesamten Traffics auf Websites buchstäblich unmenschlich ist. Wenn es noch ein viertes Argument für TikToks Aktivismus bräuchte, dann dürfte das von jenseits des Atlantiks kommen. Immer mehr Politiker fordern, dass TikTok in den USA nur weitermachen darf, wenn es an ein US-Unternehmen verkauft wird. Die Argumentation sinngemäß: „Angesichts der anstehenden Wahl will man nicht die chinesische Regierung in den Hosentaschen der Hälfte aller Amerikaner haben“. Die entsprechende Gesetzesvorlage hat den Kongress bereits passiert und viel Zustimmung bei Demokraten und Republikanern erhalten. Nun muss der Senat entscheiden. TikTok tut gut daran, intensiv gegen Hatespeech und radikale Inhalte vorzugehen, seien sie von links oder rechts.</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT>Sowohl Jan Böhmermann als auch Hart aber Fair machten den vermeintlichen Erfolg der AfD auf TikTok in der letzten Woche zum Sendungsthema. Nun reagiert das Netzwerk und unterdrückt das Ausspielen der Videos von Maximilian Krah im „Für-Dich-Feed“. Insgesamt haben die TikTok-Videos der AfD mehr Reichweite, als die aller anderen Parteien zusammen, recherchierte die Hart-aber-fair-Redaktion.</ARTIKEL_AUTOABSTRACT>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>meedia</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121704.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Frank Puscher</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>12</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121703</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>meedia.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>WDR</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Unterhaus</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>MA Audio: die Top Tens der populärsten Radiosender aller 16 Bundesländer</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Die MA Audio 2024 I zeigt einige spannende Entwicklungen im deutschen Radiomarkt auf: In Berlin nimmt radio eins Kurs Richtung Marktführerschaft, in Bayern liegen nun zwei BR-Sender vor Antenne Bayern und im Osten sind Schlagersender auf dem Vormarsch. MEEDIA blickt detailliert in alle 16 Bundesländer.20.03.2024 17:15 In unserer traditionellen MEEDIA-Rundreise durch Radio-Deutschland blicken wir seit jeher auf die Tagesreichweiten - und nicht auf die im Werbemarkt relevanten Hörer pro Durchschnittsstunde. Mit Hilfe der Tagesreichweiten können wir auch die Sender mit in unsere Betrachtungen aufnehmen, die keine Werbung senden, sonst also durchs Raster gefallen wären. So ergibt sich für jedes Bundesland eine Tabelle der populärsten Sender.Wir beginnen unsere Deutschlandreise wie immer im hohen Norden:Advertisment In Schleswig-Holstein bleibt das private R.SH die klare Nummer 1. Allerdings büßte der Sender ebenso wie die drei Verfolger kräftig an Reichweite ein. So ging es für R.SH um 6,5 Prozent nach unten, für die drei NDR-Verfolger NDR 2, NDR 1 Welle Nord und N-Joy um noch deutlichere 7,0 bis 9,5 Prozent. Der erste Gewinner findet sich mit NDR Info erst auf Platz 6, auf 7 bis 10 folgen dann mit Radio Bob!, delta radio, NDR 9,03 und dem Deutschlandfunk vier weitere, prozentual gesehen noch größere Verlierer. Ein fettes Plus verzeichnet NDR Schlager auf dem 12. platz: Hier ging es um 69,2 Prozent auf eine Tagesreichweite von 44.000 hinauf.</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>meedia</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121703.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Jens Schröder</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>13</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121702</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>turi2.de</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>Sonstiges</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Regionales</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>turi2 am Abend: Audio-MA, Augsbburger Allgemeine, KI-Radio.</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>von am 20. Mrz. 2024, 17:45   Audio MA: Nutzungsdauer stabil, Radio NRW bleibt stärkster Sender, Radio Bollerwagen größter Gewinner. Audio-Zeug­nisse: Die MA Audio, Reich­weiten-Studie über alle Audio-Gattungen hin­weg, bescheinigt dem Medium Radio eine stabile Hörer­schaft. 93,1 % der Be­völkerung schalten mindestens ein­mal pro Monat ein, 0,2 Punkte weniger als in der letzten Er­hebung (MA 2023 Audio II). Auch die Tages­reich­weite ist mit 73,8 % (-0,3 %-Punkte) stabil. Podcasts hören 41,8 %, ein Zuwachs von 1,2 Punkten. Die Top 3 der meist­ge­hörten Sender führt weiter der Sender­verbund Radio NRW mit 1,3 Mio Hörern in der Durch­schnitts­stunde an (+4,1 %), gefolgt von Bayern 1 mit 1,1 Mio Hörenden (-2,2 %) und WDR 2 mit 966.000 (-1,7 %). Größter Aufsteiger ist der von FFN ver­an­staltete Party- und Baller­mann-Sender Radio Boller­wagen mit einem Plus von 146,9 % und 79.000 Hörenden. agma-mmc.de (Gesamt­reich­weite), meedia.de (Einzel­sender)   – NEWS –   Weniger für mehr? Der BJV kritisiert die “Augs­burger Allgemeine” für eine aus Gewerkschafts­sicht un­faire, neue Ver­ein­barung mit Freien. Sie sollen demnach künftig weit­reichende Rechte an ihren Werken ab­treten – ohne Zweit­ver­gütung auch an Schwester­titel wie die “Main-Post”. Der Verlag müsse die Arbeit der Freien an­ge­messen ver­güten “und zwar nicht erst irgend­wann, sondern sofort”, sagt BJV-Vorständin Anne Webert. bjv.de   KiKa hoch zwei: Der KiKa, Kinder­sender von ARD und ZDF, wird ab April von einer kommissarischen Doppel­spitze ge­leitet, berichtet “DWDL”. Dem­nach über­nimmt Sven Stein­hoff, Leiter Content-Begleitung und Tele­medien, die Ver­tretung des Senders nach innen. Michael Stumpf, Leiter der ZDF-Haupt­redaktion Kinder und Jugend, vertritt den Sender nach außen. Vor­gängerin Astrid Plenk wechselt zum MDR, wo sie künftig das Landes­funk­haus Thüringen leitet. dwdl.de, turi2.de (Background)   Dabeisein ist alles: Der Vermarkter BCN von Burda, Funke und Klambt verkauft künftig auch Print-Anzeigen für das Fußball-Magazin “Kicker” und das Berg-Blatt “Alpin”. Damit will der Nürnberger Olympia-Verlag “die Potentiale im Print­markt best­möglich nutzen und monetarisieren”, sagt Vermarktungs­chef Martin Schumacher. Das eigene Sales-Team will der Verlag ausbauen. burda.com, horizont.net (€)   Journt Venture: Der “Journalist” wird Medien­partner der Platt­form NPJ.news für Non­profit-Journalismus, die über Förder­möglich­keiten infor­miert. Dahinter steht der Think Tank Vocer von Stephan Weichert. Das Portal will “die weit­ver­breitete Unsicher­heit der Branche hin­sicht­lich gemein­nütziger Geschäfts­modelle im Journalismus adressieren”. presseportal.de, turi2.de (Background)   Werbe­gesicht wird In­vestorin: Model Stefanie Giesinger wird Gesell­schafterin bei The Female Company. Sie war 2022 in einer Kampagne des FemCare-Unter­nehmens zu sehen, nun beteiligt sie sich an einer sieben­stelligen Invest­ment-Runde. Zudem tritt Giesinger erneut in einer Kampagne auf. horizont.net (€), wuv.de (€)   Viel hilft viel: Der TV-Ver­markter SevenOne legt eine Grund­lagen­studie vor, nach der nur Werbung ohne spitzes Targeting Consumer-Marken hilft, zu wachsen. SevenOne-Media-Chef Guido Modenbach sagt “Horizont”, “genaues Targeting erschwert den Zugewinn von neuen Käufern, da es gezielt Personen aus­schließt”. horizont.net (€)   Radln lohnt sich: Der Discounter Lidl wird Haupt- und Namens­sponsor des Rad­rennens Deutschland Tour. Gemeinsam wolle man “den professionellen Radsport der breiten Masse zugänglich machen” und für ein “aktives und gesundes Leben begeistern”. Seit 2023 ist Lidl bereits Sponsor des Radsport-Teams Lidl Trek. unternehmen.lidl.de, turi2.de (Background)   Das Runde muss aufs Eckige: TK-Pizza-Her­steller Gustavo Gusto bringt passend zum neuen “Ghost­busters”-Film eine Aktions-Pizza in die Super­märkte. In dem Geister­jäger-Film wird New York schock­ge­frostet. “Der Plot passt hervor­ragend zu unserer Tief­kühl­pizza”, sagt Gustavo-Gusto-CMO Michael Götz. horizont.net, youtube.com (25-Sek-Spot)   Hoch hin­aus: Tor­wart-Legende Oliver Kahn ist Werbe­gesicht von Skynopoly, berichtet “Gründer­szene”. Das Start­up aus Düssel­dorf ver­treibt Über­flug­rechte für Drohnen­flotten über Privat­grund­stücken. Kahn sei Kunde, sagt Gründer Conrad Dreier, er habe die Luft­hoheit über seinem Garten an das Star­tup über­tragen. businessinsider.de, linkedin.com (mit 35-Sek-Spot)   News-Ticker: +++ Thore Barfuss, Leiter News und Gesell­schaft bei “Welt”, geht zum “Focus”. medieninsider.com (€) +++ Corint Media und Deutsche Kranken­haus­gesell­schaft schließen neuen Gesamt­vertrag. corint-media.com +++ APA befördert Susanne Puller-Knittelfelder und Christian Kneil zu Vize-Chefs. presseportal.de +++ Bundes­präsident Frank-Walter Steinmeier schreibt Buch über gesell­schaftlichen Zusammen­halt. spiegel.de +++ Google muss in Frankreich 250 Mio Euro Strafe zahlen. sueddeutsche.de +++</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>turi2</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121702.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR>Björn Czieslik</ARTIKEL_AUTOR>
+<ARTIKEL_PSP_POSNR>14</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121699</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL>Ob Fiktion, Info Kultur oder Kinder  Jugend: Fünf WDR-Produktionen dürfen sich über insgesamt sieben Preise freuen.</ARTIKEL_UNTERTITEL>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>Sonstiges</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Regionales</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Grimme-Preis: Sieben Auszeichnungen für den WDR</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>In der Kategorie Fiktion war der WDR gleich zwei Mal erfolgreich. Der Fernsehfilm "Nichts, was uns passiert" erhielt einen Grimme-Preis und außerdem den Preis der Studierendenjury. Der Grimme-Preis Spezial ging an die sechsteilige Serie "Haus Kummerveldt".   Im Wettbewerb Information  Kultur gewannen "Songs of Gastarbeiter – Liebe, D-Mark und Tod" sowie der Dokumentarfilm "Drei Frauen – ein Krieg", der außerdem den Publikumspreis der Marler Gruppe erhielt. "Die Sendung mit der Maus-Spezial – Marokko-Maus" wurde mit dem Preis in der Kategorie Kinder und Jugend ausgezeichnet.   Tom Buhrow gratuliert   "Vielfältig, politisch und weltoffen, kreativ und qualitativ hochwertig – 
+  dafür stehen unsere diesjährigen Grimme-Preise in ganz unterschiedlichen Kategorien", so WDR-Intendant Tom Buhrow, "allen Preisträgerinnen und Preisträgern meinen herzlichen Glückwunsch! Die Auszeichnungen sind für uns Bestätigung und Ansporn zugleich."   Fiktion 
+  "Nichts, was uns passiert" (Gaumont für WDR, Redaktion: Henrike Vieregge) setzt sich intensiv mit den Folgen sexualisierter Gewalt auseinander. Nach einer Party mit viel Alkohol wird die 27-jährige Anna (Emma Nova) von dem ein Jahr älteren Jonas (Gustav Schmidt) vergewaltigt, sagt sie.
+  Anna ist traumatisiert, erinnert sich an ihr "Nein". Jonas dagegen erinnert sich an einvernehmlichen Sex. "Nichts, was uns passiert" sei nicht nur ein preiswürdiger Film, sondern auch ein überaus wertvoller Beitrag zur Me-Too-Debatte, so die Jury in ihrer Begründung. Weiter heißt es:
+  "Julia C. Kaiser gelingt es mit diesem vielstimmigen Film, in einer Geschichte über sexualisierte Gewalt unterschiedliche Perspektiven sowie Ambiguitäten herauszuarbeiten und in all ihrer Komplexität zusammenzuhalten, ohne dabei an irgendeiner Stelle zu relativieren."  
+  Die Produktion "Haus Kummerveldt" (Goldstoff Filme GmbH/Outside The Club GmbH/Filmwerkstatt Münster e.V. für WDR/ZDF/ARTE, WDR-Redaktion: Andrea Hanke) ist eine historische Dramedy in moderner Punk-Pop-Gestaltung mit schwarzem Humor. Es geht um weibliche Emanzipation im deutschen Kaiserreich des 
+  19. Jahrhunderts. Luise von Kummerveldt (Milena Straube) will eine berühmte Schriftstellerin werden und damit auch der Langeweile und Engstirnigkeit des adligen Landlebens entfliehen. Die Jury beschreibt die sechsteilige Serie als eine „experimentierfreudige Verknüpfung von Historie, 
+  Pop und Politik“ und eine "Dekonstruktion des Kostümdramas", die die Zuschauenden herausfordere.   Information  Kultur   "Songs of Gastarbeiter – Liebe, D-Mark und Tod" (WDR/rbb/ARTE, Buch: Mehmet Akif Büyükatalay, Cem Kaya, Regie: Cem Kaya, WDR-Redaktion:
+  Jutta Krug) erzählt die Geschichte der türkischen Gastarbeiterinnen und Gastarbeiter sowie ihrer Enkelkinder in Deutschland anhand ihrer musikalischen Kultur, die sich in ihrer besonderen Form so nur in Deutschland entwickelt hat. Damit setzt "Cem Kaya den damals als 'Gastarbeiter'
+  bezeichneten Migrant*innen und ihrer aus den Exilerfahrungen heraus entstandenen Kunst ein hochmusikalisches Denkmal", findet die "einhellig begeisterte" Grimme-Jury. Der Film sei "gleichzeitig ein anrührendes Dokument des Erinnerns, aber auch ein wütender und notwendiger Appell, 
+  endlich über den Kartoffelsuppentellerrand hinauszuschauen".   "Drei Frauen – ein Krieg" (EIKON Media/SD Cinematografica für rbb/WDR/ARTE, Buch und Regie: Luzia Schmid, WDR-Redaktion: Mathias Werth) porträtiert die ersten akkreditierten Kriegsreporterinnen der Geschichte. Martha Gellhorn, 
+  Lee Miller und Margret Bourke-White berichteten im Zweiten Weltkrieg von unterschiedlichen Fronten. Zunächst überwiegt bei den Frauen Kriegsbegeisterung und Abenteuerlust. Filmemacherin Luzia Schmid verwendet nur Fotos, Reportagen, Briefe und Tagebücher der Frauen sowie seltenes, 
+  größtenteils ungesehenes Filmmaterial alliierter Kameraleute. "Durch die Konfrontation mit Leid, Tod und Zerstörung verändern die Frauen die Haltung zu den Ereignissen" so die Jury, "die Konzentration der drei Berichterstatterinnen auf die Opfer des Krieges,
+  die der Film konsequent in seinen Bildern spiegelt, verhindert jegliche Verherrlichung des Geschehens". Dadurch sei der Film auch "ein aktueller Kommentar und ein Plädoyer für den Frieden".   Kinder  Jugend   Als "Bildungsfernsehen im besten Sinne des Wortes" bezeichnet die Grimme-Jury "Die Sendung mit der Maus-Spezial – Marokko-Maus" (WDR, Buch: Birgit Quastenberg, Redaktion: Nils Wohlfarth). Darin reist Moderatorin Siham El-Maimouni nach Marokko, in das Heimatland ihrer Eltern. "Es entsteht dadurch ein Einblick, der frei ist von touristischen oder 'exotischen' Perspektiven", so die Jury, "die Redaktion hat sich zielgenau überlegt, welche Geschichten aus Marokko ein vielfältiges, perspektivreiches Bild des Landes erzählen". In ihrer begeisterten Begründung wünscht sie sich gar eine Forstsetzung: "Mit Reisen in andere so genannte 'Herkunftsländer', bei denen die Zusehenden Menschen begleiten, die dort familiäre Wurzeln haben, persönliche Einblicke gewähren und überraschende Geschichten erzählen."   Siham El-Maimouni moderiert auch die Preisverleihung am 26. April 2024 im Marler Theater.   Text: WDR Kommunikation</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121699.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>15</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+<ARTIKEL>
+<ARTIKEL_IMAGE_TYPVERSION>1.4</ARTIKEL_IMAGE_TYPVERSION>
+<ARTIKEL_ID>2024032121698</ARTIKEL_ID>
+<ARTIKEL_SCHLAGWORT/>
+<ARTIKEL_IMAGE_TYP>PDF</ARTIKEL_IMAGE_TYP>
+<ARTIKEL_ANZAHL_FOTOS>0</ARTIKEL_ANZAHL_FOTOS>
+
+<ARTIKEL_UNTERTITEL/>
+<ARTIKEL_SONST_TITEL/>
+<ARTIKEL_QUELLE_NAME>11 Freunde</ARTIKEL_QUELLE_NAME>
+<ARTIKEL_ERSCHEINUNGSDATUM>20240321</ARTIKEL_ERSCHEINUNGSDATUM>
+<ARTIKEL_PSP_RUBRIK>Sonstiges</ARTIKEL_PSP_RUBRIK>
+<ARTIKEL_PSP_UNTERRUBRIK>Regionales</ARTIKEL_PSP_UNTERRUBRIK>
+<ARTIKEL_TITEL>Am 21. März geht es weiter mit "After Work @FUNKHAUS"</ARTIKEL_TITEL>
+<ARTIKEL_SEITE1_TITEL/>
+<ARTIKEL_INHALTTEXT>Nach dem erfolgreichen Auftakt im November 2023 führen wir die neue Veranstaltungsreihe "After Work @FUNKHAUS" am 21. März fort, zu der alle festen und freien WDR-Kolleg:innen und die Mitarbeitenden der WDR mediagroup herzlich ins WDR-Funkhaus zu Musik und Austausch eingeladen sind – eine gute Gelegenheit, Neues kennen zu lernen und miteinander ins Gespräch zu kommen.   Im Klaus-von-Bismarck-Saal geht es los: Um 17.30 Uhr gibt es 45 Minuten Live-Musik vom WDR Funkhausorchester. Seien Sie bei der öffentlichen Probe dabei und tauschen sich im Anschluss bei einem Getränk im Foyer miteinander aus.   Das WDR Funkhausorchester spielt Ausschnitte aus dem Programm:   Nino Rota - La Dolce Vita   Buona sera, Italia! Die Sonne brennt, im Fahrtwind der Duft von Pinien und Sommer. Das WDR Funkhausorchester rauscht auf der Strada del Sole dem Dolce Vita entgegen – den Koffer voll mit legendärer Film- und Bühnenmusik von Nino Rota.   Giuseppe Albanese Klavier WDR Funkhausorchester Giacomo Sagripanti Leitung Claudia D'Avino/COSMO Moderation   Wann?   Donnerstag, 21. März Beginn: 17.30 Uhr, Ende gegen 19.30 Uhr   Wo?   Klaus-von-Bismarck-Saal und Großes Foyer</ARTIKEL_INHALTTEXT>
+<ARTIKEL_AUTOABSTRACT/>
+<ARTIKEL_QUELLE_PUBNR/>
+<ARTIKEL_QUELLE_SEITENNR/>
+<ARTIKEL_AUSGABE/>
+<ARTIKEL_BEMERKUNG/>
+<ARTIKEL_QUELLE_KUERZEL>11F</ARTIKEL_QUELLE_KUERZEL>
+<ARTIKEL_PRINT_ONLINE/>
+<ARTIKEL_IMAGE_URI>//datascane.ivz.cn.ard.de/datascan-share/WDR/export/pressespiegel/2024032121698.pdf</ARTIKEL_IMAGE_URI>
+<ARTIKEL_AUTOR/>
+<ARTIKEL_PSP_POSNR>16</ARTIKEL_PSP_POSNR>
+</ARTIKEL>
+</ARTIKEL_LISTE>
+</PRESSESPIEGEL>
+</pressespiegel_request:pressespiegel_request>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

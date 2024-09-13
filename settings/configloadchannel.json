@@ -57,10 +57,10 @@
       },
       "Producer":{
         "Pressespiegel":{
-          "ThisStagePath":"",
-          "ProdStagePath":"",
+          "ThisStagePathList":["/timFileSys/timchannel/dockerlocl/datain"],
+          "TestPathCopyFromToStagePath":"/timFileSys/timchannel/dockerlocl/ps_load_testfiles",
           "Distributor":{
-            "Stage":"",
+            "Stage":"notDockerLocl",
             "ProducerSourcePath":"",
             "DistributeRootPath":"",
             "DistributeChildPaths":[],
@@ -124,12 +124,7 @@
       }
     }
   ],
-  "ActivDebugScopes": {
-    "Database": false,
-    "PkgSvc": false,
-    "Models": false,
-    "Security": false
-  },
+ 
   "GinPingURL": {
     "Protocol":"http",
     "Host": "tim-ms-load-channel-rui",
@@ -155,5 +150,7 @@
   "DeployEnv": "DockerLocl",
   "DeployVersion": "",
   "AppVersion": "V1.1.2",
-  "FilterTopics":true
+  "FilterTopics":true,
+  "ImportPSWithoutImages":true,
+  "PSUsePullNewDataV3":true
 }

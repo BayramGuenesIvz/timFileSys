@@ -1,0 +1,73 @@
+{
+ "THead": {
+  "TKey": "3bp2eEjz4Va25qJGwY9g8T",
+  "TApp": "timloadchannel",
+  "TStartTime": "20240412152650.855521802",
+  "TName": "PSTimConvert",
+  "TUname": "system",
+  "TransStatus": "FAILED"
+ },
+ "TSteps": [
+  {
+   "ConcurrKey": "00000000000000000000000000000000000000000000000000",
+   "AppCalling": "timloadchannel",
+   "AppCalled": "timloadchannel",
+   "IsServiceStart": true,
+   "ServiceName": "PSTimConvert",
+   "StepName": "[Start Transaktion]",
+   "StepTime": "20240412152650.855544902",
+   "StepResult": "",
+   "StepInContext": "",
+   "StepOutContext": "",
+   "IsServiceEnd": false,
+   "ServiceStatus": ""
+  },
+  {
+   "ConcurrKey": "00000000000000000000000000000000000000000000000000",
+   "AppCalling": "timloadchannel",
+   "AppCalled": "timloadchannel",
+   "IsServiceStart": false,
+   "ServiceName": "PSTimConvert",
+   "StepName": "TimEvalDatafromParkedData",
+   "StepTime": "20240412152650.856003812",
+   "StepResult": "",
+   "StepInContext": "lPathParkingPath:/timFileSys/timchannel/dockerlocl/parkingloadorigin/Pressespiegel/5",
+   "StepOutContext": "",
+   "IsServiceEnd": false,
+   "ServiceStatus": ""
+  },
+  {
+   "ConcurrKey": "00000000000000000000000000000000000000000000000000",
+   "AppCalling": "timloadchannel",
+   "AppCalled": "timloadchannel",
+   "IsServiceStart": false,
+   "ServiceName": "PSTimConvert",
+   "StepName": "TimEvalDatafromParkedData",
+   "StepTime": "20240412153535.898174442",
+   "StepResult": "Error",
+   "StepInContext": "",
+   "StepOutContext": "filteredSearchOfDirectoryTree: 0 matching files found. Exact 1 matching file required.",
+   "IsServiceEnd": false,
+   "ServiceStatus": ""
+  },
+  {
+   "ConcurrKey": "",
+   "AppCalling": "timloadchannel",
+   "AppCalled": "timloadchannel",
+   "IsServiceStart": false,
+   "ServiceName": "PSTimConvert",
+   "StepName": "[End Transaktion]",
+   "StepTime": "20240412153535.898346218",
+   "StepResult": "",
+   "StepInContext": "",
+   "StepOutContext": "",
+   "IsServiceEnd": true,
+   "ServiceStatus": "FAILED"
+  }
+ ],
+ "NameTimLogServer": "tim-ms-log-central",
+ "PortTimLogServer": "8080",
+ "Relobjid": "5",
+ "Relobjtype": "TCOrderID",
+ "Attemptnum": 1
+}
