@@ -1,7 +1,7 @@
 {
   "Schemaprefix": "",
   "ORA_Schemaprefix": "",
-  "UseDBDriver": "mysql",
+  "UseDBDriver": "godror",
   "DB_Schema": "timreceiver",
   "ORA_DB_Schema": "timreceiver",
   "EnabledInterfaces": {
@@ -56,28 +56,20 @@
         "Techdocs": "/timFileSys/timchannel/dockerlocl/exports/techdocs/"
       },
       "Producer":{
-        "Pressespiegel":{
-<<<<<<< HEAD
-          "ThisStagePathList":["/timFileSys/timchannel/dockerlocl/datain"],
-          "TestPathCopyFromToStagePath":"/timFileSys/timchannel/dockerlocl/ps_load_testfiles",
-          "Distributor":{
-            "Stage":"notDockerLocl",
-            "ProducerSourcePath":"",
-            "DistributeRootPath":"",
-            "DistributeChildPaths":[],
-            "RemoveFilesFromPathProducer":false
-=======
-          "StagePathList":[""],
-          "Distributor":{
-            "Distribute": false,
-            "DistributeFrom":"",
-            "DistributeTo":[],
-            "RemoveFilesFrom":false
->>>>>>> 4ec9e16af38107a739d82ad0d3c35fa44eec2d3d
-          }
-        },
-        "Techdocs":"/path/timchannel/techdocs/"
-       }          
+        "Pressespiegel": {
+          "StagePathList": ["/mnt/mdh-presse/datascan_dev02"],
+          "CopyOrigQueryXml": false,
+          "CopyOrigQueryXmlToPath": "/mnt/mdh-presse/datascan_dev02_savequeryxmls",
+          "Distributor": {
+            "Distribute": true,
+            "DistributeFrom": "/mnt/mdh-presse/datascan_dev02",
+            "DistributeTo": [
+               "/mnt/mdh-presse/datascan_kons02"
+             ],
+            "RemoveFilesFrom": true
+           }
+         },
+        "Techdocs": "/path/timchannel/techdocs/"       }          
      },
     "ReimportWorkingPath":"/timFileSys/timchannel/dockerlocl/reimport/",
     "PathParkingLoadDataOrigin": "/timFileSys/timchannel/dockerlocl/parkingloadorigin/",
@@ -90,10 +82,10 @@
     "MethFileShare":true,
     "MethREST":false,
     "IVZConvertDataPaths":{
-      "KONSInhouse": "/mnt/textimp_ablage/KONS_INHOUSE",
-      "PRODInhouse": "/mnt/textimp_ablage/PROD_INHOUSE",
-      "KONSSphings":"",
-      "PRODSphings":""
+      "KONSInhouse": "/mnt/mdh-presse/panconvert/int/INHOUSE",
+      "PRODInhouse": "/mnt/mdh-presse/panconvert/prod/INHOUSE",
+      "KONSSphings": "/mnt/mdh-presse/panconvert/int/INHOUSE/SPHINX",
+      "PRODSphings": ""
     }
   },  
   "DataCleansing": [

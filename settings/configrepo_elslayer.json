@@ -4,8 +4,8 @@
     {
       "Name": "dev02_mdhpresse",
       "URLRepo": {
-        "Host": "presse3-eval.mdh.cn.ard.de",
-        "Port": "80",
+        "Host": "tim-ms-repo",
+        "Port": "8080",
         "Protocol": "http",
         "SvcPath": "/repo"
       },

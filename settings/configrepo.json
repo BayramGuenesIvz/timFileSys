@@ -141,29 +141,29 @@
   },
   "PublicationRepo": {
 		"Protocol":"https",
-    "Svc":"presse3-eval.mdh.cn.ard.de",
+    "Svc":"presse2.mdh.cn.ard.de",
     "Port":"443",
     "IngressPath":"publication",
     "Api":"api"
 	},
   "RangeListService": {
     "Protocol":"https",
-    "Svc":"presse3-eval.mdh.cn.ard.de",
+    "Svc":"presse2.mdh.cn.ard.de",
     "Port":"443",
     "IngressPath":"rangelist",
     "Api":"api"
   },
   "MetaEntityRepo": {
     "Protocol":"https",
-    "Svc": "presse3-eval.mdh.cn.ard.de",
+    "Svc": "presse2.mdh.cn.ard.de",
     "Port": "443",
     "IngressPath": "metaEntities",
     "Api": "api/rest/v1/metaEntity"
   },
   "TimELSEngine": {
-    "Protocol":"https",
-    "Svc": "presse3-eval.mdh.cn.ard.de",
-    "Port": "443",
+    "Protocol":"http",
+    "Svc": "tim-ms-els-engine",
+    "Port": "8080",
     "IngressPath": "elsengine",
     "Api": "api"
  },

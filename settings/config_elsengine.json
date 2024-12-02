@@ -1,7 +1,7 @@
 {
     "DeployEnv":"locl",
     "AutoIngestingByRepoEls":true,
-    "UseDBDriver":"mysql",
+    "UseDBDriver":"godror",
     "DBSettingsMariaDB":{
         "DBMariaSchemaPrefix": "",
         "DBMariaSchemaName": "timelsengine",

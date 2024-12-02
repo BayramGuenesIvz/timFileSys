@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_FNT_20241017_20241017_084902_301718.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>FAZ</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20241017</DATUM>
+            <UHRZEIT>084902</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>FAZ@FNT_10051731_20241017</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>WDR Köln</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20241017</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20241017</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>084902</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>FAZN</AUSTAUSCH_KUERZEL>
+            <HERKUNFT>FAZ</HERKUNFT>
+        </QUELLE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERSCHLAGWORTUNGSLISTE>
+                <SCHLAGWORT>
+                    <FELD_NAME>PAGEFILE</FELD_NAME>
+                    <KATEGORIE_KUERZEL>SONST</KATEGORIE_KUERZEL>
+                    <SCHLAGWORT_TEXT></SCHLAGWORT_TEXT>
+                </SCHLAGWORT>
+            </VERSCHLAGWORTUNGSLISTE>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <SEITE>FAZ.NET</SEITE>
+        <ORT></ORT>
+        <NUMMER></NUMMER>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>Schiff bleibt an Brücke in Mannheim hängen</HAUPTTITEL>
+            <SONSTIGER_TITEL>Keine Verletzten</SONSTIGER_TITEL>
+            <SEITENTITEL>FAZ.NET / /gesellschaft/ungluecke/</SEITENTITEL>
+            <VORSPANN>Ein Schiffsführer ist mit seinem Steuerhaus an einer Brücke in Mannheim hängen geblieben. Das Steuerhaus riss ab - und stieß auch zwei Autos ins Wasser. Für den Verkehr ist die Brücke zunächst gesperrt.</VORSPANN>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Nach einem Unfall mit einem Schiff in Mannheim ist die Diffenébrücke über den Altrhein für den Verkehr gesperrt. Das Binnenschiff war nach Angaben der örtlichen Feuerwehr mit dem Steuerhaus an der Klappbrücke hängengeblieben, dabei wurde das Steuerhaus abgerissen. Verletzt worden sei bei dem Vorfall am späten Mittwochabend niemand, sagte ein Sprecher. Wie groß die Schiffsbesatzung war, war zunächst nicht bekannt. Zwei auf dem Schiff befindliche Autos seien durch den Zusammenstoß in den Industriehafen geschoben wurden. Das Steuerhaus sowie die beiden Autos befänden sich derzeit im Wasser.$NEW-BLOCK$Die Diffenébrücke ist eine Klappbrücke mit Straßen- und Bahnverkehr, die den Industriehafen und die Friesenheimer Insel erschließt. Die Ausleger der Brücke können nach oben geklappt werden. Wenn sich ein Schiffsführer mit dem Wasserstand verrechne, habe er nicht genug Platz und das Steuerhaus könne abreißen, sagte der Feuerwehrsprecher.$NEW-BLOCK$Das Schiff sei auf dem Altrheinhafen in Richtung des Industriehafens unterwegs gewesen, teilte die Polizei mit. Warum es mit der Brücke zusammenstieß, sei bislang unklar. Der Schaden am Schiff und an den Autos bewege sich im unteren sechsstelligen Bereich. Das Ausmaß und die Höhe des Schadens an der Brücke seien bislang nicht bekannt. Für den Verkehr sei die Brücke bis zur statischen Begutachtung in beide Fahrtrichtungen gesperrt.$NEW-BLOCK$Einsatzkräfte der Feuerwehr, der Polizei und der Wasserschutzpolizei waren demnach vor Ort. Auch Verantwortliche des Hafenamts und der Stadt seien da sowie eine Bauingenieurin, um die Brücke zu prüfen. Der Schiffsverkehr sei eingeschränkt. Laut der Internetseite der Stadt Mannheim wurde die Brücke erst Anfang der Woche überprüft.$NEW-BLOCK$dpa$NEW-BLOCK$Bildunterschrift: In der Nacht zum Donnerstag: Teile des Schiffs schwimmen im Wasser. dpa$NEW-BLOCK$$NEW-BLOCK$Alle Rechte vorbehalten. © F.A.Z. GmbH, Frankfurt am Main</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

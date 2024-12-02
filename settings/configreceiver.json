@@ -1,7 +1,7 @@
 {
   "Schemaprefix": "",
   "ORA_Schemaprefix": "",
-  "UseDBDriver": "mysql",
+  "UseDBDriver": "godror",
   "DB_Schema": "timreceiver",
   "ORA_DB_Schema": "timreceiver",
   "RunInTestMode": false,
@@ -114,7 +114,7 @@
   "ServiceProviderURIs": {
     "ProxyImageStore": {
       "Protocol":"http",
-      "Svc": "dev01-presse.mdh.cn.ard.de",
+      "Svc": "presse3-eval.mdh.cn.ard.de",
       "Port": "80",
       "IngressPath": "proxy_imagestore",
       "Api": "api"
@@ -131,7 +131,7 @@
       "Svc":"tim-ms-load-channel-rui",
       "Port": "8080",
       "IngressPath":"timloadchannelrui",
-      "Api":"api"
+      "Api":""
     },
     "Logger": {
       "Protocol":"http",
@@ -145,10 +145,10 @@
 	"HandleMigExpBySepRcv":true,
   "PullPeriodInSeconds":3,
   "IVZCvtFilter":{
-    "FilterActivated":true,
+    "FilterActivated":false,
     "UseProcessDirectories":true,
     "UseUnprocessDirectories":false,
-    "ProcessLoadDirectories":["SPHINX"],
+    "ProcessLoadDirectories":[],
     "UnprocessLoadDirectories":[]  
   },
   "SendingImageBeforeSave":false

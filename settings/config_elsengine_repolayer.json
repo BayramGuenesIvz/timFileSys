@@ -11,13 +11,9 @@
          }   
         },
         "URLRepo": {
-<<<<<<< HEAD
-          "Host": "https://presse3-eval.mdh.cn.ard.de",
-=======
-          "Host": "presse3-eval.mdh.cn.ard.de",
->>>>>>> 4ec9e16af38107a739d82ad0d3c35fa44eec2d3d
-          "Port": "443",
-          "Protocol": "https",
+          "Host": "tim-ms-repo",
+          "Port": "8080",
+          "Protocol": "http",
           "SvcPath": "/repo"
         },
         "NumConcurRun":0
@@ -34,10 +30,10 @@
           }   
         },
         "URLRepo": {
-          "Host": "presse3-eval.mdh.cn.ard.de",
-          "Port": "443",
-          "Protocol": "https",
-          "IngressPath": "/repo"
+          "Host": "tim-ms-repo",
+          "Port": "8080",
+          "Protocol": "http",
+          "SvcPath": "/repo"
         },
         "IndexName": "dev02_mdhpresse",
         "NumConcurRun":1
