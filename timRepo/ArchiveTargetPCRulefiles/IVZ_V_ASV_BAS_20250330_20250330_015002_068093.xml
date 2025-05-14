@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_ASV_BAS_20250330_20250330_015002_068093.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>ASV</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20250330</DATUM>
+            <UHRZEIT>015002</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>BAS@218422980_20250330</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>NDR Hamburg</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20250330</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20250330</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>015002</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>BAMS</AUSTAUSCH_KUERZEL>
+            <NUMMER>13</NUMMER>
+            <HERKUNFT>BAS</HERKUNFT>
+        </QUELLE>
+        <PERSONENLISTE>
+            <PERSON>
+                <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+                <NACHNAME>Harbusch</NACHNAME>
+                <VORNAME>Nikolaus</VORNAME>
+            </PERSON>
+        </PERSONENLISTE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERLAG_METARUBRIK>Titelseite</VERLAG_METARUBRIK>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <SEITE>1</SEITE>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>CDU-Laschet rast mit Tempo 97 durch Stadt</HAUPTTITEL>
+            <SONSTIGER_TITEL>LASCHET LATSCHT JETZT! / Titelseite</SONSTIGER_TITEL>
+            <VORSPANN>Der ehemalige Parteichef und Kanzlerkandidat ist seinen Führerschein los: Was er als Entschuldigung sagt</VORSPANN>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Von NIKOLAUS HARBUSCH$NEW-BLOCK$Ex-CDU-Chef Armin Laschet wird als Außenminister gehandelt. Jetzt enthüllt BILD, dass er47 km/h zu schnellgefahren ist. Wird seine Temposünde zum Problem?$NEW-BLOCK$Mit fast 100 Stundenkilometer geblitzt – mitten in der Stadt!$NEW-BLOCK$An einem Abend Anfang Juli 2024 raste Ex-CDU-Chef Armin Laschet (64) in seiner Heimatstadt Aachen in eine Radarfalle.$NEW-BLOCK$Wochen später erhielt Laschet einen Bußgeldbescheid. Nach BILD-Informationen stellten die Ordnungshüter eine Geschwindigkeitsüberschreitung von 47 km/h fest – dabei ist auf dem Außenring in Aachen nur Tempo 50 erlaubt. Laschet, der aktuell als Außenminister in einer schwarz-roten Regierung gehandelt wird, soll 428,50 Euro Strafe zahlen. Dazu werden ihm zwei Punkte im Flensburger Verkehrssündenregister und ein Monat Fahrverbot aufgebrummt.$NEW-BLOCK$Doch Laschets Anwalt legte gegen den Bußgeldbescheid Einspruch ein. Hintergrund: Direkt am Tag nach der Blitzer-Fahrt meldete sich Laschet nach BILD-Informationen bei der Polizei. Dort soll er als Entschuldigung für sein hohes Tempo vorgetragen haben, dass er von unbekannten Männern beim Einsteigen ins Auto beobachtet worden sei. Und dass diese Männer ihm in ihrem Wagen über mehrere Straßen dicht gefolgt seien. Laschet gab nach BILD-Informationen aus Polizeikreisen an: Er habe sich bedroht gefühlt und an Morddrohungen, die er als Ministerpräsident erhalten hatte, erinnert. Deshalb habe er dann an einer Ampel Vollgas gegeben.$NEW-BLOCK$Laschet sagt über den Abend zu BILD: „Das war eine aufwühlende Begebenheit, die mich sehr bewegt hat.“$NEW-BLOCK$Die Polizei suchte nach den Laschet-Verfolgern, doch sie fanden keine konkrete Spur. Eine Sprecherin der Staatsanwaltschaft: „Ein strafrechtliches Ermittlungsverfahren ist nicht eingeleitet worden.“$NEW-BLOCK$Weil Laschet sein Bußgeld nicht akzeptieren wollte, beraumte das Amtsgericht Aachen für den 16. Mai eine Gerichtsverhandlung an. Doch dazu kommt es nicht mehr. Laschet nahm nach der BILD-Anfrage seinen Einspruch zurück. Folge: Der Gerichtstermin entfällt.$NEW-BLOCK$Laschet zu BILD: „Nachdem die Staatsanwaltschaft die hinter mir fahrenden Personen nicht ermitteln konnte, ist der Einspruch gegen den Bußgeldbescheid bedauerlicherweise nicht mehr zielführend. Ich habe ihn darum zurückgezogen und zahle die Geldbuße. Haken dran.“$NEW-BLOCK$Grundsätzlich gelte für ihn: „Zu schnell fahren kann passieren, sollte es aber nicht. Zum Glück wurde hier niemand gefährdet – jedenfalls nicht durch mich.“$NEW-BLOCK$Ob das Fast-Kanzler Friedrich Merz (69, CDU) als Raser-Entschuldigung ausreicht? Offen.$NEW-BLOCK$Fotonachweis: FOTOS: PICTURE ALLIANCE/DPA, HANNES P. ALBERT/DPA$NEW-BLOCK$Bildunterschrift: Kann auch hohes Tempo: Armin Laschet (64, CDU)$NEW-BLOCK$Bildunterschrift: Reiste Außenministerin Baerbock mit ihrem Nachfolger nach Syrien?$NEW-BLOCK$Fotonachweis: FOTOS: PICTURE ALLIANCE/DPA, HANNES P. ALBERT/DPA$NEW-BLOCK$Nur für rundfunkinternen Gebrauch, © AS AG, alle Rechte vorbehalten.</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

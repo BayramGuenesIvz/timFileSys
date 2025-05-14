@@ -1,0 +1,24 @@
+﻿Queabk;Whenattrname;Whenattrval;Whenvalrela;Minlengthtext;Active;Gattung1;Gattung2;Weiteregat;Sachgeb1;Sachgeb2;GEO1_NDBID;GEO1_TEXT;GEO2_NDBID;GEO2_TEXT;KLASSE1_NDBID;KLASSE1_ABK;KLASSE1_TEXT;KLASSE2_NDBID;KLASSE2_ABK;KLASSE2_TEXT;KLASSE3_NDBID;KLASSE3_ABK;KLASSE3_TEXT
+BZ;seitentitel;Meinung;eq;201;0;Kommentar;;;;;;;;;;;;;;;;;
+BZ;au;interview;eq;1;0;interview;;;;;;;;;;;;;;;;;
+BZ;seitentitel;Berlin;eq;1;0;;;;;;34401;Berlin (Hauptstadt, Staatenbestandteil);;;;;;;;;;;
+BZ;seitentitel;Brandenburg;eq;1;0;;;;;;1482;Brandenburg (Staatenbestandteil);;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/menschen;ce;251;1;;;;Gesellschaft und Soziales;;;;;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/smalltalk;ce;251;1;;;;Gesellschaft und Soziales;;;;;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/herzblatt-geschichten;ce;251;1;;;;Gesellschaft und Soziales;;;;;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/tiere;ce;251;1;;;;Gesellschaft und Soziales;;;;;;vokabel-73056;NDLI;Tier;;;;;;
+FAZN;seitentitel;gesellschaft;eq;251;1;;;;Gesellschaft und Soziales;;;;;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/;eq;251;1;;;;Gesellschaft und Soziales;;;;;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/gesundheit;ce;251;1;;;;Gesundheitswesen und Medizin;;;;;;;;;;;;;;
+FAZN;seitentitel;gesellschaft/kriminalitaet;ce;251;1;;;;Recht;;;;;;vokabel-69538;JK;Kriminalität;;;;;;
+FAZN;seitentitel;gesellschaft/ungluecke;ce;251;1;;;;Katastrophe;;;;;;;;;;;;;;
+FAZN;seitentitel;wirtschaft;ce;251;1;;;;Wirtschaft;;;;;;;;;;;;;;
+FAZN;seitentitel;Politik;ce;251;1;;;;Politik;;;;;;;;;;;;;;
+FAZN;seitentitel;sport;ce;251;1;;;;Sport;;;;;;;;;;;;;;
+FAZ;serientitel;Leitglosse;eq;1;1;Kommentar;;;;;;;;;;;;;;;;;
+FAZ;serientitel;Glosse;ce;1;1;Kommentar;;;;;;;;;;;;;;;;;
+FAZ;serientitel;Kommentar Sport;eq;1;1;Kommentar;;;;;;;;;;;;;;;;;
+FAZ;serientitel;Porträt Politik;eq;1;1;Porträt;;;;;;;;;vokabel-65331;BI;Persönliche Leistung;;;;;;
+FAZ;serientitel;Porträt Sport;eq;1;1;Porträt;;;;;;;;;vokabel-65331;BI;Persönliche Leistung;;;;;;
+FAZ;seitentitel;Literatur;ce;1;1;Rezension;;;Kultur;;;;;;vokabel-70450;KLR;Sachliteratur;vokabel-70468;KLS;Literarisches Werk;;;
+FAZ;seitentitel;Politische Bücher;ce;1;1;Rezension;;;Kultur;;;;;;vokabel-70450;KLR;Sachliteratur;;;;;;

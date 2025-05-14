@@ -1,6 +1,6 @@
 {   "Schemaprefix":"",
     "ORA_Schemaprefix":"",
-    "UseDBDriver":"mysql",  
+    "UseDBDriver":"godror",  
     "DB_Schema":"timlog",
     "ORA_DB_Schema":"timlog",
     "DeployEnv":"locl",

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+<AUSTAUSCH_STEUERUNG>
+  <AUSTAUSCH_ID>20250407215341_UpdateDocid_5017980844</AUSTAUSCH_ID>
+  <LIEFERUNGSTYP>UpdateByUser</LIEFERUNGSTYP>
+  <LIEFERANT_TYP>INTERN</LIEFERANT_TYP>
+  <LIEFERANT>Tim_presse3</LIEFERANT>
+  <RFA_LISTE/>
+  <POOL>VERLAG</POOL>
+  <VERARBEITUNGSSTATUS>
+    <STATUS>PROVIDED</STATUS>
+    <DATUM>20250407</DATUM>
+    <UHRZEIT>215341</UHRZEIT>
+    <XMLERZEUGER>Tim_presse3</XMLERZEUGER>
+  </VERARBEITUNGSSTATUS>
+</AUSTAUSCH_STEUERUNG>
+<METADATEN>
+  <DOCID>5017980844</DOCID>
+  <EXTERNE_ARTIKEL_ID>WP@WP_e63db306a5f28591737be3d55a47eefb</EXTERNE_ARTIKEL_ID>
+  <EXTERNE_ID_ALT>WP@WP_e63db306a5f28591737be3d55a47eefb</EXTERNE_ID_ALT>
+  <DOKUMENTATIONSSTELLE>DW Bonn</DOKUMENTATIONSSTELLE>
+  <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+  <DOKUMENTATIONSSTATUS_TIM>1</DOKUMENTATIONSSTATUS_TIM>
+  <ERSCHEINUNGSDATUM>20250407</ERSCHEINUNGSDATUM>
+  <ERFASSUNGSDATUM>20250407</ERFASSUNGSDATUM>
+  <ERFASSUNGSZEIT>170354</ERFASSUNGSZEIT>
+  <ABLAUFDATUM>20260707</ABLAUFDATUM>
+  <QUELLE>
+    <QUEID>2898</QUEID>
+    <AUSTAUSCH_KUERZEL>WP</AUSTAUSCH_KUERZEL>
+    <ERSCHEINUNGSORT>Washington</ERSCHEINUNGSORT>
+    <ERSCHEINUNGSWEISE>t</ERSCHEINUNGSWEISE>
+    <ARTIKELSPRACH_LISTE>
+      <ARTIKELSPRACHE>en</ARTIKELSPRACHE>
+    </ARTIKELSPRACH_LISTE>
+    <AUSTAUSCH_NAME>Washington Post</AUSTAUSCH_NAME>
+    <HERKUNFT>WP</HERKUNFT>
+  </QUELLE>
+  <KLASSIFIKATIONSLISTE/>
+  <PERSONENLISTE>
+    <PERSON>
+      <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+      <NACHNAME>Richburg</NACHNAME>
+      <VORNAME> Keith B.</VORNAME>
+      <MANUELL_ERFASST>true</MANUELL_ERFASST>
+    </PERSON>
+  </PERSONENLISTE>
+  <DESKRIPTORENLISTE/>
+  <VERLAGSEIGENE_KLASSIFIZIERUNG>
+    <VERSCHLAGWORTUNGSLISTE>
+      <SCHLAGWORT>
+        <FELD_NAME>URL</FELD_NAME>
+        <KATEGORIE_KUERZEL>SONST</KATEGORIE_KUERZEL>
+        <SCHLAGWORT_TEXT>https://www.washingtonpost.com/opinions/2025/04/07/trump-renaming-mount-denali-gulf-america-south-china-sea/</SCHLAGWORT_TEXT>
+      </SCHLAGWORT>
+    </VERSCHLAGWORTUNGSLISTE>
+    <VERLAG_METARESSORT_LISTE/>
+  </VERLAGSEIGENE_KLASSIFIZIERUNG>
+  <SACHGEBIETSLISTE/>
+  <GATTUNGSLISTE/>
+  <EXTERNE_INDEXATE/>
+  <ARD_RESSORT_LISTE/>
+  <PRAESENTATIONSFORM_LISTE>
+    <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+  </PRAESENTATIONSFORM_LISTE>
+  <BEZUGSDOKUMENT/>
+  <ARTIKEL_IMAGE>
+    <ANZAHL_A4_SEITEN>0</ANZAHL_A4_SEITEN>
+    <GROESSE_BYTES>0</GROESSE_BYTES>
+    <GANZSEITE>G</GANZSEITE>
+    <PDFANZEIGE>G</PDFANZEIGE>
+  </ARTIKEL_IMAGE>
+  <ARTIKEL_IMAGE2/>
+  <MEHRZWECKFELD_RECHERCHIERBAR/>
+  <MEHRZWECKFELD_NICHT_RECHERCHR/>
+  <MEHRZWECKFELD/>
+  <TEXTART>Presseartikel</TEXTART>
+  <TXTART/>
+  <ABLAUFDATUM>22990121</ABLAUFDATUM>
+</METADATEN>
+<INHALT>
+  <TITEL>
+    <HAUPTTITEL>Trump’s ‘Gulf of America’ might only accelerate a trend</HAUPTTITEL>
+    <SONSTIGER_TITEL/>
+    <GESAMTTITEL/>
+    <SERIENTITEL/>
+    <SEITENTITEL/>
+    <VORSPANN/>
+  </TITEL>
+  <VOLLTEXT>
+    <TEXT>By Keith B. Richburg$NEW-BLOCK$For Print Use Only.$NEW-BLOCK$President Donald Trump’s edict to rename the Gulf of Mexico the “Gulf of America” might have been dismissed as a distraction - a pointless nod to patriotism and “greatness” like calling french fries “freedom fries.” When he then banned the Associated Press from official White House events for refusing to go along with the name game, he crossed the line from silly to sinister.$NEW-BLOCK$Look around, however, and it’s clear that Trump is not the only leader who likes changing the names of things. The practice is becoming more and more popular as his mimics and acolytes take the stage around the world.$NEW-BLOCK$The names countries use for places or historical events help shape - or reshape - national narratives. And forcing other people, especially in the media, to use the officially sanctioned names is an exercise autocrats seem to enjoy.$NEW-BLOCK$East Asia’s most volatile potential flash point, for instance, is a mineral-rich body of water dotted with tiny islands and atolls that provides a vital shipping route. It is claimed at least in part by seven countries and is most commonly referred to as the South China Sea. But what you call it depends on where you stand.$NEW-BLOCK$China claims the entire sea as its own and relies on a name used by early European cartographers, some spurious ancient history, and a nine-dashed line supposedly jotted down on a map in 1947 by the defeated Nationalist government in Taiwan. “Historical facts show that China was the first country to discover and name the South China Sea Islands and has indisputable sovereignty over them,” the Chinese government has declared.$NEW-BLOCK$In Vietnam, the same body of water is known as the East Sea or Bien Dong - a name that the Vietnamese say has been used for thousands of years.$NEW-BLOCK$The Philippines, another claimant, decided in 2012 to rename a portion of the water the West Philippine Sea after getting nowhere trying to negotiate with China and with the nations’ naval forces skirmishing at sea. Indonesia, which claims a smaller area of the sea closer to the archipelago’s economic zone, decided in 2017 to rename its portion the North Natuna Sea. Other regional analysts have suggested renaming the entire body of water “the Southeast Asian Sea.”$NEW-BLOCK$The nearby Sea of Japan is also the subject of a name dispute. South Korea says it should be called the East Sea because “Sea of Japan” became common only while Japan occupied the Korean Peninsula. North Korea prefers the name East Sea of Korea. The United Nations Conference on the Standardization of Geographical Names has been unable to resolve this impasse.$NEW-BLOCK$Trump also isn’t the first leader to try to force anyone in earshot to use only his preferred nomenclature. For many strongmen, this has been a way to rewrite history.$NEW-BLOCK$In Hong Kong in 2023, John Lee, the cop-turned-China-appointed-chief-executive for the city, chided a reporter at a news conference for asking about the 2019 anti-government protests that had rocked the city. “First of all, it is not ‘the 2019 protests,’” Lee said. “It is ‘the black violence.’ It is the attempt to make Hong Kong independent.” Since then, the protests have been officially referred to as “riots.”$NEW-BLOCK$Lee was apparently following the example of Beijing’s Communist leaders, who long ago learned the power of the lexicon. The June 4, 1989, Tiananmen Square massacre, initially referred to as a “counterrevolutionary rebellion,” became the Tiananmen “incident.” For the most part, though, the Tiananmen uprising has been erased from textbooks and history books altogether. Most mentions of it, including the date, are blocked from internet search engines in China.$NEW-BLOCK$Trump also recently signed an order renaming Alaska’s Denali as Mount McKinley, dispensing with its indigenous Athabascan name. The military base Fort Liberty was also given back its old name, Fort Bragg - although this time named for Bragg, the World War II hero, not Bragg, the Confederate general.$NEW-BLOCK$In Australia, which will hold elections in May, the conservative opposition leader, Peter Dutton, a crusader against “wokeness” who has been likened to Trump, has promised to do away with aboriginal names at Australian military bases. (Dutton also said he would never stand before the Aboriginal flag as Prime Minister Anthony Albanese, a member of the Labor Party, has.)$NEW-BLOCK$In New Zealand, a kerfuffle erupted in Parliament last month when one member tried to ban the use of the country’s indigenous Māori name, Aotearoa, from use on the house floor - even though the name appears on the country’s passport and currency.$NEW-BLOCK$Names are important, as an assertion of raw power or a patriotic rallying cry or as a show of an autocratic leader’s ability to impose their worldview on others. Trump seems to enjoy the name game, and he’s inspiring fellow autocrats and would-be autocrats to join in.$NEW-BLOCK$</TEXT>
+    <STATUS>2</STATUS>
+    <ANZAHL_WORTE>821</ANZAHL_WORTE>
+    <ANZAHL_VOLLTEXTSEITEN>2</ANZAHL_VOLLTEXTSEITEN>
+  </VOLLTEXT>
+  <POSNR>0</POSNR>
+  <MELDUNGLISTE/>
+</INHALT>
+</ARTIKEL>

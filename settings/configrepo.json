@@ -1,11 +1,11 @@
 { 
-  "Schemaprefix": "dev02_",
-  "ORA_Schemaprefix": "DEV02_",
+  "Schemaprefix": "dev01_",
+  "ORA_Schemaprefix": "DEV01_",
   "UseDBDriver": "godror",
   "DB_Schema": "pressetimrepo",
   "ORA_DB_Schema": "timrepo", 
-  "ORAIF?Schemaprefix": "dev02_",
-  "ORAIF?ORA_Schemaprefix": "DEV02_",
+  "ORAIF?Schemaprefix": "dev01_",
+  "ORAIF?ORA_Schemaprefix": "DEV01_",
   "ORAIF?UseDBDriver": "godror",
   "ORAIF?DB_Schema": "pressetimrepo",
   "ORAIF?ORA_DB_Schema": "timrepo",
@@ -25,7 +25,7 @@
     "RefReactShowRepo":"http://127.0.0.1:9020/reactShowRepo/changes"
   },
   "EnabledInterfaces": {
-		"Keycloak":false,
+		"Keycloak":true,
     "ProxyImageStore":false,
     "UserNotifyService":false,
     "PublicationRepo":false,

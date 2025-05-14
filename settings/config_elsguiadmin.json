@@ -1,4 +1,5 @@
 {
+    "EnableKeycloak":true,  
     "ServiceProviderURIs":{
         "ElsEngine":{
             "Svc":"localhost",

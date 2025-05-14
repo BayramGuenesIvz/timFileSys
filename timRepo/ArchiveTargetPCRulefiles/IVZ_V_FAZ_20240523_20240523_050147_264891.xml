@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<ARTIKEL>
+    <AUSTAUSCH_STEUERUNG>
+        <AUSTAUSCH_ID>IVZ_V_FAZ_20240523_20240523_050147_264891.xml</AUSTAUSCH_ID>
+        <LIEFERUNGSTYP>NEU</LIEFERUNGSTYP>
+        <LIEFERANT_TYP>V</LIEFERANT_TYP>
+        <LIEFERANT>FAZ</LIEFERANT>
+        <POOL>VERLAG</POOL>
+        <VERARBEITUNGSSTATUS>
+            <STATUS>ok</STATUS>
+            <DATUM>20240523</DATUM>
+            <UHRZEIT>050147</UHRZEIT>
+            <XMLERZEUGER>IVZ</XMLERZEUGER>
+        </VERARBEITUNGSSTATUS>
+    </AUSTAUSCH_STEUERUNG>
+    <METADATEN>
+        <EXTERNE_ARTIKEL_ID>GÜNES_FAZ@FAZ_FD02024052350101236326803_20240523</EXTERNE_ARTIKEL_ID>
+        <DOKUMENTATIONSSTELLE>WDR Köln</DOKUMENTATIONSSTELLE>
+        <DOKUMENTATIONSSTATUS>0</DOKUMENTATIONSSTATUS>
+        <ERSCHEINUNGSDATUM>20240523</ERSCHEINUNGSDATUM>
+        <ERFASSUNGSDATUM>20240523</ERFASSUNGSDATUM>
+        <ERFASSUNGSZEIT>050147</ERFASSUNGSZEIT>
+        <QUELLE>
+            <AUSTAUSCH_KUERZEL>FAZ</AUSTAUSCH_KUERZEL>
+            <HERKUNFT>FAZ</HERKUNFT>
+        </QUELLE>
+        <PERSONENLISTE>
+            <PERSON>
+                <KATEGORIE_KUERZEL>AU</KATEGORIE_KUERZEL>
+                <NACHNAME>Creutzburg</NACHNAME>
+                <VORNAME>Dietrich</VORNAME>
+            </PERSON>
+        </PERSONENLISTE>
+        <VERLAGSEIGENE_KLASSIFIZIERUNG>
+            <VERSCHLAGWORTUNGSLISTE>
+                <SCHLAGWORT>
+                    <FELD_NAME>PAGEFILE</FELD_NAME>
+                    <KATEGORIE_KUERZEL>SONST</KATEGORIE_KUERZEL>
+                    <SCHLAGWORT_TEXT>F2405232.001.pdf</SCHLAGWORT_TEXT>
+                </SCHLAGWORT>
+                <SCHLAGWORT>
+                    <FELD_NAME>seite</FELD_NAME>
+                    <KATEGORIE_KUERZEL>SONST</KATEGORIE_KUERZEL>
+                    <SCHLAGWORT_TEXT>1</SCHLAGWORT_TEXT>
+                </SCHLAGWORT>
+            </VERSCHLAGWORTUNGSLISTE>
+        </VERLAGSEIGENE_KLASSIFIZIERUNG>
+        <PRAESENTATIONSFORM_LISTE>
+            <PRAESENTATIONSFORM>BER</PRAESENTATIONSFORM>
+        </PRAESENTATIONSFORM_LISTE>
+        <ARTIKEL_IMAGE>
+            <DATEINAME>I_IVZ_FAZ_20240524_F797EF84_1127247.PDF</DATEINAME>
+            <FORMAT>2</FORMAT>
+        </ARTIKEL_IMAGE>
+        <SEITE>1</SEITE>
+        <ORT></ORT>
+        <NUMMER>118</NUMMER>
+    </METADATEN>
+    <INHALT>
+        <TITEL>
+            <HAUPTTITEL>Kabinett billigt Entlastung für Hausärzte</HAUPTTITEL>
+            <SERIENTITEL>Eckenbrüller</SERIENTITEL>
+            <SEITENTITEL>Politik / Politik</SEITENTITEL>
+        </TITEL>
+        <VOLLTEXT>
+            <TEXT>Von Creutzburg, Dietrich$NEW-BLOCK$dc. BERLIN. Neue Honorarregeln mit weniger strengen Budgetzwängen sollen den Hausarztberuf attraktiver machen und dadurch die ambulante medizinische Versorgung in Deutschland verbessern. Zu diesem Zweck hat das Bundeskabinett am Mittwoch den von Bundesgesundheitsminister Karl Lauterbach (SPD) vorgelegten Entwurf eines Gesetzes zur &quot;Versorgungsstärkung&quot; auf den Weg gebracht. Im Mittelpunkt stehen eine Aufhebung der sogenannten Budgetobergrenze für Hausärzte und eine Abkehr in der Honorierung über sogenannte Quartalspauschalen. Dies werde nicht nur den Arztberuf attraktiver machen und damit helfen, drohende Versorgungslücken zu verhindern, erklärte Lauterbach nach der Kabinettsitzung. Ebenso würden in der Folge &quot;unnötige Arztbesuche&quot; wegfallen und &quot;lange Wartezeiten in den Praxen vermieden&quot;. Vertreter der Hausärzte äußerten sich enttäuscht darüber, dass der Gesetzentwurf hinter den zuvor geweckten Erwartungen zurückbleibe. Die Krankenkassen sehen das Vorhaben hingegen skeptisch, weil sie vor allem beschleunigte Kostensteigerungen befürchten. Sie erwarten Mehrausgaben von mindestens 300 Millionen Euro im Jahr. (Siehe Wirtschaft, Seite 15.)$NEW-BLOCK$Alle Rechte vorbehalten. © F.A.Z. GmbH, Frankfurt am Main</TEXT>
+            <STATUS>2</STATUS>
+        </VOLLTEXT>
+    </INHALT>
+</ARTIKEL>

@@ -2,14 +2,14 @@
   "MariaDBSchema":"timelsengine",
   "ELSMachines": [
     {
-      "Name": "dev02_mdhpresse",
+      "Name": "dev01_mdhpresse",
       "URLRepo": {
         "Host": "tim-ms-repo",
         "Port": "8080",
         "Protocol": "http",
         "SvcPath": "/repo"
       },
-      "Indexname":"dev02_mdhpresse",
+      "Indexname":"dev01_mdhpresse",
       "LoadChannelList":["TimChannel","CSChange","IVZCvt","SAPMig"],
       "NotifyWhenLoadingComplete":true
     }
